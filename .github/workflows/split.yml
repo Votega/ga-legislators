@@ -6,6 +6,14 @@ on:
     paths:
       - 'data/all.json'
 
+permissions:
+  contents: write
+
+jobs:
+  split:
+    ...
+
+
 jobs:
   split:
     runs-on: ubuntu-latest
