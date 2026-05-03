@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-03T15:54:30.085780",
+    "generatedAt": "2026-05-03T23:24:26.376986",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -41,8 +41,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/9",
       "birthDate": "1958-09-01",
       "birthYear": 1958,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2007-01-08",
+      "termStartYear": 2007
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -79,8 +79,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4908",
       "birthDate": "1983-10-09",
       "birthYear": 1983,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2017-01-09",
+      "termStartYear": 2017
     },
     {
       "id": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
@@ -98,8 +98,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4984",
       "birthDate": "1989-10-25",
       "birthYear": 1989,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -155,8 +155,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/838",
       "birthDate": "1956-07-07",
       "birthYear": 1956,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2013-01-14",
+      "termStartYear": 2013
     },
     {
       "id": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
@@ -193,8 +193,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4982",
       "birthDate": "1979-07-16",
       "birthYear": 1979,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021
     },
     {
       "id": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
@@ -326,8 +326,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/203",
       "birthDate": "1970-03-18",
       "birthYear": 1970,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-09",
+      "termStartYear": 2023
     },
     {
       "id": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
@@ -383,8 +383,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/751",
       "birthDate": "1962-05-23",
       "birthYear": 1962,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2011-01-10",
+      "termStartYear": 2011
     },
     {
       "id": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
@@ -839,8 +839,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4905",
       "birthDate": "1952-09-24",
       "birthYear": 1952,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-23",
+      "termStartYear": 2023
     },
     {
       "id": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
@@ -858,8 +858,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4977",
       "birthDate": "1977-04-14",
       "birthYear": 1977,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021
     },
     {
       "id": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
