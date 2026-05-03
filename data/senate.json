@@ -402,8 +402,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/10",
       "birthDate": "1949-03-01",
       "birthYear": 1949,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2011-01-10",
+      "termStartYear": 2011
     },
     {
       "id": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -1029,8 +1029,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/807",
       "birthDate": "1969-07-16",
       "birthYear": 1969,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2017-01-09",
+      "termStartYear": 2017
     }
   ]
 }
