@@ -972,8 +972,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/3877",
       "birthDate": "1963-03-19",
       "birthYear": 1963,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2015-11-12",
+      "termStartYear": 2015
     },
     {
       "id": "ocd-person/f33d979c-554c-433e-ad0f-837eef1da589",
@@ -2872,8 +2872,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5003",
       "birthDate": "1958-12-03",
       "birthYear": 1958,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021
     },
     {
       "id": "ocd-person/ee145624-3295-4db4-b3ce-9d1583e4ef6e",
