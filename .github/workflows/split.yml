@@ -1,0 +1,48 @@
+name: Split all.json into house and senate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/all.json'
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Split all.json by chamber
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          with open('data/all.json') as f:
+              data = json.load(f)
+
+          members = data.get('members', [])
+
+          house  = [m for m in members if m.get('chamber') == 'House of Representatives']
+          senate = [m for m in members if m.get('chamber') == 'Senate']
+
+          def write(path, subset, source_meta):
+              out = {
+                  'metadata': {**source_meta, 'count': len(subset)},
+                  'members': subset
+              }
+              with open(path, 'w') as f:
+                  json.dump(out, f, indent=2, ensure_ascii=False)
+
+          meta = data.get('metadata', {})
+          write('data/house.json',  house,  meta)
+          write('data/senate.json', senate, meta)
+          print(f'House: {len(house)}  Senate: {len(senate)}')
+          EOF
+
+      - name: Commit split files
+        run: |
+          git config user.name  "votega-bot"
+          git config user.email "actions@github.com"
+          git add data/house.json data/senate.json
+          git diff --cached --quiet || git commit -m "Split all.json → house.json + senate.json"
+          git push
