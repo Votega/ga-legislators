@@ -1,0 +1,56 @@
+name: Data Correction
+description: Report incorrect or missing information for a GA legislator
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: member
+    attributes:
+      label: Member name
+      placeholder: e.g. Gail Davenport
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Field with error
+      options:
+        - name
+        - party
+        - district
+        - chamber
+        - phone
+        - address
+        - email
+        - officialWebsiteUrl
+        - imageUrl
+        - termStart
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: wrong_value
+    attributes:
+      label: Current (wrong) value
+      placeholder: What the data shows now
+    validations:
+      required: true
+
+  - type: input
+    id: correct_value
+    attributes:
+      label: Correct value
+      placeholder: What it should say
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link or reference confirming the correct value
+      placeholder: e.g. https://www.legis.ga.gov/members/senate/10
+    validations:
+      required: true
