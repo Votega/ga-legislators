@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-03T23:24:26.376986",
+    "generatedAt": "2026-05-04T00:44:15.997183",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -42,7 +42,8 @@
       "birthDate": "1958-09-01",
       "birthYear": 1958,
       "termStart": "2007-01-08",
-      "termStartYear": 2007
+      "termStartYear": 2007,
+      "leadershipRole": "Senate President Pro Tempore"
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -136,8 +137,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4971",
       "birthDate": "1977-08-27",
       "birthYear": 1977,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2020-03-10",
+      "termStartYear": 2020
     },
     {
       "id": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
@@ -441,7 +442,8 @@
       "birthDate": "1969-08-01",
       "birthYear": 1969,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "Senate Minority Leader"
     },
     {
       "id": "ocd-person/fcd57129-480c-4fba-a0d1-7fb369706611",
@@ -479,7 +481,8 @@
       "birthDate": "1978-06-14",
       "birthYear": 1978,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "Senate Majority Leader"
     },
     {
       "id": "ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c",
@@ -593,7 +596,8 @@
       "birthDate": "1984-08-25",
       "birthYear": 1984,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "Senate Minority Whip"
     },
     {
       "id": "ocd-person/ae6e08e3-6971-4cd2-982a-48d650a343d5",

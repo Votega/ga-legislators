@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-03T23:24:26.376986",
+    "generatedAt": "2026-05-04T00:44:15.997183",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 179
@@ -479,7 +479,8 @@
       "birthDate": "1958-05-02",
       "birthYear": 1958,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "House Minority Leader"
     },
     {
       "id": "ocd-person/72370a62-92f4-46f1-ab7b-193a643085b8",
@@ -574,7 +575,8 @@
       "birthDate": "1983-04-24",
       "birthYear": 1983,
       "termStart": "2013-12-13",
-      "termStartYear": 2013
+      "termStartYear": 2013,
+      "leadershipRole": "House Majority Leader"
     },
     {
       "id": "ocd-person/42517dd7-eccb-4d22-a795-cbd010b69ee6",
@@ -783,7 +785,8 @@
       "birthDate": "1969-01-06",
       "birthYear": 1969,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "House Minority Whip"
     },
     {
       "id": "ocd-person/5061bc6b-83af-46d0-a78d-30ebe10a63db",
@@ -1353,7 +1356,8 @@
       "birthDate": "1958-01-28",
       "birthYear": 1958,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "Speaker Pro Tempore"
     },
     {
       "id": "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a",
@@ -1524,7 +1528,8 @@
       "birthDate": "1952-09-04",
       "birthYear": 1952,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "Speaker of the House"
     },
     {
       "id": "ocd-person/56f28f8a-9296-4e69-9bd4-d0101a42b359",
@@ -1846,8 +1851,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5010",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-07-22",
+      "termStartYear": 2021
     },
     {
       "id": "ocd-person/6971bb34-9ea4-4bdc-971e-c1a2c5de344c",
@@ -2359,8 +2364,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4960",
       "birthDate": "1972-01-23",
       "birthYear": 1972,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2019-01-14",
+      "termStartYear": 2019
     },
     {
       "id": "ocd-person/fdf78e39-985f-48c3-8ed3-ccf15946871f",
@@ -3253,7 +3258,8 @@
       "birthDate": "",
       "birthYear": null,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": null,
+      "leadershipRole": "House Majority Whip"
     },
     {
       "id": "ocd-person/9dfc8ec3-0935-4d1d-877d-e05cf7a5dca5",
