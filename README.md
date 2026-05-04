@@ -1,167 +1,76 @@
 # ga-legislators
-Repository of State of Georgia, USA Elected Officials within the GA House and GA Senate.
 
-## Using this data
+Machine-readable data for all current members of the Georgia General Assembly, maintained by [VoteGA.org](https://votega.org).
 
-The JSON files in `data/` are updated automatically whenever votega.org publishes
-new data. You can fetch them directly:
-
-- All members: `data/all.json`
-- House only:  `data/house.json`
-- Senate only: `data/senate.json`
-
-## Reporting corrections
-
-**Please do not submit pull requests to edit the data files directly.**
-This repo is a read-only mirror published by votega.org — direct edits will
-be overwritten on the next publish.
-
-To report an error, [open an Issue](../../issues/new/choose) using the
-**Data Correction** template. Confirmed corrections are applied upstream at votega.org 
-and will flow here automatically.
-
-# `ga-legislators` — Repo Design
-
-A machine-readable, publicly available dataset of Georgia General Assembly members,
-published and maintained by votega.org. Intended as a civic resource others can freely consume.
+Updated automatically each time VoteGA.org's daily workflow runs.
 
 ---
 
-## Goals
+## Files
 
-- Publicly available, versioned JSON of current GA House and Senate member data
-- Always reflects what is live on votega.org
-- Open license so journalists, researchers, and other civic apps can use it freely
-- Accepts community-reported corrections via Issues, reviewed and applied upstream at votega.org before publishing
-
----
-
-## Data Flow
-
-```
-Open States API
-      ↓
-votega.org GitHub Actions workflow
-      ↓  generates + validates
-assets/data/ga-members.json  ──→  votega.org
-      ↓  also pushes
-ga-legislators/data/all.json  ──→  community consumers
-      ↑
-  Issues / PRs from community
-  (reviewed by maintainer, corrections applied upstream in votega.org)
-```
-
-**votega.org is the source of truth.** ga-legislators is a downstream read replica.
-Community corrections never touch votega.org directly — they are reviewed, applied
-upstream in the votega.org generator or override file, and flow out on the next publish.
-
----
-
-## Repo Structure
-
-```
-ga-legislators/
-├── README.md                        # What this is, how to use the data, how to report corrections
-├── LICENSE                          # GPL-3.0 [General Public License](https://choosealicense.com/licenses/agpl-3.0/)
-│
-├── data/
-│   ├── all.json                     # Full dataset — published by votega.org workflow
-│   ├── house.json                   # House members only (split from all.json for convenience)
-│   └── senate.json                  # Senate members only
-│
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   └── correction.md            # Structured template for reporting data errors
-│   └── workflows/
-│       └── split.yml                # On push to main: splits all.json → house.json + senate.json
-```
-
-No `seed.py`, `build.py`, or editable source files — the data comes from votega.org,
-not from scripts inside this repo.
-
----
-
-## Member Schema
-
-Each record in `all.json` follows this shape, matching the `ga-members.json`
-schema used by votega.org.
-
-```json
-{
-  "id":               "ocd-person/938f2479-c51f-446a-87f0-76d4f07c61e5",
-  "name":             "Akbar Ali",
-  "firstName":        "Akbar",
-  "lastName":         "Ali",
-  "party":            "Democratic",
-  "chamber":          "House of Representatives",
-  "district":         106,
-  "title":            "Representative",
-  "phone":            "404-656-0116",
-  "address":          "Room 409-E, Coverdell Legislative Office Building, Atlanta, GA 30334",
-  "email":            "akbar.ali@house.ga.gov",
-  "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5089",
-  "imageUrl":         "https://www.legis.ga.gov/api/images/default-source/portraits/ali-akbar-5089.jpg",
-  "birthDate":        "2003-01-29",
-  "birthYear":        2003,
-  "termStart":        "2025-01-13",
-  "termStartYear":    2025
-}
-```
-
-### Field notes
-
-| Field | Notes |
+| File | Contents |
 |---|---|
-| `id` | Open Civic Data ID from Open States — primary key |
-| `chamber` | `"House of Representatives"` or `"Senate"` |
-| `officialWebsiteUrl` | Constructed from `extras.georgia_id` via Open States |
-| `email` | From Open States top-level email field |
-| `termStart` / `termStartYear` | From `current_role.start_date` in Open States; null if not available |
+| `data/all.json` | All 236 members (House + Senate) |
+| `data/house.json` | House of Representatives only (180 seats) |
+| `data/senate.json` | Senate only (56 seats) |
 
 ---
 
-## How votega.org Publishes It
+## Schema
 
-The existing `update-ga-members.yml` workflow gains one step after generating
-and committing `ga-members.json`:
+Each member record is a JSON object with the following fields:
 
-```yaml
-- name: Publish to ga-legislators repo
-  uses: dmnemec/copy_file_to_another_repo_action@main  # or equivalent
-  with:
-    source_file: assets/data/ga-members.json
-    destination_repo: Votega/ga-legislators
-    destination_folder: data
-    destination_branch: main
-    user_email: actions@github.com
-    user_name: votega-bot
-    commit_message: "Publish GA member data from votega.org"
-```
+| Field | Type | Description |
+|---|---|---|
+| `id` | string | Open Civic Data person ID (`ocd-person/...`) — stable primary key |
+| `name` | string | Full name |
+| `firstName` | string | Given name |
+| `lastName` | string | Family name |
+| `party` | string | `"Republican"` or `"Democratic"` |
+| `chamber` | string | `"House of Representatives"` or `"Senate"` |
+| `district` | integer | District number |
+| `title` | string | `"Representative"` or `"Senator"` |
+| `imageUrl` | string | Official portrait URL (may be empty) |
+| `phone` | string | Capitol office phone |
+| `address` | string | Capitol office address |
+| `email` | string | Official email address |
+| `officialWebsiteUrl` | string | `legis.ga.gov` member page |
+| `birthDate` | string | ISO date (`YYYY-MM-DD`), if available |
+| `birthYear` | integer | Birth year, derived from `birthDate` |
+| `termStart` | string | ISO date current term began, if known |
+| `termStartYear` | integer | Year current term began, if known |
+| `leadershipRole` | string | Leadership title, if applicable (e.g. `"Speaker of the House"`) — omitted when not applicable |
 
-No changes to `ga.js`, `ga-member.html`, or anything else on the votega.org side.
-The ga-legislators repo has no influence over what votega.org serves.
+### Departure fields
+
+Members who have left office mid-term may include the following additional fields:
+
+| Field | Type | Description |
+|---|---|---|
+| `status` | string | Reason for departure: `"Resigned"`, `"Suspended"`, `"Removed"`, `"Deceased"`, or `"Vacant"` |
+| `statusDate` | string | ISO date (`YYYY-MM-DD`) the change took effect |
+| `statusNote` | string | Optional detail — e.g. executive order reference, appointment reason |
+
+These fields are omitted for members who are currently serving. Seats with a departure status may be subject to a special election.
+
+---
+
+## Data Source and Freshness
+
+Member data is sourced from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org fetches this data daily and applies a manual override layer to fill in term start dates, leadership roles, and departure status that Open States does not reliably provide for Georgia.
+
+**Update schedule:** Daily, after the VoteGA.org GA member workflow runs.
 
 ---
 
-## Community Contributions
+## Contributing
 
-Community members report corrections by opening an Issue using the correction template,
-which captures: member name, field(s) in error, correct value, and source.
+Direct edits to data files are not accepted via pull request — the files are overwritten on each daily run.
 
-The maintainer reviews the report, applies the fix upstream in votega.org
-(either in the Open States generator or a manual overrides file), and the
-corrected data flows to ga-legislators on the next workflow run.
-
-PRs that modify `all.json`, `house.json`, or `senate.json` directly are **not accepted** —
-a note in the README and PR template explains why and directs contributors to Issues instead.
+To report a correction (wrong phone number, missing email, outdated role, etc.), open an issue using the **Data Correction** template. Corrections are reviewed and applied upstream at VoteGA.org, then flow back to this repository automatically on the next update.
 
 ---
 
-## CI Workflows
+## License
 
-### `split.yml` (runs on push to main)
-Splits `all.json` into `house.json` and `senate.json` for consumers who only
-want one chamber. Lightweight — no validation needed since data comes from
-the trusted votega.org workflow.
-
----
+[GPL-3.0](LICENSE)
