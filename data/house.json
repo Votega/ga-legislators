@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-04T00:44:15.997183",
+    "generatedAt": "2026-05-04T01:51:19.201998",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 179
@@ -364,8 +364,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/778",
       "birthDate": "1954-04-17",
       "birthYear": 1954,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2011-01-10",
+      "termStartYear": 2011,
+      "leadershipRole": "House Majority Caucus Chairman"
     },
     {
       "id": "ocd-person/b1187e7a-8cea-4e91-9c9f-7c7c61df3c85",
@@ -478,8 +479,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/133",
       "birthDate": "1958-05-02",
       "birthYear": 1958,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "1993-01-11",
+      "termStartYear": 1993,
       "leadershipRole": "House Minority Leader"
     },
     {
@@ -785,8 +786,7 @@
       "birthDate": "1969-01-06",
       "birthYear": 1969,
       "termStart": "",
-      "termStartYear": null,
-      "leadershipRole": "House Minority Whip"
+      "termStartYear": null
     },
     {
       "id": "ocd-person/5061bc6b-83af-46d0-a78d-30ebe10a63db",
@@ -1222,8 +1222,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4937",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2019-01-14",
+      "termStartYear": 2019,
+      "leadershipRole": "House Majority Caucus Secretary/Treasurer"
     },
     {
       "id": "ocd-person/b39e2164-d570-45f2-b271-5e2fbe99c8d6",
@@ -1337,7 +1338,8 @@
       "birthDate": "1980-11-05",
       "birthYear": 1980,
       "termStart": "2019-03-18",
-      "termStartYear": 2019
+      "termStartYear": 2019,
+      "leadershipRole": "House Majority Whip"
     },
     {
       "id": "ocd-person/85740034-23b0-4001-9190-8948bd9f3b37",
@@ -1355,9 +1357,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/142",
       "birthDate": "1958-01-28",
       "birthYear": 1958,
-      "termStart": "",
-      "termStartYear": null,
-      "leadershipRole": "Speaker Pro Tempore"
+      "termStart": "2003-01-13",
+      "termStartYear": 2003,
+      "leadershipRole": "Speaker Pro Tempore (House)"
     },
     {
       "id": "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a",
@@ -1527,8 +1529,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/73",
       "birthDate": "1952-09-04",
       "birthYear": 1952,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2005-09-04",
+      "termStartYear": 2005,
       "leadershipRole": "Speaker of the House"
     },
     {
@@ -2421,8 +2423,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4880",
       "birthDate": "1991-06-06",
       "birthYear": 1991,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2016-02-22",
+      "termStartYear": 2016,
+      "leadershipRole": "House Minority Caucus Secretary"
     },
     {
       "id": "ocd-person/af51c2db-8871-45a4-803d-314fa2b9d18d",
@@ -2611,8 +2614,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4993",
       "birthDate": "1964-08-05",
       "birthYear": 1964,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021,
+      "leadershipRole": "House Majority Caucus Chief Deputy Whip"
     },
     {
       "id": "ocd-person/5d77204f-89e7-43df-bccb-a08b9956132d",
@@ -2725,8 +2729,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5038",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-09",
+      "termStartYear": 2023,
+      "leadershipRole": "House Minority Caucus Chief Deputy Whip"
     },
     {
       "id": "ocd-person/2ba0916f-40b1-4255-9496-94b12ccabd1e",
@@ -2744,8 +2749,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4901",
       "birthDate": "1985-10-01",
       "birthYear": 1985,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2017-01-09",
+      "termStartYear": 2017,
+      "leadershipRole": "House Minority Caucus Whip"
     },
     {
       "id": "ocd-person/21c6cae1-bcd2-4403-ad39-af04b64ce55c",
@@ -2973,7 +2979,8 @@
       "birthDate": "1985-07-12",
       "birthYear": 1985,
       "termStart": "",
-      "termStartYear": null
+      "termStartYear": 2022,
+      "leadershipRole": "House Minority Caucus Treasurer"
     },
     {
       "id": "ocd-person/64721c9b-451c-4bc9-9040-4ca232ffd746",
@@ -2991,8 +2998,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5042",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-08",
+      "termStartYear": 2023,
+      "leadershipRole": "House Majority Caucus Vice-Chairman"
     },
     {
       "id": "ocd-person/e6ae8d30-4b1b-4b06-8918-2be6fa7f8108",
@@ -3010,8 +3018,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/819",
       "birthDate": "1967-12-14",
       "birthYear": 1967,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2013-01-14",
+      "termStartYear": 2013,
+      "leadershipRole": "House Minority Caucus Vice-Chairman"
     },
     {
       "id": "ocd-person/fa5d8d09-a0b9-4ba4-93da-a24902530416",
@@ -3162,8 +3171,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5029",
       "birthDate": "1973-10-03",
       "birthYear": 1973,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-08",
+      "termStartYear": 2023,
+      "leadershipRole": "House Minority Caucus Chairman"
     },
     {
       "id": "ocd-person/9fe70ed7-31a0-4732-92b1-54d2a79a4654",
@@ -3258,8 +3268,7 @@
       "birthDate": "",
       "birthYear": null,
       "termStart": "",
-      "termStartYear": null,
-      "leadershipRole": "House Majority Whip"
+      "termStartYear": null
     },
     {
       "id": "ocd-person/9dfc8ec3-0935-4d1d-877d-e05cf7a5dca5",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-04T00:44:15.997183",
+    "generatedAt": "2026-05-04T01:51:19.201998",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -42,8 +42,7 @@
       "birthDate": "1958-09-01",
       "birthYear": 1958,
       "termStart": "2007-01-08",
-      "termStartYear": 2007,
-      "leadershipRole": "Senate President Pro Tempore"
+      "termStartYear": 2007
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -195,7 +194,8 @@
       "birthDate": "1979-07-16",
       "birthYear": 1979,
       "termStart": "2021-01-11",
-      "termStartYear": 2021
+      "termStartYear": 2021,
+      "leadershipRole": "Senate Majority Caucus Vice-Chair"
     },
     {
       "id": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
@@ -346,8 +346,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/768",
       "birthDate": "1975-12-27",
       "birthYear": 1975,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2015-01-12",
+      "termStartYear": 2015,
+      "leadershipRole": "Senate Minority Caucus Chair"
     },
     {
       "id": "ocd-person/acc7c167-6251-4ce8-8021-511acfa291ef",
@@ -441,8 +442,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/851",
       "birthDate": "1969-08-01",
       "birthYear": 1969,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2015-01-12",
+      "termStartYear": 2015,
       "leadershipRole": "Senate Minority Leader"
     },
     {
@@ -480,8 +481,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4980",
       "birthDate": "1978-06-14",
       "birthYear": 1978,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2021-01-11",
+      "termStartYear": 2021,
       "leadershipRole": "Senate Majority Leader"
     },
     {
@@ -557,8 +558,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4910",
       "birthDate": "1954-09-13",
       "birthYear": 1954,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2017-06-02",
+      "termStartYear": 2017,
+      "leadershipRole": "Senate Majority Caucus Secretary"
     },
     {
       "id": "ocd-person/0a816fbf-e5ec-4056-8b3e-08184400e71b",
@@ -595,8 +597,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4981",
       "birthDate": "1984-08-25",
       "birthYear": 1984,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2021-01-11",
+      "termStartYear": 2021,
       "leadershipRole": "Senate Minority Whip"
     },
     {
@@ -634,8 +636,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4878",
       "birthDate": "1965-06-17",
       "birthYear": 1965,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2015-12-18",
+      "termStartYear": 2015,
+      "leadershipRole": "President Pro Tempore (Senate)"
     },
     {
       "id": "ocd-person/e11cecf4-f2e5-49d9-ba9e-47681f779438",
@@ -748,8 +751,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/33",
       "birthDate": "1943-11-08",
       "birthYear": 1943,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2007-01-08",
+      "termStartYear": 2007,
+      "leadershipRole": "Senate Minority Caucus Secretary"
     },
     {
       "id": "ocd-person/57ad1f65-9969-4be2-b262-684bf53123fb",
@@ -767,8 +771,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4978",
       "birthDate": "1972-02-09",
       "birthYear": 1972,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021,
+      "leadershipRole": "Senate Minority Caucus Vice Chair, Finance"
     },
     {
       "id": "ocd-person/069fb4fa-766b-40e4-90b7-ce96b4fa2ace",
@@ -824,8 +829,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4926",
       "birthDate": "1962-10-06",
       "birthYear": 1962,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2019-01-14",
+      "termStartYear": 2019,
+      "leadershipRole": "Senate Majority Whip"
     },
     {
       "id": "ocd-person/c7860bae-9d9c-449c-9903-20230eec50ac",
@@ -919,8 +925,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5016",
       "birthDate": "1972-10-02",
       "birthYear": 1972,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2023-01-09",
+      "termStartYear": 2023,
+      "leadershipRole": "Senate Majority Caucus Chair"
     },
     {
       "id": "ocd-person/5b6e0e37-802b-4103-b401-551532aba2e7",
@@ -957,8 +964,9 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4985",
       "birthDate": "1967-10-11",
       "birthYear": 1967,
-      "termStart": "",
-      "termStartYear": null
+      "termStart": "2021-01-11",
+      "termStartYear": 2021,
+      "leadershipRole": "Senate Minority Caucus Vice-Chair"
     },
     {
       "id": "ocd-person/e2c141e9-9e04-4e2b-8e5b-57db594c7abc",
