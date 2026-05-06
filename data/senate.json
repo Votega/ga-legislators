@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-06T11:58:46.743014",
+    "generatedAt": "2026-05-06T12:03:24.340081",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -24,7 +24,15 @@
       "birthYear": 1959,
       "termStart": "2015-01-12",
       "termStartYear": 2015,
-      "committees": []
+      "committees": [
+        "Administrative Affairs",
+        "Appropriations",
+        "Assignments",
+        "Economic Development and Tourism",
+        "Health and Human Services",
+        "Judiciary",
+        "Rules"
+      ]
     },
     {
       "id": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
@@ -44,7 +52,16 @@
       "birthYear": 1958,
       "termStart": "2007-01-08",
       "termStartYear": 2007,
-      "committees": []
+      "committees": [
+        "Finance",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Investigations Special",
+        "Judiciary",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules"
+      ]
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -64,7 +81,13 @@
       "birthYear": 1952,
       "termStart": "2020-08-20",
       "termStartYear": 2020,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Education and Youth",
+        "Finance",
+        "Higher Education",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
@@ -84,7 +107,17 @@
       "birthYear": 1983,
       "termStart": "2017-01-09",
       "termStartYear": 2017,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Finance",
+        "Government Oversight",
+        "Investigating Licensing Issues Special",
+        "Investigations Special",
+        "Judiciary",
+        "Reapportionment and Redistricting",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "State Institutions and Property"
+      ]
     },
     {
       "id": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
@@ -104,7 +137,17 @@
       "birthYear": 1989,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Children and Families",
+        "Education and Youth",
+        "Ethics",
+        "Health and Human Services",
+        "Investigations Special",
+        "Judiciary",
+        "Reapportionment and Redistricting"
+      ]
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -124,7 +167,15 @@
       "birthYear": 1983,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Banking and Financial Institutions",
+        "Children and Families",
+        "Ethics",
+        "Health and Human Services",
+        "Judiciary",
+        "Public Safety"
+      ]
     },
     {
       "id": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
@@ -144,7 +195,13 @@
       "birthYear": 1977,
       "termStart": "2020-03-10",
       "termStartYear": 2020,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Banking and Financial Institutions",
+        "Economic Development and Tourism",
+        "Higher Education",
+        "Regulated Industries and Utilities"
+      ]
     },
     {
       "id": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
@@ -164,7 +221,15 @@
       "birthYear": 1956,
       "termStart": "2013-01-14",
       "termStartYear": 2013,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Finance",
+        "Health and Human Services",
+        "Higher Education",
+        "Retirement",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax"
+      ]
     },
     {
       "id": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
@@ -184,7 +249,14 @@
       "birthYear": 1964,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Children and Families",
+        "Education and Youth",
+        "Higher Education",
+        "Public Safety",
+        "Science and Technology",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
@@ -204,7 +276,15 @@
       "birthYear": 1979,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Education and Youth",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Rules",
+        "State and Local Governmental Operations",
+        "Transportation"
+      ],
       "leadershipRole": "Senate Majority Caucus Vice-Chair"
     },
     {
@@ -225,7 +305,14 @@
       "birthYear": 1950,
       "termStart": "2023-01-23",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Regulated Industries and Utilities",
+        "Transportation",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
@@ -245,7 +332,14 @@
       "birthYear": 1989,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Children and Families",
+        "Economic Development and Tourism",
+        "Ethics",
+        "Investigating Licensing Issues Special",
+        "State and Local Governmental Operations",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
@@ -265,7 +359,14 @@
       "birthYear": 1956,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Finance",
+        "Judiciary",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax"
+      ]
     },
     {
       "id": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
@@ -285,7 +386,13 @@
       "birthYear": 1948,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Education and Youth",
+        "Interstate Cooperation",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
@@ -305,7 +412,13 @@
       "birthYear": null,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Retirement",
+        "Science and Technology"
+      ]
     },
     {
       "id": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
@@ -325,7 +438,16 @@
       "birthYear": 1941,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Insurance and Labor",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "State Institutions and Property",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
@@ -345,7 +467,14 @@
       "birthYear": 1970,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Education and Youth",
+        "Health and Human Services",
+        "Science and Technology",
+        "State and Local Governmental Operations",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
@@ -365,7 +494,12 @@
       "birthYear": 1975,
       "termStart": "2015-01-12",
       "termStartYear": 2015,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Education and Youth",
+        "Government Oversight",
+        "Judiciary"
+      ],
       "leadershipRole": "Senate Minority Caucus Chair"
     },
     {
@@ -386,7 +520,14 @@
       "birthYear": 1959,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Banking and Financial Institutions",
+        "Economic Development and Tourism",
+        "Interstate Cooperation",
+        "Natural Resources and the Environment",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
@@ -406,7 +547,16 @@
       "birthYear": 1962,
       "termStart": "2011-01-10",
       "termStartYear": 2011,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Natural Resources and the Environment",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "State and Local Governmental Operations",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
@@ -426,7 +576,13 @@
       "birthYear": 1949,
       "termStart": "2011-01-10",
       "termStartYear": 2011,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Natural Resources and the Environment",
+        "Retirement",
+        "State Institutions and Property"
+      ]
     },
     {
       "id": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -446,7 +602,18 @@
       "birthYear": 1978,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Assignments",
+        "Education and Youth",
+        "Finance",
+        "Investigations Special",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
@@ -466,7 +633,17 @@
       "birthYear": 1969,
       "termStart": "2015-01-12",
       "termStartYear": 2015,
-      "committees": [],
+      "committees": [
+        "Administrative Affairs",
+        "Banking and Financial Institutions",
+        "Ethics",
+        "Investigations Special",
+        "Judiciary",
+        "Public Safety",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules"
+      ],
       "leadershipRole": "Senate Minority Leader"
     },
     {
@@ -487,7 +664,12 @@
       "birthYear": null,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Government Oversight",
+        "Higher Education",
+        "State and Local Governmental Operations"
+      ]
     },
     {
       "id": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
@@ -507,7 +689,19 @@
       "birthYear": 1978,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": [],
+      "committees": [
+        "Administrative Affairs",
+        "Appropriations",
+        "Assignments",
+        "Ethics",
+        "Finance",
+        "Natural Resources and the Environment",
+        "Reapportionment and Redistricting",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "Transportation",
+        "Veterans, Military and Homeland Security"
+      ],
       "leadershipRole": "Senate Majority Leader"
     },
     {
@@ -528,7 +722,14 @@
       "birthYear": null,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Banking and Financial Institutions",
+        "Government Oversight",
+        "Natural Resources and the Environment",
+        "Public Safety",
+        "Transportation",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
@@ -548,7 +749,15 @@
       "birthYear": 1972,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Finance",
+        "Government Oversight",
+        "Public Safety",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -568,7 +777,12 @@
       "birthYear": 1988,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Economic Development and Tourism",
+        "Retirement",
+        "Transportation",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
@@ -588,7 +802,15 @@
       "birthYear": 1954,
       "termStart": "2017-06-02",
       "termStartYear": 2017,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Children and Families",
+        "Government Oversight",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Rules",
+        "Veterans, Military and Homeland Security"
+      ],
       "leadershipRole": "Senate Majority Caucus Secretary"
     },
     {
@@ -609,7 +831,13 @@
       "birthYear": 1973,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Government Oversight",
+        "Public Safety",
+        "Science and Technology",
+        "Urban Affairs",
+        "Veterans, Military and Homeland Security"
+      ]
     },
     {
       "id": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
@@ -629,7 +857,15 @@
       "birthYear": 1984,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Children and Families",
+        "Ethics",
+        "Investigations Special",
+        "Public Safety",
+        "Reapportionment and Redistricting",
+        "Rules"
+      ],
       "leadershipRole": "Senate Minority Whip"
     },
     {
@@ -670,7 +906,19 @@
       "birthYear": 1965,
       "termStart": "2015-12-18",
       "termStartYear": 2015,
-      "committees": [],
+      "committees": [
+        "Administrative Affairs",
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Ethics",
+        "Insurance and Labor",
+        "Investigating Licensing Issues Special",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "Transportation"
+      ],
       "leadershipRole": "President Pro Tempore (Senate)"
     },
     {
@@ -691,7 +939,13 @@
       "birthYear": 1957,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Finance",
+        "Natural Resources and the Environment",
+        "Rules"
+      ]
     },
     {
       "id": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
@@ -711,7 +965,14 @@
       "birthYear": 1955,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Banking and Financial Institutions",
+        "Ethics",
+        "Finance",
+        "Government Oversight",
+        "Insurance and Labor",
+        "Retirement"
+      ]
     },
     {
       "id": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
@@ -731,7 +992,14 @@
       "birthYear": 1978,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Administrative Affairs",
+        "Children and Families",
+        "Health and Human Services",
+        "Natural Resources and the Environment",
+        "Regulated Industries and Utilities",
+        "Rules"
+      ]
     },
     {
       "id": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
@@ -751,7 +1019,15 @@
       "birthYear": 1948,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Children and Families",
+        "Economic Development and Tourism",
+        "Ethics",
+        "Higher Education",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
@@ -771,7 +1047,14 @@
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Banking and Financial Institutions",
+        "Economic Development and Tourism",
+        "Finance",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Reapportionment and Redistricting"
+      ]
     },
     {
       "id": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
@@ -791,7 +1074,15 @@
       "birthYear": 1943,
       "termStart": "2007-01-08",
       "termStartYear": 2007,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Ethics",
+        "Finance",
+        "Health and Human Services",
+        "Higher Education",
+        "Retirement",
+        "Special Committee on Eliminating Georgia's Income Tax"
+      ],
       "leadershipRole": "Senate Minority Caucus Secretary"
     },
     {
@@ -812,7 +1103,13 @@
       "birthYear": 1972,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": [],
+      "committees": [
+        "Government Oversight",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Natural Resources and the Environment",
+        "Urban Affairs"
+      ],
       "leadershipRole": "Senate Minority Caucus Vice Chair, Finance"
     },
     {
@@ -833,7 +1130,13 @@
       "birthYear": 1980,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Education and Youth",
+        "Government Oversight",
+        "State Institutions and Property",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
@@ -853,7 +1156,14 @@
       "birthYear": null,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Banking and Financial Institutions",
+        "Health and Human Services",
+        "Interstate Cooperation",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Retirement",
+        "State and Local Governmental Operations"
+      ]
     },
     {
       "id": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
@@ -873,7 +1183,17 @@
       "birthYear": 1962,
       "termStart": "2019-01-14",
       "termStartYear": 2019,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Ethics",
+        "Government Oversight",
+        "Health and Human Services",
+        "Insurance and Labor",
+        "Public Safety",
+        "Reapportionment and Redistricting",
+        "Rules",
+        "State and Local Governmental Operations"
+      ],
       "leadershipRole": "Senate Majority Whip"
     },
     {
@@ -894,7 +1214,15 @@
       "birthYear": 1952,
       "termStart": "2023-01-23",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Ethics",
+        "Higher Education",
+        "Public Safety",
+        "Regulated Industries and Utilities",
+        "Retirement",
+        "Rules",
+        "State and Local Governmental Operations"
+      ]
     },
     {
       "id": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
@@ -914,7 +1242,14 @@
       "birthYear": 1977,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Health and Human Services",
+        "Natural Resources and the Environment",
+        "Public Safety",
+        "Retirement"
+      ]
     },
     {
       "id": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
@@ -934,7 +1269,12 @@
       "birthYear": 1966,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Children and Families",
+        "Health and Human Services",
+        "Higher Education",
+        "State Institutions and Property"
+      ]
     },
     {
       "id": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
@@ -954,7 +1294,15 @@
       "birthYear": 1978,
       "termStart": "2023-02-06",
       "termStartYear": 2023,
-      "committees": []
+      "committees": [
+        "Agriculture and Consumer Affairs",
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Ethics",
+        "Natural Resources and the Environment",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "State and Local Governmental Operations"
+      ]
     },
     {
       "id": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
@@ -974,7 +1322,17 @@
       "birthYear": 1972,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
-      "committees": [],
+      "committees": [
+        "Administrative Affairs",
+        "Education and Youth",
+        "Finance",
+        "Insurance and Labor",
+        "Judiciary",
+        "Reapportionment and Redistricting",
+        "Rules",
+        "Transportation",
+        "Veterans, Military and Homeland Security"
+      ],
       "leadershipRole": "Senate Majority Caucus Chair"
     },
     {
@@ -995,7 +1353,13 @@
       "birthYear": 1960,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Government Oversight",
+        "Natural Resources and the Environment",
+        "Urban Affairs"
+      ]
     },
     {
       "id": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
@@ -1015,7 +1379,15 @@
       "birthYear": 1967,
       "termStart": "2021-01-11",
       "termStartYear": 2021,
-      "committees": [],
+      "committees": [
+        "Appropriations",
+        "Education and Youth",
+        "Finance",
+        "Health and Human Services",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Public Safety",
+        "Urban Affairs"
+      ],
       "leadershipRole": "Senate Minority Caucus Vice-Chair"
     },
     {
@@ -1036,7 +1408,20 @@
       "birthYear": 1967,
       "termStart": "",
       "termStartYear": null,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Finance",
+        "Insurance and Labor",
+        "Investigating Licensing Issues Special",
+        "Investigations Special",
+        "Judiciary",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Rules",
+        "Special Committee on Eliminating Georgia's Income Tax",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
@@ -1056,7 +1441,14 @@
       "birthYear": null,
       "termStart": "2026-02-24",
       "termStartYear": 2026,
-      "committees": []
+      "committees": [
+        "Banking and Financial Institutions",
+        "Education and Youth",
+        "Judiciary",
+        "Natural Resources and the Environment",
+        "State and Local Governmental Operations",
+        "Transportation"
+      ]
     },
     {
       "id": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
@@ -1076,7 +1468,13 @@
       "birthYear": 1967,
       "termStart": "2024-02-20",
       "termStartYear": 2024,
-      "committees": []
+      "committees": [
+        "Economic Development and Tourism",
+        "Education and Youth",
+        "Government Oversight",
+        "Judiciary",
+        "Public Safety"
+      ]
     },
     {
       "id": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
@@ -1096,7 +1494,14 @@
       "birthYear": 1969,
       "termStart": "2017-01-09",
       "termStartYear": 2017,
-      "committees": []
+      "committees": [
+        "Appropriations",
+        "Economic Development and Tourism",
+        "Metropolitan Atlanta Rapid Transit Overview",
+        "Reapportionment and Redistricting",
+        "Regulated Industries and Utilities",
+        "Veterans, Military and Homeland Security"
+      ]
     }
   ]
 }
