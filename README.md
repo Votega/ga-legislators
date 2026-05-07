@@ -1,76 +1,73 @@
 # ga-legislators
 
-Machine-readable data for all current members of the Georgia General Assembly, maintained by [VoteGA.org](https://votega.org).
+Current data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org) and automatically refreshed daily.
 
-Updated automatically each time VoteGA.org's daily workflow runs.
-
----
-
-## Files
+## Data Files
 
 | File | Contents |
 |---|---|
-| `data/all.json` | All 236 members (House + Senate) |
-| `data/house.json` | House of Representatives only (180 seats) |
-| `data/senate.json` | Senate only (56 seats) |
-
----
+| `data/all.json` | All members (House + Senate combined) |
+| `data/house.json` | House of Representatives members only |
+| `data/senate.json` | Senate members only |
 
 ## Schema
 
-Each member record is a JSON object with the following fields:
+Each member record includes the following fields:
 
+### Identity & Position
 | Field | Type | Description |
 |---|---|---|
-| `id` | string | Open Civic Data person ID (`ocd-person/...`) — stable primary key |
-| `name` | string | Full name |
+| `id` | string | Open States person ID (`ocd-person/…`) |
+| `legisGaGovId` | integer \| null | Numeric ID on legis.ga.gov — used to link to voting history and official member pages |
+| `name` | string | Full display name |
 | `firstName` | string | Given name |
 | `lastName` | string | Family name |
-| `party` | string | `"Republican"` or `"Democratic"` |
+| `party` | string | `"Republican"`, `"Democratic"`, or `"Independent"` |
 | `chamber` | string | `"House of Representatives"` or `"Senate"` |
 | `district` | integer | District number |
 | `title` | string | `"Representative"` or `"Senator"` |
-| `imageUrl` | string | Official portrait URL (may be empty) |
+| `leadershipRole` | string \| null | e.g. `"Speaker of the House"`, `"Majority Leader"` |
+
+### Contact
+| Field | Type | Description |
+|---|---|---|
 | `phone` | string | Capitol office phone |
-| `address` | string | Capitol office address |
 | `email` | string | Official email address |
-| `officialWebsiteUrl` | string | `legis.ga.gov` member page |
-| `birthDate` | string | ISO date (`YYYY-MM-DD`), if available |
-| `birthYear` | integer | Birth year, derived from `birthDate` |
-| `termStart` | string | ISO date current term began, if known |
-| `termStartYear` | integer | Year current term began, if known |
-| `leadershipRole` | string | Leadership title, if applicable (e.g. `"Speaker of the House"`) — omitted when not applicable |
+| `address` | string | Capitol office mailing address |
+| `officialWebsiteUrl` | string | Member page on legis.ga.gov |
 
-### Departure fields
+### Biographical
+| Field | Type | Description |
+|---|---|---|
+| `birthDate` | string | ISO date (`YYYY-MM-DD`) |
+| `birthYear` | integer \| null | Birth year extracted from `birthDate` |
+| `termStart` | string | ISO date of current term start |
+| `termStartYear` | integer \| null | Year extracted from `termStart` |
 
-Members who have left office mid-term may include the following additional fields:
+### Committees
+| Field | Type | Description |
+|---|---|---|
+| `committees` | string[] | Committee names the member currently serves on |
+
+### Departure (mid-term vacancies)
+Members who left office mid-term include additional fields:
 
 | Field | Type | Description |
 |---|---|---|
-| `status` | string | Reason for departure: `"Resigned"`, `"Suspended"`, `"Removed"`, `"Deceased"`, or `"Vacant"` |
-| `statusDate` | string | ISO date (`YYYY-MM-DD`) the change took effect |
-| `statusNote` | string | Optional detail — e.g. executive order reference, appointment reason |
+| `status` | string | `"Resigned"`, `"Removed"`, `"Suspended"`, `"Deceased"`, or `"Vacant"` |
+| `statusDate` | string | Effective date of departure (ISO date) |
+| `statusNote` | string \| null | Context or source link (may contain markdown) |
 
-These fields are omitted for members who are currently serving. Seats with a departure status may be subject to a special election.
+## Data Sources & Updates
 
----
+Member data originates from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org supplements this with a manual override layer to fill in term start dates, leadership roles, departure status, and other Georgia-specific details that Open States doesn't reliably capture.
 
-## Data Source and Freshness
+This repo is updated automatically each time VoteGA.org's daily workflow runs.
 
-Member data is sourced from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org fetches this data daily and applies a manual override layer to fill in term start dates, leadership roles, and departure status that Open States does not reliably provide for Georgia.
+## Reporting Corrections
 
-**Update schedule:** Daily, after the VoteGA.org GA member workflow runs.
-
----
-
-## Contributing
-
-Direct edits to data files are not accepted via pull request — the files are overwritten on each daily run.
-
-To report a correction (wrong phone number, missing email, outdated role, etc.), open an issue using the **Data Correction** template. Corrections are reviewed and applied upstream at VoteGA.org, then flow back to this repository automatically on the next update.
-
----
+Please do not edit data files directly. Open an issue using the **Data Correction** template and describe the inaccuracy. Corrections are reviewed, applied upstream at VoteGA.org, and automatically reflected here on the next daily run.
 
 ## License
 
-[GPL-3.0](LICENSE)
+GPL-3.0
