@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-06T12:03:24.340081",
+    "generatedAt": "2026-05-07T00:58:29.835566",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -32,7 +32,8 @@
         "Health and Human Services",
         "Judiciary",
         "Rules"
-      ]
+      ],
+      "legisGaGovId": 784
     },
     {
       "id": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
@@ -61,7 +62,8 @@
         "Reapportionment and Redistricting",
         "Regulated Industries and Utilities",
         "Rules"
-      ]
+      ],
+      "legisGaGovId": 9
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -87,7 +89,8 @@
         "Finance",
         "Higher Education",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 4972
     },
     {
       "id": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
@@ -117,7 +120,8 @@
         "Reapportionment and Redistricting",
         "Special Committee on Eliminating Georgia's Income Tax",
         "State Institutions and Property"
-      ]
+      ],
+      "legisGaGovId": 4908
     },
     {
       "id": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
@@ -147,7 +151,8 @@
         "Investigations Special",
         "Judiciary",
         "Reapportionment and Redistricting"
-      ]
+      ],
+      "legisGaGovId": 4984
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -175,7 +180,8 @@
         "Health and Human Services",
         "Judiciary",
         "Public Safety"
-      ]
+      ],
+      "legisGaGovId": 835
     },
     {
       "id": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
@@ -201,7 +207,8 @@
         "Economic Development and Tourism",
         "Higher Education",
         "Regulated Industries and Utilities"
-      ]
+      ],
+      "legisGaGovId": 4971
     },
     {
       "id": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
@@ -229,7 +236,8 @@
         "Retirement",
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax"
-      ]
+      ],
+      "legisGaGovId": 838
     },
     {
       "id": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
@@ -256,7 +264,8 @@
         "Public Safety",
         "Science and Technology",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 4909
     },
     {
       "id": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
@@ -285,6 +294,7 @@
         "State and Local Governmental Operations",
         "Transportation"
       ],
+      "legisGaGovId": 4982,
       "leadershipRole": "Senate Majority Caucus Vice-Chair"
     },
     {
@@ -312,7 +322,8 @@
         "Regulated Industries and Utilities",
         "Transportation",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": 157
     },
     {
       "id": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
@@ -339,7 +350,8 @@
         "Investigating Licensing Issues Special",
         "State and Local Governmental Operations",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": 5007
     },
     {
       "id": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
@@ -366,7 +378,8 @@
         "Regulated Industries and Utilities",
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax"
-      ]
+      ],
+      "legisGaGovId": 855
     },
     {
       "id": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
@@ -392,7 +405,8 @@
         "Education and Youth",
         "Interstate Cooperation",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": 372
     },
     {
       "id": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
@@ -418,7 +432,8 @@
         "Economic Development and Tourism",
         "Retirement",
         "Science and Technology"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
@@ -447,7 +462,8 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "State Institutions and Property",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 17
     },
     {
       "id": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
@@ -474,7 +490,8 @@
         "Science and Technology",
         "State and Local Governmental Operations",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 203
     },
     {
       "id": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
@@ -500,6 +517,7 @@
         "Government Oversight",
         "Judiciary"
       ],
+      "legisGaGovId": 768,
       "leadershipRole": "Senate Minority Caucus Chair"
     },
     {
@@ -527,7 +545,8 @@
         "Interstate Cooperation",
         "Natural Resources and the Environment",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": 28
     },
     {
       "id": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
@@ -556,7 +575,8 @@
         "Rules",
         "State and Local Governmental Operations",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": 751
     },
     {
       "id": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
@@ -582,7 +602,8 @@
         "Natural Resources and the Environment",
         "Retirement",
         "State Institutions and Property"
-      ]
+      ],
+      "legisGaGovId": 10
     },
     {
       "id": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -613,7 +634,8 @@
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": 4925
     },
     {
       "id": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
@@ -644,6 +666,7 @@
         "Regulated Industries and Utilities",
         "Rules"
       ],
+      "legisGaGovId": 851,
       "leadershipRole": "Senate Minority Leader"
     },
     {
@@ -669,7 +692,8 @@
         "Government Oversight",
         "Higher Education",
         "State and Local Governmental Operations"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
@@ -702,6 +726,7 @@
         "Transportation",
         "Veterans, Military and Homeland Security"
       ],
+      "legisGaGovId": 4980,
       "leadershipRole": "Senate Majority Leader"
     },
     {
@@ -729,7 +754,8 @@
         "Public Safety",
         "Transportation",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
@@ -757,7 +783,8 @@
         "Regulated Industries and Utilities",
         "Rules",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": 754
     },
     {
       "id": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -782,7 +809,8 @@
         "Retirement",
         "Transportation",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 4942
     },
     {
       "id": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
@@ -811,6 +839,7 @@
         "Rules",
         "Veterans, Military and Homeland Security"
       ],
+      "legisGaGovId": 4910,
       "leadershipRole": "Senate Majority Caucus Secretary"
     },
     {
@@ -837,7 +866,8 @@
         "Science and Technology",
         "Urban Affairs",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
@@ -866,6 +896,7 @@
         "Reapportionment and Redistricting",
         "Rules"
       ],
+      "legisGaGovId": 4981,
       "leadershipRole": "Senate Minority Whip"
     },
     {
@@ -886,7 +917,8 @@
       "birthYear": null,
       "termStart": "",
       "termStartYear": 2026,
-      "committees": []
+      "committees": [],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994",
@@ -919,6 +951,7 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "Transportation"
       ],
+      "legisGaGovId": 4878,
       "leadershipRole": "President Pro Tempore (Senate)"
     },
     {
@@ -945,7 +978,8 @@
         "Finance",
         "Natural Resources and the Environment",
         "Rules"
-      ]
+      ],
+      "legisGaGovId": 723
     },
     {
       "id": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
@@ -972,7 +1006,8 @@
         "Government Oversight",
         "Insurance and Labor",
         "Retirement"
-      ]
+      ],
+      "legisGaGovId": 850
     },
     {
       "id": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
@@ -999,7 +1034,8 @@
         "Natural Resources and the Environment",
         "Regulated Industries and Utilities",
         "Rules"
-      ]
+      ],
+      "legisGaGovId": 4907
     },
     {
       "id": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
@@ -1027,7 +1063,8 @@
         "Ethics",
         "Higher Education",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": 4979
     },
     {
       "id": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
@@ -1054,7 +1091,8 @@
         "Health and Human Services",
         "Insurance and Labor",
         "Reapportionment and Redistricting"
-      ]
+      ],
+      "legisGaGovId": 5013
     },
     {
       "id": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
@@ -1083,6 +1121,7 @@
         "Retirement",
         "Special Committee on Eliminating Georgia's Income Tax"
       ],
+      "legisGaGovId": 33,
       "leadershipRole": "Senate Minority Caucus Secretary"
     },
     {
@@ -1110,6 +1149,7 @@
         "Natural Resources and the Environment",
         "Urban Affairs"
       ],
+      "legisGaGovId": 4978,
       "leadershipRole": "Senate Minority Caucus Vice Chair, Finance"
     },
     {
@@ -1136,7 +1176,8 @@
         "Government Oversight",
         "State Institutions and Property",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
@@ -1163,7 +1204,8 @@
         "Metropolitan Atlanta Rapid Transit Overview",
         "Retirement",
         "State and Local Governmental Operations"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
@@ -1194,6 +1236,7 @@
         "Rules",
         "State and Local Governmental Operations"
       ],
+      "legisGaGovId": 4926,
       "leadershipRole": "Senate Majority Whip"
     },
     {
@@ -1222,7 +1265,8 @@
         "Retirement",
         "Rules",
         "State and Local Governmental Operations"
-      ]
+      ],
+      "legisGaGovId": 4905
     },
     {
       "id": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
@@ -1249,7 +1293,8 @@
         "Natural Resources and the Environment",
         "Public Safety",
         "Retirement"
-      ]
+      ],
+      "legisGaGovId": 4977
     },
     {
       "id": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
@@ -1274,7 +1319,8 @@
         "Health and Human Services",
         "Higher Education",
         "State Institutions and Property"
-      ]
+      ],
+      "legisGaGovId": 311
     },
     {
       "id": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
@@ -1302,7 +1348,8 @@
         "Natural Resources and the Environment",
         "Special Committee on Eliminating Georgia's Income Tax",
         "State and Local Governmental Operations"
-      ]
+      ],
+      "legisGaGovId": 837
     },
     {
       "id": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
@@ -1333,6 +1380,7 @@
         "Transportation",
         "Veterans, Military and Homeland Security"
       ],
+      "legisGaGovId": 5016,
       "leadershipRole": "Senate Majority Caucus Chair"
     },
     {
@@ -1359,7 +1407,8 @@
         "Government Oversight",
         "Natural Resources and the Environment",
         "Urban Affairs"
-      ]
+      ],
+      "legisGaGovId": 4924
     },
     {
       "id": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
@@ -1388,6 +1437,7 @@
         "Public Safety",
         "Urban Affairs"
       ],
+      "legisGaGovId": 4985,
       "leadershipRole": "Senate Minority Caucus Vice-Chair"
     },
     {
@@ -1421,7 +1471,8 @@
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": 752
     },
     {
       "id": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
@@ -1448,7 +1499,8 @@
         "Natural Resources and the Environment",
         "State and Local Governmental Operations",
         "Transportation"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
@@ -1474,7 +1526,8 @@
         "Government Oversight",
         "Judiciary",
         "Public Safety"
-      ]
+      ],
+      "legisGaGovId": null
     },
     {
       "id": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
@@ -1501,7 +1554,8 @@
         "Reapportionment and Redistricting",
         "Regulated Industries and Utilities",
         "Veterans, Military and Homeland Security"
-      ]
+      ],
+      "legisGaGovId": 807
     }
   ]
 }
