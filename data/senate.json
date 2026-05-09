@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-08T08:22:24.401734",
+    "generatedAt": "2026-05-09T08:28:16.304458",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 54
@@ -170,8 +170,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/835",
       "birthDate": "1983-10-26",
       "birthYear": 1983,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2018-01-16",
+      "termStartYear": 2018,
       "committees": [
         "Appropriations",
         "Banking and Financial Institutions",
@@ -255,8 +255,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4909",
       "birthDate": "1964-12-22",
       "birthYear": 1964,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2017-01-17",
+      "termStartYear": 2017,
       "committees": [
         "Children and Families",
         "Education and Youth",
@@ -369,8 +369,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/855",
       "birthDate": "1956-12-30",
       "birthYear": 1956,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2015-01-12",
+      "termStartYear": 2015,
       "committees": [
         "Finance",
         "Judiciary",
@@ -424,8 +424,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5067",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-01-13",
+      "termStartYear": 2025,
       "committees": [
         "Agriculture and Consumer Affairs",
         "Appropriations",
@@ -685,8 +685,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5090",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-12-31",
+      "termStartYear": 2025,
       "committees": [
         "Agriculture and Consumer Affairs",
         "Government Oversight",
@@ -773,8 +773,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/754",
       "birthDate": "1972-08-18",
       "birthYear": 1972,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2011-01-10",
+      "termStartYear": 2011,
       "committees": [
         "Appropriations",
         "Finance",
@@ -858,8 +858,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5065",
       "birthDate": "1973-05-26",
       "birthYear": 1973,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-01-13",
+      "termStartYear": 2025,
       "committees": [
         "Government Oversight",
         "Public Safety",
@@ -1168,8 +1168,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5066",
       "birthDate": "1980-03-09",
       "birthYear": 1980,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-01-13",
+      "termStartYear": 2025,
       "committees": [
         "Agriculture and Consumer Affairs",
         "Education and Youth",
@@ -1195,8 +1195,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/161",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-01-13",
+      "termStartYear": 2025,
       "committees": [
         "Banking and Financial Institutions",
         "Health and Human Services",
@@ -1312,8 +1312,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/311",
       "birthDate": "1966-03-05",
       "birthYear": 1966,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2019-01-14",
+      "termStartYear": 2019,
       "committees": [
         "Children and Families",
         "Health and Human Services",
@@ -1456,8 +1456,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/752",
       "birthDate": "1967-02-25",
       "birthYear": 1967,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2011-01-10",
+      "termStartYear": 2011,
       "committees": [
         "Appropriations",
         "Finance",
