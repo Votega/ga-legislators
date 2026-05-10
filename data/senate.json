@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-05-10T08:55:16.713859",
+    "generatedAt": "2026-05-10T15:20:40.810715",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 56
@@ -397,8 +397,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/372",
       "birthDate": "1948-05-03",
       "birthYear": 1948,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2009-12-13",
+      "termStartYear": 2009,
       "committees": [
         "Appropriations",
         "Economic Development and Tourism",
@@ -451,8 +451,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/17",
       "birthDate": "1941-08-25",
       "birthYear": 1941,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "1993-01-11",
+      "termStartYear": 1993,
       "committees": [
         "Appropriations",
         "Insurance and Labor",
@@ -536,8 +536,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/28",
       "birthDate": "1959-04-01",
       "birthYear": 1959,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2005-01-10",
+      "termStartYear": 2005,
       "committees": [
         "Appropriations",
         "Banking and Financial Institutions",
@@ -621,8 +621,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4925",
       "birthDate": "1978-10-01",
       "birthYear": 1978,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2019-01-14",
+      "termStartYear": 2019,
       "committees": [
         "Appropriations",
         "Assignments",
@@ -745,8 +745,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5088",
       "birthDate": "",
       "birthYear": null,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2025-10-14",
+      "termStartYear": 2025,
       "committees": [
         "Banking and Financial Institutions",
         "Government Oversight",
@@ -802,8 +802,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4942",
       "birthDate": "1988-01-17",
       "birthYear": 1988,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2023-01-09",
+      "termStartYear": 2023,
       "committees": [
         "Economic Development and Tourism",
         "Retirement",
@@ -970,8 +970,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/723",
       "birthDate": "1957-01-06",
       "birthYear": 1957,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2017-01-09",
+      "termStartYear": 2017,
       "committees": [
         "Agriculture and Consumer Affairs",
         "Appropriations",
@@ -997,8 +997,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/850",
       "birthDate": "1955-04-02",
       "birthYear": 1955,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2015-01-12",
+      "termStartYear": 2015,
       "committees": [
         "Banking and Financial Institutions",
         "Ethics",
@@ -1025,8 +1025,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4907",
       "birthDate": "1978-01-19",
       "birthYear": 1978,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2017-01-09",
+      "termStartYear": 2017,
       "committees": [
         "Administrative Affairs",
         "Children and Families",
@@ -1399,8 +1399,8 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/4924",
       "birthDate": "1960-11-15",
       "birthYear": 1960,
-      "termStart": "",
-      "termStartYear": null,
+      "termStart": "2019-01-14",
+      "termStartYear": 2019,
       "committees": [
         "Appropriations",
         "Economic Development and Tourism",
