@@ -35,6 +35,7 @@ Each member record includes the following fields:
 | `email` | string | Official email address |
 | `address` | string | Capitol office mailing address |
 | `officialWebsiteUrl` | string | Member page on legis.ga.gov |
+| `imageUrl` | string | Portrait image URL from legis.ga.gov; empty string if unavailable |
 
 ### Biographical
 | Field | Type | Description |
