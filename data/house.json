@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-06-10T10:56:54.289972",
+    "generatedAt": "2026-06-11T11:23:47.532108",
     "source": "Open States API",
     "jurisdiction": "Georgia",
-    "count": 180
+    "count": 180,
+    "committeesAvailable": true
   },
   "members": [
     {
@@ -29,7 +30,10 @@
         "Economic Development and Tourism",
         "Urban Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/a5a0998b-3837-4c4e-a66b-a567dc2f9d77",
@@ -47,7 +51,7 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/230",
       "birthDate": "1947-08-02",
       "birthYear": 1947,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": null,
       "committees": [
         "Appropriations",
@@ -58,7 +62,10 @@
         "Rules",
         "Rural Development"
       ],
-      "legisGaGovId": 230
+      "legisGaGovId": 230,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bb48e87c-29db-4a4d-a278-fa299be2020e",
@@ -88,6 +95,9 @@
         "Transportation"
       ],
       "legisGaGovId": 187,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chariman, House Committee on Regulated Industries"
     },
     {
@@ -104,7 +114,7 @@
       "address": "Room 411-H, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "angela.moore@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5008",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2021-03-16",
       "termStartYear": 2021,
@@ -113,7 +123,10 @@
         "Energy, Utilities and Telecommunications",
         "Higher Education"
       ],
-      "legisGaGovId": 5008
+      "legisGaGovId": 5008,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1d0deded-daaa-425b-b6aa-3612492dca5b",
@@ -129,7 +142,7 @@
       "address": "Room 601-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "angie.osteen@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5084",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -138,7 +151,10 @@
         "Public and Community Health",
         "Rural Development"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e16d6516-badc-4682-9e3a-84f30a44b060",
@@ -154,16 +170,19 @@
       "address": "Room 409-F, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "anneallen.westbrook@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5054",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2023,
       "committees": [
         "Economic Development and Tourism",
         "Judiciary",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 5054
+      "legisGaGovId": 5054,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3b3da57c-2f96-4a94-a7bc-eb6a814cc627",
@@ -188,7 +207,10 @@
         "State Properties",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e4e40f68-0970-4392-b739-3c68f749bcdc",
@@ -215,7 +237,10 @@
         "State Planning and Community Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 5004
+      "legisGaGovId": 5004,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8b4b00cb-6f78-4b69-b788-796b19d94752",
@@ -231,7 +256,7 @@
       "address": "Room 612-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "bethany.ballard@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5051",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -241,7 +266,10 @@
         "Education",
         "Special Rules"
       ],
-      "legisGaGovId": 5051
+      "legisGaGovId": 5051,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/c2c81ffc-f4b1-40f4-96b0-6309f89902ee",
@@ -267,7 +295,10 @@
         "Intragovernmental Coordination",
         "Small Business Development"
       ],
-      "legisGaGovId": 4943
+      "legisGaGovId": 4943,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f2444048-8c14-45b2-b700-37f7899fa5bb",
@@ -283,7 +314,7 @@
       "address": "Room 601-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "bill.fincher@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5092",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2026-01-10",
       "termStartYear": 2026,
@@ -292,7 +323,10 @@
         "Judiciary: Non-Civil",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4a9ef816-9130-4510-a19e-3124e3f2aeed",
@@ -321,7 +355,10 @@
         "Rules",
         "Transportation"
       ],
-      "legisGaGovId": 823
+      "legisGaGovId": 823,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/adefd0ba-43cd-4aae-9321-12f67e57ac8a",
@@ -350,7 +387,10 @@
         "Resource Management Special",
         "State Properties"
       ],
-      "legisGaGovId": 863
+      "legisGaGovId": 863,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/23dfc274-73d1-45df-b381-67e597cf0b84",
@@ -378,7 +418,10 @@
         "Energy, Utilities and Telecommunications",
         "Small Business Development"
       ],
-      "legisGaGovId": 4969
+      "legisGaGovId": 4969,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/96307d79-07d4-4f59-9dd3-b7f994d566d5",
@@ -405,7 +448,10 @@
         "Regulated Industries",
         "Urban Affairs"
       ],
-      "legisGaGovId": 172
+      "legisGaGovId": 172,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/933a841a-19d6-42c2-a046-991ff9903a23",
@@ -435,7 +481,10 @@
         "Technology and Infrastructure Innovation",
         "Transportation"
       ],
-      "legisGaGovId": 4991
+      "legisGaGovId": 4991,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/c0b205e2-1542-4802-896d-fa7b2b6fc4d9",
@@ -451,7 +500,7 @@
       "address": "Room 401-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "brent.cox@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5021",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -461,7 +510,10 @@
         "Technology and Infrastructure Innovation",
         "Transportation"
       ],
-      "legisGaGovId": 5021
+      "legisGaGovId": 5021,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/a53e6bbd-a5b8-436b-94ae-bebf957c5b61",
@@ -492,7 +544,10 @@
         "Urban Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 847
+      "legisGaGovId": 847,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/13b7af1b-5b56-481b-a81a-2001846188a6",
@@ -523,6 +578,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 778,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Caucus Chairman"
     },
     {
@@ -548,7 +606,10 @@
         "Information and Audits",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d40576ac-fbc0-4b42-98ee-f6362063784d",
@@ -579,7 +640,10 @@
         "Regulated Industries",
         "Retirement"
       ],
-      "legisGaGovId": 303
+      "legisGaGovId": 303,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/842218b5-88ae-4ba8-8395-756bf3340e16",
@@ -609,7 +673,10 @@
         "Public and Community Health",
         "Rules"
       ],
-      "legisGaGovId": 183
+      "legisGaGovId": 183,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/562e162f-2a60-441c-956b-11db12eef266",
@@ -637,7 +704,10 @@
         "Reapportionment and Redistricting",
         "Transportation"
       ],
-      "legisGaGovId": 4881
+      "legisGaGovId": 4881,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3646e872-85a6-4383-97c5-36ff96ca7113",
@@ -663,7 +733,10 @@
         "Resource Management Special",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/0f5a9273-2fc6-458f-af59-b75070a1dc76",
@@ -692,6 +765,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 133,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Leader"
     },
     {
@@ -708,7 +784,7 @@
       "address": "Room 401-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "carter.barrett@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5020",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -719,7 +795,10 @@
         "Higher Education",
         "Ways and Means"
       ],
-      "legisGaGovId": 5020
+      "legisGaGovId": 5020,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/0d75f0d9-0242-4f72-b4f3-1cd085eb26b6",
@@ -748,7 +827,10 @@
         "State Planning and Community Affairs",
         "Transportation"
       ],
-      "legisGaGovId": 75
+      "legisGaGovId": 75,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/cba2f06c-773c-49d3-949c-b1a2db377c21",
@@ -764,7 +846,7 @@
       "address": "Room 501-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "charles.cannon@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5058",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-02-06",
       "termStartYear": 2023,
@@ -777,7 +859,10 @@
         "Resource Management Special",
         "Ways and Means"
       ],
-      "legisGaGovId": 5058
+      "legisGaGovId": 5058,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d79c3e9b-b73d-416b-9bfd-8a0338d8256c",
@@ -806,7 +891,10 @@
         "Rules",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 4965
+      "legisGaGovId": 4965,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3ff894cb-f2e4-47d0-9f67-b125245a10c3",
@@ -839,6 +927,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 846,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Leader"
     },
     {
@@ -870,6 +961,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 164,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, House Committee on Higher Education"
     },
     {
@@ -898,7 +992,10 @@
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
-      "legisGaGovId": 5002
+      "legisGaGovId": 5002,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/ec6cf250-ebcc-4dda-89a5-12da9ebbe51a",
@@ -927,7 +1024,10 @@
         "Regulated Industries",
         "Ways and Means"
       ],
-      "legisGaGovId": 4958
+      "legisGaGovId": 4958,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1a9598cc-056f-4725-a3fb-64c3f0fd26ed",
@@ -943,7 +1043,7 @@
       "address": "Room 401-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "danny.mathis@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4959",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2019-01-14",
       "termStartYear": 2019,
@@ -956,7 +1056,10 @@
         "Small Business Development",
         "Transportation"
       ],
-      "legisGaGovId": 4959
+      "legisGaGovId": 4959,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1f94316e-fb58-401f-bbfc-5ada0a717b6b",
@@ -983,7 +1086,10 @@
         "Small Business Development",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 770
+      "legisGaGovId": 770,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d00eb950-0fb6-41ab-ae22-8e9ce84d7cf0",
@@ -1013,7 +1119,10 @@
         "Rules",
         "Transportation"
       ],
-      "legisGaGovId": 786
+      "legisGaGovId": 786,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/ad18dba4-9247-4542-95b1-2ccef815dbc7",
@@ -1042,7 +1151,10 @@
         "Intragovernmental Coordination",
         "Transportation"
       ],
-      "legisGaGovId": 867
+      "legisGaGovId": 867,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9bcfa0eb-ee7d-4762-9555-7bc4a67d6417",
@@ -1058,9 +1170,9 @@
       "address": "Room 612-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "david.huddleston@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5033",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2022,
       "committees": [
         "Agriculture and Consumer Affairs",
@@ -1069,7 +1181,10 @@
         "Natural Resources and Environment",
         "Resource Management Special"
       ],
-      "legisGaGovId": 5033
+      "legisGaGovId": 5033,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/0f288c5b-484a-4b70-8209-0a23f922edd1",
@@ -1098,7 +1213,10 @@
         "Retirement",
         "Transportation"
       ],
-      "legisGaGovId": 5005
+      "legisGaGovId": 5005,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9a8e7b0c-3c19-473f-b04a-d3a17037af0a",
@@ -1114,7 +1232,7 @@
       "address": "1713 E. Oglethorpe, Albany, GA 31705",
       "email": "david.sampson@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5052",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1123,7 +1241,10 @@
         "Human Relations and Aging",
         "Insurance"
       ],
-      "legisGaGovId": 5052
+      "legisGaGovId": 5052,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/83a7bbf2-d69c-4813-bbeb-52820e6b9af4",
@@ -1149,7 +1270,10 @@
         "Judiciary Juvenile",
         "Retirement"
       ],
-      "legisGaGovId": 760
+      "legisGaGovId": 760,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/5061bc6b-83af-46d0-a78d-30ebe10a63db",
@@ -1177,7 +1301,10 @@
         "State Properties",
         "Ways and Means"
       ],
-      "legisGaGovId": 71
+      "legisGaGovId": 71,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b824f8fd-7343-449d-8027-fcd0afaf1949",
@@ -1193,7 +1320,7 @@
       "address": "Room 408-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "deborah.silcox@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4887",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2017-01-09",
       "termStartYear": 2017,
@@ -1206,6 +1333,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 4887,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, House Committee on MARTOC"
     },
     {
@@ -1233,7 +1363,10 @@
         "Natural Resources and Environment",
         "Small Business Development"
       ],
-      "legisGaGovId": 4890
+      "legisGaGovId": 4890,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/016fb7f0-2b08-4587-b7f2-8d18c1d9b8f5",
@@ -1261,7 +1394,10 @@
         "Metropolitan Atlanta Rapid Transit Overview",
         "Motor Vehicles"
       ],
-      "legisGaGovId": 817
+      "legisGaGovId": 817,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9046fcb2-f3eb-4233-bd92-32c94e60f9df",
@@ -1287,7 +1423,10 @@
         "Regulated Industries",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 4891
+      "legisGaGovId": 4891,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3a323603-753e-4380-993c-9bb2a7fc55f3",
@@ -1303,7 +1442,7 @@
       "address": "Room 401-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "derrick.mccollum@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5022",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1314,7 +1453,10 @@
         "Regulated Industries",
         "Transportation"
       ],
-      "legisGaGovId": 5022
+      "legisGaGovId": 5022,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8f76af22-98dc-4e1e-ba99-75b87c1129d6",
@@ -1342,7 +1484,10 @@
         "Public and Community Health",
         "Transportation"
       ],
-      "legisGaGovId": 5009
+      "legisGaGovId": 5009,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8afda706-7afa-462c-89f2-0d6d5da010ff",
@@ -1368,7 +1513,10 @@
         "Motor Vehicles",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 845
+      "legisGaGovId": 845,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/81dde544-49e9-4fb0-9313-32eacaf6194b",
@@ -1398,7 +1546,10 @@
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
-      "legisGaGovId": 184
+      "legisGaGovId": 184,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/818f1afb-2850-448e-99c1-be63a9acfe95",
@@ -1425,7 +1576,10 @@
         "Education",
         "Small Business Development"
       ],
-      "legisGaGovId": 3877
+      "legisGaGovId": 3877,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f33d979c-554c-433e-ad0f-837eef1da589",
@@ -1454,7 +1608,10 @@
         "Public Safety and Homeland Security",
         "Rules"
       ],
-      "legisGaGovId": 826
+      "legisGaGovId": 826,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/18427775-e3e7-4730-bb6f-722616e6aebe",
@@ -1481,7 +1638,10 @@
         "Human Relations and Aging",
         "Urban Affairs"
       ],
-      "legisGaGovId": 5011
+      "legisGaGovId": 5011,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4615e308-db74-408f-89df-02be56b5013b",
@@ -1508,7 +1668,10 @@
         "Small Business Development",
         "Transportation"
       ],
-      "legisGaGovId": 4954
+      "legisGaGovId": 4954,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3b2b9f31-6859-4582-8d82-581597c0c178",
@@ -1536,7 +1699,10 @@
         "Human Relations and Aging",
         "State Properties"
       ],
-      "legisGaGovId": 797
+      "legisGaGovId": 797,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/fe4b934e-8976-4c62-bcb0-ed8ae9782560",
@@ -1552,7 +1718,7 @@
       "address": "Room 411-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "eric.bell@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5061",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-03-27",
       "termStartYear": 2023,
@@ -1561,7 +1727,10 @@
         "Human Relations and Aging",
         "Small Business Development"
       ],
-      "legisGaGovId": 5061
+      "legisGaGovId": 5061,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/abece831-30a8-4cf8-94ff-d41f7f48197f",
@@ -1577,7 +1746,7 @@
       "address": "Room 607-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "eric.gisler@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5091",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2026-01-08",
       "termStartYear": 2026,
@@ -1586,7 +1755,10 @@
         "Health",
         "Intragovernmental Coordination"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bdc621be-7296-4383-8c45-b4533d1c106c",
@@ -1611,7 +1783,10 @@
         "Judiciary: Non-Civil",
         "Public Safety and Homeland Security"
       ],
-      "legisGaGovId": 5026
+      "legisGaGovId": 5026,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b261086c-7b16-4a8e-82a6-22df4445af84",
@@ -1629,14 +1804,17 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5083",
       "birthDate": "1944-05-24",
       "birthYear": 1944,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2025,
       "committees": [
         "Defense and Veterans Affairs",
         "Special Rules",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/dc99efc3-076b-4d00-b4b0-66a0507a4057",
@@ -1652,7 +1830,7 @@
       "address": "Room 509-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "gabe.okoye@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5041",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1661,7 +1839,10 @@
         "Human Relations and Aging",
         "Small Business Development"
       ],
-      "legisGaGovId": 5041
+      "legisGaGovId": 5041,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bd990496-ea34-4b79-8d6f-68cfed424c15",
@@ -1686,7 +1867,10 @@
         "Governmental Affairs",
         "Interstate Cooperation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/47fd36f3-f5d4-4ef6-a429-1ffc7681e233",
@@ -1702,7 +1886,7 @@
       "address": "Room 601-F, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "gary.richardson@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5063",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2024-03-20",
       "termStartYear": 2024,
@@ -1711,7 +1895,10 @@
         "Public and Community Health",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/570a213a-a475-4fd3-ac36-23e1bd1190be",
@@ -1740,7 +1927,10 @@
         "Rural Development",
         "State Properties"
       ],
-      "legisGaGovId": 115
+      "legisGaGovId": 115,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/be05ace3-ea73-4f3f-85ae-c5ed313d4cbe",
@@ -1756,7 +1946,7 @@
       "address": "State Capitol Room 415, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "ginny.ehrhart@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4937",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2019-01-14",
       "termStartYear": 2019,
@@ -1770,6 +1960,9 @@
         "Transportation"
       ],
       "legisGaGovId": 4937,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Caucus Secretary/Treasurer"
     },
     {
@@ -1786,7 +1979,7 @@
       "address": "Room 508-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "holt.persinger@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5060",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-03-06",
       "termStartYear": 2023,
@@ -1796,7 +1989,10 @@
         "Natural Resources and Environment",
         "Transportation"
       ],
-      "legisGaGovId": 5060
+      "legisGaGovId": 5060,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607",
@@ -1822,7 +2018,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 4955
+      "legisGaGovId": 4955,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/2a68d594-e7d5-49cd-b615-6efb872430c3",
@@ -1838,7 +2037,7 @@
       "address": "Room 507-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "imani.barnes@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5037",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1847,7 +2046,10 @@
         "Public and Community Health",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 5037
+      "legisGaGovId": 5037,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f02d369f-2d48-4d8d-853d-77ce5a8810fc",
@@ -1863,7 +2065,7 @@
       "address": "Room 511-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "inga.willis@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5027",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1872,7 +2074,10 @@
         "Economic Development and Tourism",
         "Small Business Development"
       ],
-      "legisGaGovId": 5027
+      "legisGaGovId": 5027,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/37602f7b-947e-4067-8f2e-b2fec620643e",
@@ -1897,7 +2102,10 @@
         "Natural Resources and Environment",
         "Rural Development"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/dbce462d-74e3-42d3-bd6c-3b9f8eeb69fe",
@@ -1929,6 +2137,9 @@
         "Transportation"
       ],
       "legisGaGovId": 4967,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Whip"
     },
     {
@@ -1959,6 +2170,9 @@
         "Technology and Infrastructure Innovation"
       ],
       "legisGaGovId": 142,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Speaker Pro Tempore (House)"
     },
     {
@@ -1986,7 +2200,10 @@
         "Higher Education",
         "Interstate Cooperation"
       ],
-      "legisGaGovId": 4953
+      "legisGaGovId": 4953,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/594aa971-500b-42a4-9d7a-1ceb4c029220",
@@ -2015,7 +2232,10 @@
         "Regulated Industries",
         "Ways and Means"
       ],
-      "legisGaGovId": 4883
+      "legisGaGovId": 4883,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/38c596a4-df69-4a56-9329-be73f26bc7d5",
@@ -2045,7 +2265,10 @@
         "Natural Resources and Environment",
         "Public Safety and Homeland Security"
       ],
-      "legisGaGovId": 862
+      "legisGaGovId": 862,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/c862c17f-ed00-41d7-97e5-1138f451a96c",
@@ -2061,7 +2284,7 @@
       "address": "Room 601-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "joe.campbell@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4970",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2020-02-06",
       "termStartYear": 2020,
@@ -2074,7 +2297,10 @@
         "State Planning and Community Affairs",
         "Transportation"
       ],
-      "legisGaGovId": 4970
+      "legisGaGovId": 4970,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/713cac52-0a57-4baa-8273-6eeca5b491df",
@@ -2104,6 +2330,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 795,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, House Committee on Retirement"
     },
     {
@@ -2133,7 +2362,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 859
+      "legisGaGovId": 859,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9249be26-54d2-467a-88ec-2588b886148d",
@@ -2149,7 +2381,7 @@
       "address": "State Capitol Room 131-A, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "john.lahood@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4923",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2018-02-19",
       "termStartYear": 2018,
@@ -2162,7 +2394,10 @@
         "Public and Community Health",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 4923
+      "legisGaGovId": 4923,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8106e2d8-e1e3-42a8-b550-fbd2627fa474",
@@ -2178,7 +2413,7 @@
       "address": "Room 612-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "johnny.chastain@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5057",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-02-06",
       "termStartYear": 2023,
@@ -2188,7 +2423,10 @@
         "Rural Development",
         "Small Business Development"
       ],
-      "legisGaGovId": 5057
+      "legisGaGovId": 5057,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/64012657-d026-411c-9525-3232524a5145",
@@ -2210,6 +2448,9 @@
       "termStartYear": 2005,
       "committees": [],
       "legisGaGovId": 73,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Speaker of the House"
     },
     {
@@ -2226,7 +2467,7 @@
       "address": "Room 601-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "jordan.ridley@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5019",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -2236,7 +2477,10 @@
         "Game, Fish and Parks",
         "Public Safety and Homeland Security"
       ],
-      "legisGaGovId": 5019
+      "legisGaGovId": 5019,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f36d2507-b19a-4ee5-b4f9-5c06df761edf",
@@ -2265,7 +2509,10 @@
         "Judiciary: Non-Civil",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 4936
+      "legisGaGovId": 4936,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/0e45048c-c1a4-415f-9ee4-5d09ea857e2e",
@@ -2294,7 +2541,10 @@
         "Industry and Labor",
         "Interstate Cooperation"
       ],
-      "legisGaGovId": 4893
+      "legisGaGovId": 4893,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8b62e64b-bf80-4967-832b-8fb92cd6c4b3",
@@ -2312,14 +2562,17 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5073",
       "birthDate": "1982-10-30",
       "birthYear": 1982,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2024,
       "committees": [
         "Agriculture and Consumer Affairs",
         "Interstate Cooperation",
         "Natural Resources and Environment"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/eb28f991-35c9-4d84-a907-5be56aed1aff",
@@ -2335,7 +2588,7 @@
       "address": "Room 611-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "karen.lupton@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5035",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -2344,7 +2597,10 @@
         "Energy, Utilities and Telecommunications",
         "Human Relations and Aging"
       ],
-      "legisGaGovId": 5035
+      "legisGaGovId": 5035,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f8db50e0-08ab-406c-ac8b-39c7038ef5ca",
@@ -2374,7 +2630,10 @@
         "Metropolitan Atlanta Rapid Transit Overview",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 4894
+      "legisGaGovId": 4894,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/27365f19-a138-4a9e-9f6e-11352932e5d5",
@@ -2403,7 +2662,10 @@
         "Small Business Development",
         "Urban Affairs"
       ],
-      "legisGaGovId": 95
+      "legisGaGovId": 95,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4b3fdb35-d3fb-40aa-843e-d3900df37ce4",
@@ -2419,7 +2681,7 @@
       "address": "Room 511-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "karlton.howard@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5056",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -2428,7 +2690,10 @@
         "Interstate Cooperation",
         "Public and Community Health"
       ],
-      "legisGaGovId": 5056
+      "legisGaGovId": 5056,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/97a40ea4-674f-4b84-8fd3-8bc2f3b4a35d",
@@ -2444,7 +2709,7 @@
       "address": "State Capitol Room 401-I, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "kasey.carpenter@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4911",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2017-11-20",
       "termStartYear": 2017,
@@ -2457,7 +2722,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 4911
+      "legisGaGovId": 4911,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bf68b3dc-ca81-49f9-8e33-fe27317183d3",
@@ -2487,7 +2755,10 @@
         "Rules",
         "Transportation"
       ],
-      "legisGaGovId": 92
+      "legisGaGovId": 92,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/eff357d0-3187-4a7b-93fe-2d54d010b093",
@@ -2514,7 +2785,10 @@
         "Small Business Development",
         "Urban Affairs"
       ],
-      "legisGaGovId": 4916
+      "legisGaGovId": 4916,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/275b772e-6407-4aaa-8bd6-ceddad1da7fa",
@@ -2541,7 +2815,10 @@
         "Motor Vehicles",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": 806
+      "legisGaGovId": 806,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/fc1a5e1f-6ce4-47ab-987b-095afa166359",
@@ -2568,7 +2845,10 @@
         "Natural Resources and Environment",
         "Public Safety and Homeland Security"
       ],
-      "legisGaGovId": 5030
+      "legisGaGovId": 5030,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1d9bb111-bf4f-4e4f-aa63-a2f6a94b566c",
@@ -2593,7 +2873,10 @@
         "Intragovernmental Coordination",
         "Public Safety and Homeland Security"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/7767ee85-7961-45ba-adc2-c3606b1c39b8",
@@ -2623,7 +2906,10 @@
         "Regulated Industries",
         "Transportation"
       ],
-      "legisGaGovId": 4992
+      "legisGaGovId": 4992,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/69493144-3e3e-49a8-9e1f-f9a948fd0ff3",
@@ -2639,7 +2925,7 @@
       "address": "State Capitol Room 401-C, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "lee.hawkins@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/19",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2013-01-14",
       "termStartYear": 2013,
@@ -2655,6 +2941,9 @@
         "Rules"
       ],
       "legisGaGovId": 19,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, House Committee on Health"
     },
     {
@@ -2671,7 +2960,7 @@
       "address": "Room 501-H, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "leesa.hagan@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5010",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2021-07-22",
       "termStartYear": 2021,
@@ -2683,7 +2972,10 @@
         "Rural Development",
         "Transportation"
       ],
-      "legisGaGovId": 5010
+      "legisGaGovId": 5010,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6971bb34-9ea4-4bdc-971e-c1a2c5de344c",
@@ -2701,7 +2993,7 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5053",
       "birthDate": "1975-01-31",
       "birthYear": 1975,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2022,
       "committees": [
         "Appropriations",
@@ -2709,7 +3001,10 @@
         "Interstate Cooperation",
         "Retirement"
       ],
-      "legisGaGovId": 5053
+      "legisGaGovId": 5053,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3a23acfd-5ce6-4e47-b641-1efdab05bdca",
@@ -2734,7 +3029,10 @@
         "Human Relations and Aging",
         "Interstate Cooperation"
       ],
-      "legisGaGovId": 5023
+      "legisGaGovId": 5023,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/7475f989-a4f9-4ac8-9188-26903a012d71",
@@ -2750,7 +3048,7 @@
       "address": "Room 512-F, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "long.tran@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5034",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -2759,7 +3057,10 @@
         "Natural Resources and Environment",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 5034
+      "legisGaGovId": 5034,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/ee575d7a-b5a1-419c-949d-4aa9290a67a1",
@@ -2775,7 +3076,7 @@
       "address": "Room 409-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "lydia.glaize@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5031",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -2784,7 +3085,10 @@
         "Education",
         "Higher Education"
       ],
-      "legisGaGovId": 5031
+      "legisGaGovId": 5031,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/945875f7-f3c5-4c75-acd6-a195a0f76b12",
@@ -2814,7 +3118,10 @@
         "Rules",
         "Small Business Development"
       ],
-      "legisGaGovId": 212
+      "legisGaGovId": 212,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8e209d95-2333-4aa2-a628-1bdcec0674f5",
@@ -2843,7 +3150,10 @@
         "Rural Development",
         "Transportation"
       ],
-      "legisGaGovId": 738
+      "legisGaGovId": 738,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/5e12fb82-1f69-46df-9ac5-a09ce51dd95b",
@@ -2873,7 +3183,10 @@
         "Urban Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 4902
+      "legisGaGovId": 4902,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6552dd8d-1020-4bbb-abfc-88975573ebd4",
@@ -2904,7 +3217,10 @@
         "Motor Vehicles",
         "Special Rules"
       ],
-      "legisGaGovId": 4935
+      "legisGaGovId": 4935,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9531d502-440c-48db-83c4-70dfbe9a9ea1",
@@ -2931,6 +3247,9 @@
         "Retirement"
       ],
       "legisGaGovId": 4999,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "website": "https://www.legis.ga.gov/members/house/4999"
     },
     {
@@ -2947,7 +3266,7 @@
       "address": "Room 507-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "maryann.santos@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5078",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -2956,7 +3275,10 @@
         "Judiciary Juvenile",
         "State Properties"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4aec761f-5117-4f43-a487-9d77418f0bfa",
@@ -2982,7 +3304,10 @@
         "Natural Resources and Environment",
         "Retirement"
       ],
-      "legisGaGovId": 4938
+      "legisGaGovId": 4938,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e6ca1b23-0972-4df6-ab04-6186cf9da814",
@@ -3011,7 +3336,10 @@
         "Public and Community Health",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 181
+      "legisGaGovId": 181,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9103b29e-964b-4637-9304-0e73216d7796",
@@ -3041,7 +3369,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 4966
+      "legisGaGovId": 4966,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/99f0a2a7-8817-4756-a40e-575e259890e7",
@@ -3071,6 +3402,9 @@
         "Regulated Industries"
       ],
       "legisGaGovId": 4886,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, Education Subcommittee - House Committee on Appropriations"
     },
     {
@@ -3102,7 +3436,10 @@
         "Rural Development",
         "Ways and Means"
       ],
-      "legisGaGovId": 781
+      "legisGaGovId": 781,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/0f4f3c5a-1192-4ec1-9698-4aef005b4875",
@@ -3118,7 +3455,7 @@
       "address": "Room 401-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "matt.reeves@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5040",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -3128,7 +3465,10 @@
         "Judiciary",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": 5040
+      "legisGaGovId": 5040,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/909e9026-e549-494b-be99-e8562a389e0c",
@@ -3157,7 +3497,10 @@
         "Insurance",
         "Natural Resources and Environment"
       ],
-      "legisGaGovId": 4934
+      "legisGaGovId": 4934,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f0af2586-d535-4e44-bcaa-65239f9390b1",
@@ -3182,7 +3525,10 @@
         "Creative Arts and Entertainment",
         "Special Rules"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/68185f1d-fa54-4571-b305-fcd6c7dc024e",
@@ -3198,7 +3544,7 @@
       "address": "Room 604-F, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "michael.smith@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/832",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2013-01-14",
       "termStartYear": 2013,
@@ -3209,7 +3555,10 @@
         "State Properties",
         "Transportation"
       ],
-      "legisGaGovId": 832
+      "legisGaGovId": 832,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/48b46caf-d38e-46ab-96ff-c268e23a7d76",
@@ -3235,7 +3584,10 @@
         "Public and Community Health",
         "Special Rules"
       ],
-      "legisGaGovId": 4983
+      "legisGaGovId": 4983,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f4f9be12-5d7c-4fae-8b7b-9e9d19d2282f",
@@ -3263,7 +3615,10 @@
         "Interstate Cooperation",
         "Rural Development"
       ],
-      "legisGaGovId": 4986
+      "legisGaGovId": 4986,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1831cc73-e694-4cea-83a4-b55c3495f76a",
@@ -3292,7 +3647,10 @@
         "Small Business Development",
         "Special Rules"
       ],
-      "legisGaGovId": 81
+      "legisGaGovId": 81,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bad14891-c7bc-4ac4-b23a-fb5ae3878d67",
@@ -3319,7 +3677,10 @@
         "Energy, Utilities and Telecommunications",
         "Urban Affairs"
       ],
-      "legisGaGovId": 794
+      "legisGaGovId": 794,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/c4c6c741-0cb4-4179-b46d-9983421b8fdd",
@@ -3337,7 +3698,7 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5018",
       "birthDate": "1994-05-04",
       "birthYear": 1994,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2022,
       "committees": [
         "Budget and Fiscal Affairs Oversight",
@@ -3345,7 +3706,10 @@
         "Small Business Development",
         "Transportation"
       ],
-      "legisGaGovId": 5018
+      "legisGaGovId": 5018,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/7ac30a66-1649-4a8c-a72f-a4b9a7ab1534",
@@ -3374,7 +3738,10 @@
         "Special Rules",
         "Transportation"
       ],
-      "legisGaGovId": 4964
+      "legisGaGovId": 4964,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/55074030-4d64-4da0-b68a-5e3945d00f25",
@@ -3392,14 +3759,17 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5081",
       "birthDate": "1971-07-11",
       "birthYear": 1971,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2024,
       "committees": [
         "Economic Development and Tourism",
         "Interstate Cooperation",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3252da04-a17e-4298-b19d-9dd2fbf29ded",
@@ -3429,7 +3799,10 @@
         "Small Business Development",
         "Ways and Means"
       ],
-      "legisGaGovId": 4960
+      "legisGaGovId": 4960,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/fdf78e39-985f-48c3-8ed3-ccf15946871f",
@@ -3445,7 +3818,7 @@
       "address": "Room 501-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "noelle.kahaian@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5075",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -3454,7 +3827,10 @@
         "Energy, Utilities and Telecommunications",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/dbb81f07-2181-48dd-b383-19870e08d4fd",
@@ -3479,7 +3855,10 @@
         "Intragovernmental Coordination",
         "Judiciary"
       ],
-      "legisGaGovId": 5036
+      "legisGaGovId": 5036,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/5c5ab5cb-54f6-4218-8d1d-a99d36bca436",
@@ -3508,6 +3887,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 4880,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Secretary"
     },
     {
@@ -3538,7 +3920,10 @@
         "State Planning and Community Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 811
+      "legisGaGovId": 811,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/80928bd9-c963-4b21-954c-c62ee9373064",
@@ -3554,7 +3939,7 @@
       "address": "Room 509-F, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "phil.olaleye@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5028",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -3563,7 +3948,10 @@
         "Governmental Affairs",
         "Information and Audits"
       ],
-      "legisGaGovId": 5028
+      "legisGaGovId": 5028,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/21651856-bba6-49fd-b3f8-8ed1b723e804",
@@ -3589,7 +3977,10 @@
         "Energy, Utilities and Telecommunications",
         "Interstate Cooperation"
       ],
-      "legisGaGovId": 5001
+      "legisGaGovId": 5001,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/08ee45fd-d3f4-4129-9e7c-27cf52533ed2",
@@ -3605,7 +3996,7 @@
       "address": "Room 601-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "reynaldo.martinez@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5045",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -3615,7 +4006,10 @@
         "Intragovernmental Coordination",
         "Small Business Development"
       ],
-      "legisGaGovId": 5045
+      "legisGaGovId": 5045,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e04bd985-5b75-4551-84a1-f9797ac495d2",
@@ -3641,7 +4035,10 @@
         "Higher Education",
         "Small Business Development"
       ],
-      "legisGaGovId": 4895
+      "legisGaGovId": 4895,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bc40f904-9c20-41d0-80d5-e5645d3e6935",
@@ -3667,7 +4064,10 @@
         "Motor Vehicles",
         "Special Rules"
       ],
-      "legisGaGovId": 4998
+      "legisGaGovId": 4998,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4d1f5379-01e9-4f58-9868-42acc07ec7a8",
@@ -3697,7 +4097,10 @@
         "Rules",
         "Transportation"
       ],
-      "legisGaGovId": 755
+      "legisGaGovId": 755,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1da20ad9-1a05-42ab-addb-7fbf295a0e5d",
@@ -3713,7 +4116,7 @@
       "address": "Room 501-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "rick.townsend@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5055",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -3723,7 +4126,10 @@
         "Judiciary Juvenile",
         "Natural Resources and Environment"
       ],
-      "legisGaGovId": 5055
+      "legisGaGovId": 5055,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/84eb7371-a332-4534-b3b3-542500c798f8",
@@ -3739,7 +4145,7 @@
       "address": "Room 408-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "rob.clifton@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5080",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -3749,7 +4155,10 @@
         "Interstate Cooperation",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/29210f3f-ec97-47c8-9492-b81154275109",
@@ -3778,6 +4187,9 @@
         "Rules"
       ],
       "legisGaGovId": 4993,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Caucus Chief Deputy Whip"
     },
     {
@@ -3794,7 +4206,7 @@
       "address": "Room 511-C, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "robert.dawson@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5072",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -3804,7 +4216,10 @@
         "Information and Audits",
         "Intragovernmental Coordination"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/f863b50d-c865-463a-830a-e5648837d9f7",
@@ -3834,7 +4249,10 @@
         "Resource Management Special",
         "Ways and Means"
       ],
-      "legisGaGovId": 791
+      "legisGaGovId": 791,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/32c3fbdd-4034-47d0-b7ab-0411bd200737",
@@ -3859,7 +4277,10 @@
         "State Planning and Community Affairs",
         "State Properties"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/aeaeb854-ff9c-47cb-8069-395b60ba05b2",
@@ -3888,7 +4309,10 @@
         "Urban Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 219
+      "legisGaGovId": 219,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d291834f-70cd-48b5-b7db-b05d23d74a4c",
@@ -3914,6 +4338,9 @@
         "Interstate Cooperation"
       ],
       "legisGaGovId": 5039,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "website": "https://www.legis.ga.gov/members/house/5039"
     },
     {
@@ -3930,7 +4357,7 @@
       "address": "Room 604-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "saira.draper@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5038",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -3941,6 +4368,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 5038,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Chief Deputy Whip"
     },
     {
@@ -3971,6 +4401,9 @@
         "Technology and Infrastructure Innovation"
       ],
       "legisGaGovId": 4901,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Whip"
     },
     {
@@ -3998,7 +4431,10 @@
         "Insurance",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": 766
+      "legisGaGovId": 766,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4ab15127-5b7a-40bc-8807-26e8e8a73397",
@@ -4014,7 +4450,7 @@
       "address": "Room 501-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "sandy.donatucci@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5077",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -4023,7 +4459,10 @@
         "Interstate Cooperation",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/91abe321-5ea4-4f17-b8d8-573d7cb913e6",
@@ -4039,7 +4478,7 @@
       "address": "Room 504-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "scott.hilton@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/4899",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2017-01-09",
       "termStartYear": 2017,
@@ -4052,7 +4491,10 @@
         "State Properties",
         "Ways and Means"
       ],
-      "legisGaGovId": 4899
+      "legisGaGovId": 4899,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/99ef9b20-6b1f-4831-8e58-a523de606cda",
@@ -4082,7 +4524,10 @@
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
-      "legisGaGovId": 769
+      "legisGaGovId": 769,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/702658f4-8382-479a-9416-79928239d5e7",
@@ -4098,7 +4543,7 @@
       "address": "Room 511-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "segun.adeyina@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5044",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -4107,7 +4552,10 @@
         "Education",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 5044
+      "legisGaGovId": 5044,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/15db25fc-273b-467f-b8f9-897337f40b65",
@@ -4138,6 +4586,9 @@
         "Rules"
       ],
       "legisGaGovId": 86,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Chairman, House Committee on Public & Community Health"
     },
     {
@@ -4193,7 +4644,10 @@
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
-      "legisGaGovId": 1878
+      "legisGaGovId": 1878,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9007dcd9-3246-4cf3-9185-7478b3a9ad7a",
@@ -4219,7 +4673,10 @@
         "Judiciary: Non-Civil",
         "State Planning and Community Affairs"
       ],
-      "legisGaGovId": 4994
+      "legisGaGovId": 4994,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b278b399-5ca3-4cd7-bc19-4053166577a2",
@@ -4246,7 +4703,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 143
+      "legisGaGovId": 143,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/059c0e54-cc7b-4605-aee6-58388026a2fb",
@@ -4267,7 +4727,10 @@
       "termStart": "2026-03-15",
       "termStartYear": 2026,
       "committees": [],
-      "legisGaGovId": 4903
+      "legisGaGovId": 4903,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/5474fbe2-6cdb-4ad2-9831-cdffaca442af",
@@ -4285,7 +4748,7 @@
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5025",
       "birthDate": "1985-07-12",
       "birthYear": 1985,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2022,
       "committees": [
         "Economic Development and Tourism",
@@ -4293,6 +4756,9 @@
         "Small Business Development"
       ],
       "legisGaGovId": 5025,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Treasurer"
     },
     {
@@ -4309,7 +4775,7 @@
       "address": "State Capitol Room 415, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "soo.hong@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5042",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-08",
       "termStartYear": 2023,
@@ -4320,6 +4786,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 5042,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Majority Caucus Vice-Chairman"
     },
     {
@@ -4350,6 +4819,9 @@
         "Ways and Means"
       ],
       "legisGaGovId": 819,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Vice-Chairman"
     },
     {
@@ -4377,7 +4849,10 @@
         "Rules",
         "Technology and Infrastructure Innovation"
       ],
-      "legisGaGovId": 762
+      "legisGaGovId": 762,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/432ef767-d4c8-4736-b2ac-96397205fb3d",
@@ -4407,7 +4882,10 @@
         "Judiciary: Non-Civil",
         "Rules"
       ],
-      "legisGaGovId": 4987
+      "legisGaGovId": 4987,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/80f4bbdf-02f3-4233-8456-e550e7e745af",
@@ -4436,7 +4914,10 @@
         "Retirement",
         "Small Business Development"
       ],
-      "legisGaGovId": 849
+      "legisGaGovId": 849,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3194a8e0-aaf8-4686-b2c9-a22521f85fff",
@@ -4465,7 +4946,10 @@
         "Game, Fish and Parks",
         "Small Business Development"
       ],
-      "legisGaGovId": 4961
+      "legisGaGovId": 4961,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/99082062-acd6-4c6b-bb45-2cfa071f19fc",
@@ -4494,7 +4978,10 @@
         "Public Safety and Homeland Security",
         "State Properties"
       ],
-      "legisGaGovId": 4962
+      "legisGaGovId": 4962,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/cabc1e6f-ba7c-4063-a778-707579f91ec8",
@@ -4510,7 +4997,7 @@
       "address": "Room 511-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "sylvia.baker@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5071",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -4519,7 +5006,10 @@
         "Defense and Veterans Affairs",
         "Special Rules"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/c5766526-3a5a-4d33-b5ff-a0d1d358d7ae",
@@ -4535,9 +5025,9 @@
       "address": "Room 507-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "tangie.herring@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5082",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2024,
       "committees": [
         "Agriculture and Consumer Affairs",
@@ -4545,7 +5035,10 @@
         "Economic Development and Tourism",
         "Urban Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d",
@@ -4572,6 +5065,9 @@
         "Rules"
       ],
       "legisGaGovId": 5029,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "House Minority Caucus Chairman"
     },
     {
@@ -4588,7 +5084,7 @@
       "address": "Room 404-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "tremaine.reese@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5050",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -4598,7 +5094,10 @@
         "Public and Community Health",
         "Resource Management Special"
       ],
-      "legisGaGovId": 5050
+      "legisGaGovId": 5050,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/aa7405f9-5c37-4ce8-a7eb-ac5949a6e776",
@@ -4614,7 +5113,7 @@
       "address": "Room 507-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "terry.cummings@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5024",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -4623,7 +5122,10 @@
         "Public Safety and Homeland Security",
         "State Properties"
       ],
-      "legisGaGovId": 5024
+      "legisGaGovId": 5024,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe",
@@ -4648,7 +5150,10 @@
         "Higher Education",
         "Information and Audits"
       ],
-      "legisGaGovId": 5046
+      "legisGaGovId": 5046,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/45567c87-3ba6-49ec-9ea2-5ebb880aa94c",
@@ -4678,7 +5183,10 @@
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
-      "legisGaGovId": 4885
+      "legisGaGovId": 4885,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6ac8933e-8dde-4902-8eec-61cc5a91c844",
@@ -4694,7 +5202,7 @@
       "address": "Room 504-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "trey.kelley@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/825",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2013-01-14",
       "termStartYear": 2013,
@@ -4708,7 +5216,10 @@
         "Rules",
         "Ways and Means"
       ],
-      "legisGaGovId": 825
+      "legisGaGovId": 825,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9dfc8ec3-0935-4d1d-877d-e05cf7a5dca5",
@@ -4736,7 +5247,10 @@
         "State Planning and Community Affairs",
         "Ways and Means"
       ],
-      "legisGaGovId": 876
+      "legisGaGovId": 876,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4b162447-89a7-4ffc-acbf-617e1ad87e2a",
@@ -4764,7 +5278,10 @@
         "Judiciary: Non-Civil",
         "Small Business Development"
       ],
-      "legisGaGovId": 4990
+      "legisGaGovId": 4990,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9deeb60b-4d1e-42b8-8052-d2808a30ea9a",
@@ -4780,7 +5297,7 @@
       "address": "Room 601-G, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "vance.smith@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/215",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2019-01-14",
       "termStartYear": 2019,
@@ -4793,7 +5310,10 @@
         "Transportation",
         "Ways and Means"
       ],
-      "legisGaGovId": 215
+      "legisGaGovId": 215,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b9050158-4a6d-4332-8ad2-769472f52e3e",
@@ -4809,12 +5329,15 @@
       "address": "Room 411-B, Coverdell Legislative Office Building, Atlanta, GA 30334",
       "email": "venola.mason@house.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/house/5095",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2026-04-18",
       "termStartYear": 2026,
       "committees": [],
       "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "website": "https://www.legis.ga.gov/members/house/5095"
     },
     {
@@ -4844,7 +5367,10 @@
         "Public Safety and Homeland Security",
         "Resource Management Special"
       ],
-      "legisGaGovId": 4989
+      "legisGaGovId": 4989,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e3b1be9c-b244-4466-9192-adc365a31cfb",
@@ -4871,7 +5397,10 @@
         "Natural Resources and Environment",
         "Urban Affairs"
       ],
-      "legisGaGovId": 4947
+      "legisGaGovId": 4947,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/97a002db-6151-4fdf-9bce-013a6344764f",
@@ -4899,7 +5428,10 @@
         "State Planning and Community Affairs",
         "Transportation"
       ],
-      "legisGaGovId": 4988
+      "legisGaGovId": 4988,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6f986b42-14f6-4147-9466-c49294331db9",
@@ -4925,7 +5457,10 @@
         "Public Safety and Homeland Security",
         "Ways and Means"
       ],
-      "legisGaGovId": 765
+      "legisGaGovId": 765,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ga-house-177-vacant",

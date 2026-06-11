@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-06-10T10:56:54.289972",
+    "generatedAt": "2026-06-11T11:23:47.532108",
     "source": "Open States API",
     "jurisdiction": "Georgia",
-    "count": 56
+    "count": 56,
+    "committeesAvailable": true
   },
   "members": [
     {
@@ -33,7 +34,10 @@
         "Judiciary",
         "Rules"
       ],
-      "legisGaGovId": 784
+      "legisGaGovId": 784,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
@@ -63,7 +67,10 @@
         "Regulated Industries and Utilities",
         "Rules"
       ],
-      "legisGaGovId": 9
+      "legisGaGovId": 9,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -90,7 +97,10 @@
         "Higher Education",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 4972
+      "legisGaGovId": 4972,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
@@ -121,7 +131,10 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "State Institutions and Property"
       ],
-      "legisGaGovId": 4908
+      "legisGaGovId": 4908,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
@@ -152,7 +165,10 @@
         "Judiciary",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": 4984
+      "legisGaGovId": 4984,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -181,7 +197,10 @@
         "Judiciary",
         "Public Safety"
       ],
-      "legisGaGovId": 835
+      "legisGaGovId": 835,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
@@ -208,7 +227,10 @@
         "Higher Education",
         "Regulated Industries and Utilities"
       ],
-      "legisGaGovId": 4971
+      "legisGaGovId": 4971,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
@@ -237,7 +259,10 @@
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax"
       ],
-      "legisGaGovId": 838
+      "legisGaGovId": 838,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
@@ -265,7 +290,10 @@
         "Science and Technology",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 4909
+      "legisGaGovId": 4909,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
@@ -295,6 +323,9 @@
         "Transportation"
       ],
       "legisGaGovId": 4982,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Majority Caucus Vice-Chair"
     },
     {
@@ -323,7 +354,10 @@
         "Transportation",
         "Urban Affairs"
       ],
-      "legisGaGovId": 157
+      "legisGaGovId": 157,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
@@ -351,7 +385,10 @@
         "State and Local Governmental Operations",
         "Transportation"
       ],
-      "legisGaGovId": 5007
+      "legisGaGovId": 5007,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
@@ -379,7 +416,10 @@
         "Rules",
         "Special Committee on Eliminating Georgia's Income Tax"
       ],
-      "legisGaGovId": 855
+      "legisGaGovId": 855,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
@@ -406,7 +446,10 @@
         "Interstate Cooperation",
         "Urban Affairs"
       ],
-      "legisGaGovId": 372
+      "legisGaGovId": 372,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
@@ -422,7 +465,7 @@
       "address": "Room 305-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "drew.echols@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5067",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -433,7 +476,10 @@
         "Retirement",
         "Science and Technology"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
@@ -463,7 +509,10 @@
         "State Institutions and Property",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 17
+      "legisGaGovId": 17,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
@@ -491,7 +540,10 @@
         "State and Local Governmental Operations",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 203
+      "legisGaGovId": 203,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
@@ -518,6 +570,9 @@
         "Judiciary"
       ],
       "legisGaGovId": 768,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Caucus Chair"
     },
     {
@@ -546,7 +601,10 @@
         "Natural Resources and the Environment",
         "Urban Affairs"
       ],
-      "legisGaGovId": 28
+      "legisGaGovId": 28,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
@@ -576,7 +634,10 @@
         "State and Local Governmental Operations",
         "Transportation"
       ],
-      "legisGaGovId": 751
+      "legisGaGovId": 751,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
@@ -603,7 +664,10 @@
         "Retirement",
         "State Institutions and Property"
       ],
-      "legisGaGovId": 10
+      "legisGaGovId": 10,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -635,7 +699,10 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "Transportation"
       ],
-      "legisGaGovId": 4925
+      "legisGaGovId": 4925,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
@@ -667,6 +734,9 @@
         "Rules"
       ],
       "legisGaGovId": 851,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Leader"
     },
     {
@@ -683,7 +753,7 @@
       "address": "Room 321-B, Coverdell Legislative Office Building, Atlanta, GA 30334",
       "email": "jaha.howard@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5090",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-12-31",
       "termStartYear": 2025,
@@ -693,7 +763,10 @@
         "Higher Education",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
@@ -727,6 +800,9 @@
         "Veterans, Military and Homeland Security"
       ],
       "legisGaGovId": 4980,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Majority Leader"
     },
     {
@@ -743,7 +819,7 @@
       "address": "State Capitol Room 420-D, 206 Washington St. SW, Atlanta, GA 30334",
       "email": "jason.dickerson@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5088",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-10-14",
       "termStartYear": 2025,
@@ -755,7 +831,10 @@
         "Transportation",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
@@ -784,7 +863,10 @@
         "Rules",
         "Urban Affairs"
       ],
-      "legisGaGovId": 754
+      "legisGaGovId": 754,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -810,7 +892,10 @@
         "Transportation",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 4942
+      "legisGaGovId": 4942,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
@@ -840,6 +925,9 @@
         "Veterans, Military and Homeland Security"
       ],
       "legisGaGovId": 4910,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Majority Caucus Secretary"
     },
     {
@@ -867,7 +955,10 @@
         "Urban Affairs",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
@@ -897,6 +988,9 @@
         "Rules"
       ],
       "legisGaGovId": 4981,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Whip"
     },
     {
@@ -913,12 +1007,15 @@
       "address": "Room 323-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "Lanny.Thomas@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5094",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": 2026,
       "committees": [],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994",
@@ -952,6 +1049,9 @@
         "Transportation"
       ],
       "legisGaGovId": 4878,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "President Pro Tempore (Senate)"
     },
     {
@@ -979,7 +1079,10 @@
         "Natural Resources and the Environment",
         "Rules"
       ],
-      "legisGaGovId": 723
+      "legisGaGovId": 723,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
@@ -1007,7 +1110,10 @@
         "Insurance and Labor",
         "Retirement"
       ],
-      "legisGaGovId": 850
+      "legisGaGovId": 850,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
@@ -1035,7 +1141,10 @@
         "Regulated Industries and Utilities",
         "Rules"
       ],
-      "legisGaGovId": 4907
+      "legisGaGovId": 4907,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
@@ -1064,7 +1173,10 @@
         "Higher Education",
         "Transportation"
       ],
-      "legisGaGovId": 4979
+      "legisGaGovId": 4979,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
@@ -1080,7 +1192,7 @@
       "address": "Room 305-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "mike.hodges@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5013",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2023-01-09",
       "termStartYear": 2023,
@@ -1092,7 +1204,10 @@
         "Insurance and Labor",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": 5013
+      "legisGaGovId": 5013,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
@@ -1122,6 +1237,9 @@
         "Special Committee on Eliminating Georgia's Income Tax"
       ],
       "legisGaGovId": 33,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Caucus Secretary"
     },
     {
@@ -1150,6 +1268,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 4978,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Caucus Vice Chair, Finance"
     },
     {
@@ -1177,7 +1298,10 @@
         "State Institutions and Property",
         "Urban Affairs"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
@@ -1193,7 +1317,7 @@
       "address": "Room 320-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "randal.mangham@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/161",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2025-01-13",
       "termStartYear": 2025,
@@ -1205,7 +1329,10 @@
         "Retirement",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
@@ -1237,6 +1364,9 @@
         "State and Local Governmental Operations"
       ],
       "legisGaGovId": 4926,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Majority Whip"
     },
     {
@@ -1266,7 +1396,10 @@
         "Rules",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": 4905
+      "legisGaGovId": 4905,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
@@ -1294,7 +1427,10 @@
         "Public Safety",
         "Retirement"
       ],
-      "legisGaGovId": 4977
+      "legisGaGovId": 4977,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
@@ -1320,7 +1456,10 @@
         "Higher Education",
         "State Institutions and Property"
       ],
-      "legisGaGovId": 311
+      "legisGaGovId": 311,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
@@ -1349,7 +1488,10 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": 837
+      "legisGaGovId": 837,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
@@ -1381,6 +1523,9 @@
         "Veterans, Military and Homeland Security"
       ],
       "legisGaGovId": 5016,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Majority Caucus Chair"
     },
     {
@@ -1408,7 +1553,10 @@
         "Natural Resources and the Environment",
         "Urban Affairs"
       ],
-      "legisGaGovId": 4924
+      "legisGaGovId": 4924,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
@@ -1438,6 +1586,9 @@
         "Urban Affairs"
       ],
       "legisGaGovId": 4985,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null,
       "leadershipRole": "Senate Minority Caucus Vice-Chair"
     },
     {
@@ -1472,7 +1623,10 @@
         "Special Committee on Eliminating Georgia's Income Tax",
         "Transportation"
       ],
-      "legisGaGovId": 752
+      "legisGaGovId": 752,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
@@ -1488,7 +1642,7 @@
       "address": "Room 322-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
       "email": "steven.mcneel@senate.ga.gov",
       "officialWebsiteUrl": "https://www.legis.ga.gov/members/senate/5093",
-      "birthDate": "",
+      "birthDate": null,
       "birthYear": null,
       "termStart": "2026-02-24",
       "termStartYear": 2026,
@@ -1500,7 +1654,10 @@
         "State and Local Governmental Operations",
         "Transportation"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
@@ -1527,7 +1684,10 @@
         "Judiciary",
         "Public Safety"
       ],
-      "legisGaGovId": null
+      "legisGaGovId": null,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
@@ -1555,7 +1715,10 @@
         "Regulated Industries and Utilities",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": 807
+      "legisGaGovId": 807,
+      "status": null,
+      "statusDate": null,
+      "statusNote": null
     },
     {
       "id": "ga-senate-7-vacant",
