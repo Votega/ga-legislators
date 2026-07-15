@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-07-13T10:29:07.360554",
+    "generatedAt": "2026-07-15T09:09:36.485165",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 180,
@@ -3249,8 +3249,7 @@
       "legisGaGovId": 4999,
       "status": null,
       "statusDate": null,
-      "statusNote": null,
-      "website": "https://www.legis.ga.gov/members/house/4999"
+      "statusNote": null
     },
     {
       "id": "ocd-person/7deae3f1-5548-4afe-9018-e8112945fd8d",
@@ -4340,8 +4339,7 @@
       "legisGaGovId": 5039,
       "status": null,
       "statusDate": null,
-      "statusNote": null,
-      "website": "https://www.legis.ga.gov/members/house/5039"
+      "statusNote": null
     },
     {
       "id": "ocd-person/2a66b922-b812-4c45-9786-478187cd5e33",
@@ -5337,8 +5335,7 @@
       "legisGaGovId": null,
       "status": null,
       "statusDate": null,
-      "statusNote": null,
-      "website": "https://www.legis.ga.gov/members/house/5095"
+      "statusNote": null
     },
     {
       "id": "ocd-person/546d682f-b256-4060-8fd3-084d7f118d43",
@@ -5465,23 +5462,23 @@
     {
       "id": "ga-house-177-vacant",
       "name": "Vacant",
-      "firstName": "",
-      "lastName": "",
-      "party": "",
+      "firstName": null,
+      "lastName": null,
+      "party": null,
       "chamber": "House of Representatives",
       "district": 177,
       "title": "Representative",
       "status": "Vacant",
       "statusDate": "2026-03-09",
       "statusNote": "Dexter Sharper (D) resigned effective March 9, 2026.",
-      "imageUrl": "",
-      "phone": "",
-      "address": "",
-      "email": "",
-      "officialWebsiteUrl": "",
-      "birthDate": "",
+      "imageUrl": null,
+      "phone": null,
+      "address": null,
+      "email": null,
+      "officialWebsiteUrl": null,
+      "birthDate": null,
       "birthYear": null,
-      "termStart": "",
+      "termStart": null,
       "termStartYear": null,
       "committees": [],
       "legisGaGovId": null
