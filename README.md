@@ -1,14 +1,15 @@
 # ga-legislators
 
-Current data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org) and automatically refreshed daily.
+Current data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). Member rosters refresh daily; voting records refresh weekly.
 
 ## Data Files
 
-| File | Contents |
-|---|---|
-| `data/all.json` | All members (House + Senate combined) |
-| `data/house.json` | House of Representatives members only |
-| `data/senate.json` | Senate members only |
+| File | Contents | Refresh |
+|---|---|---|
+| `data/all.json` | All members (House + Senate combined) | Daily |
+| `data/house.json` | House of Representatives members only | Daily |
+| `data/senate.json` | Senate members only | Daily |
+| `data/votes.json` | Passage-vote roll calls and how each member voted | Weekly |
 
 ## Schema
 
@@ -59,11 +60,63 @@ Members who left office mid-term include additional fields:
 | `statusDate` | string | Effective date of departure (ISO date) |
 | `statusNote` | string \| null | Context or source link (may contain markdown) |
 
+## Voting Records (`data/votes.json`)
+
+Passage votes — final up-or-down floor votes on a bill — for the current General Assembly session, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included.
+
+Members are joined to their votes by `id` — the same Open States person ID (`ocd-person/…`) used throughout `data/all.json`, `house.json`, and `senate.json`.
+
+### Structure
+
+```jsonc
+{
+  "metadata": { /* see below */ },
+  "votes":       { "<voteId>": { /* roll call details */ } },
+  "memberVotes": { "<personId>": [ { "voteId": "...", "vote": "Yea" }, ... ] }
+}
+```
+
+### `votes[voteId]`
+
+| Field | Type | Description |
+|---|---|---|
+| `bill` | string | Bill identifier (e.g. `"SB 29"`) |
+| `billUrl` | string | Link to the bill on legis.ga.gov |
+| `title` | string | Bill title |
+| `motionText` | string | Roll call description (e.g. `"Senate Vote #133 - 2025-2026 Regular Session"`) |
+| `date` | string | ISO date the vote was taken |
+| `yea` / `nay` | integer | Chamber-wide yea/nay counts |
+| `result` | string | `"Pass"` or `"Fail"` |
+
+### `memberVotes[personId]`
+
+An array of `{ "voteId": string, "vote": string }` — one entry per roll call that member participated in. `voteId` looks up the roll call in `votes` above.
+
+`vote` is one of:
+
+| Value | Meaning |
+|---|---|
+| `"Yea"` | Voted in favor |
+| `"Nay"` | Voted against |
+| `"Other"` | Absent, excused, not voting, or present — Open States collapses these into a single category for Georgia |
+
+### `metadata`
+
+| Field | Description |
+|---|---|
+| `generatedAt` | ISO timestamp of this file's generation |
+| `session` / `sessionName` | Legislative session covered |
+| `totalVotes` | Number of roll calls in `votes` |
+| `totalBillsSeen` | Number of bills the generator paginated through |
+| `paginationComplete` | `false` if a refresh didn't finish fetching every bill before stopping |
+| `duplicateVotesDropped` | Roll-call entries removed because a member appeared twice for the same vote (an upstream data artifact) |
+| `crossChamberDropped` | Entries removed because a member was erroneously attributed a vote from the chamber they don't belong to |
+
 ## Data Sources & Updates
 
 Member data originates from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org supplements this with a manual override layer to fill in term start dates, leadership roles, departure status, and other Georgia-specific details that Open States doesn't reliably capture.
 
-This repo is updated automatically each time VoteGA.org's daily workflow runs.
+`data/all.json`, `house.json`, and `senate.json` are updated automatically each time VoteGA.org's daily member-data workflow runs. `data/votes.json` is updated automatically each time VoteGA.org's weekly vote-data workflow runs — if that workflow fails (e.g. an upstream API outage), the file simply isn't touched that week rather than being overwritten with incomplete data, so it may occasionally be a few days staler than the weekly cadence implies.
 
 ## Reporting Corrections
 
