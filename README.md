@@ -1,6 +1,6 @@
 # ga-legislators
 
-Data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). The **current roster** refreshes daily; **voting records** refresh weekly. Because Georgia runs two-year sessions and the upstream data is replaced wholesale at each biennium, this repo also keeps a permanent **per-session archive** so prior General Assemblies are never lost.
+Data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). The **current roster** refreshes daily; **voting records** refresh weekly. A General Assembly is a two-year *biennium* — a regular session plus any special sessions the Governor convenes — and the upstream data is replaced wholesale over time, so this repo keeps a permanent **per-session archive**: each session's votes (and the frozen end-of-biennium roster) live in their own folder and are never lost.
 
 ## Current data
 
@@ -19,21 +19,21 @@ The live roster — always the members serving right now.
 
 ## Per-session archive
 
-Georgia's General Assembly sits for two-year sessions (e.g. `2025-2026`). Bills, votes, and — once a session ends — its final roster are archived under `sessions/<YYYY-YYYY>/` and **never overwritten** when a new session begins.
+Each session in the biennium gets its own folder under `sessions/<slug>/`, **never overwritten** when another session begins. Slugs: the **regular** session collapses to its biennium span (`2025-2026`); a **special** session keeps its identifier (`2026-ss`). Roll-call votes are archived per session; the roster is frozen once per General Assembly (see below).
 
 | File | Format | Contents |
 |---|---|---|
-| [`latest.json`](latest.json) | JSON | **Start here** — pointer to the current session and its file paths |
-| `sessions/<slug>/votes.json` | JSON | Passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) |
+| [`latest.json`](latest.json) | JSON | **Start here** — the biennium, `currentSession`, and a `sessions[]` list with each session's file paths |
+| `sessions/<slug>/votes.json` | JSON | That session's passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) |
 | `sessions/<slug>/votes.csv` | CSV | Spreadsheets — one row per roll-call vote |
 | `sessions/<slug>/votes.schema.json` | JSON Schema | Validating / typing the vote data |
-| `sessions/<slug>/members.json` | JSON | The roster as it stood at end of that session (frozen at sine die) |
-| `sessions/<slug>/members.csv` | CSV | Spreadsheet view of the frozen roster |
-| `sessions/<slug>/ROSTER.md` | Markdown | Readable snapshot of who served that session |
+| `sessions/<biennium>/members.json` | JSON | The roster as it stood at the end of the General Assembly (frozen at sine die) |
+| `sessions/<biennium>/members.csv` | CSV | Spreadsheet view of the frozen roster |
+| `sessions/<biennium>/ROSTER.md` | Markdown | Readable snapshot of who served that General Assembly |
 
-To find the current session programmatically, read `latest.json` and follow `files.votes` — don't hard-code a slug. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use `votes.json`'s `memberVotes`, joined to `members.csv` / `votes.csv`.
+Sessions in the current biennium: **2025-2026** (regular) and **2026-ss** (2026 special session). To resolve them programmatically, read `latest.json` and iterate its `sessions[]` (or follow `currentSession`) rather than hard-coding a slug. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use each session's `votes.json` `memberVotes`, joined to `members.csv` / `votes.csv`.
 
-> A session's `members.*` files appear only after that session is frozen (done deliberately at the end of the biennium); the *current* session's roster lives at `data/all.json` until then.
+> The **roster** is frozen once per General Assembly, at `sessions/<biennium>/members.*` — the membership is the same across a biennium's regular and special sessions. It appears only after the deliberate end-of-biennium freeze; until then the current roster lives at `data/all.json`. `latest.json`'s `rosterArchive` names its path.
 
 ## Schema
 
@@ -86,7 +86,7 @@ Members who left office mid-term include additional fields:
 
 ## Voting Records (`sessions/<slug>/votes.json`)
 
-Passage votes — final up-or-down floor votes on a bill — for a General Assembly session, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included. Resolve the current session's file via [`latest.json`](latest.json).
+Passage votes — final up-or-down floor votes on a bill — for one session of the General Assembly, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included. There is a `votes.json` per session; resolve their paths from [`latest.json`](latest.json)'s `sessions[]`.
 
 Members are joined to their votes by `id` — the same Open States person ID (`ocd-person/…`) used throughout `data/all.json`, `house.json`, and `senate.json`.
 
@@ -107,6 +107,7 @@ Members are joined to their votes by `id` — the same Open States person ID (`o
 | `bill` | string | Bill identifier (e.g. `"SB 29"`) |
 | `billUrl` | string | Link to the bill on legis.ga.gov |
 | `title` | string | Bill title |
+| `session` | string | Session id this roll call belongs to (`"2025_26"` regular, `"2026_ss"` special). All roll calls in one `sessions/<slug>/votes.json` share it. |
 | `motionText` | string | Roll call description (e.g. `"Senate Vote #133 - 2025-2026 Regular Session"`) |
 | `date` | string | ISO date the vote was taken |
 | `yea` / `nay` | integer | Chamber-wide yea/nay counts |
