@@ -1,13 +1,32 @@
 {
- "currentSession": "2025-2026",
- "sessionName": "2025-2026 Regular Session",
- "generatedAt": "2026-08-19T09:45:47.885088",
- "voteCount": 2223,
- "files": {
-  "votes": "sessions/2025-2026/votes.json",
-  "votesCsv": "sessions/2025-2026/votes.csv",
-  "votesSchema": "sessions/2025-2026/votes.schema.json"
- },
+ "biennium": "2025-2026",
+ "currentSession": "2026-ss",
+ "activeSession": "2026_ss",
+ "generatedAt": "2026-08-22T21:38:18.690173",
  "currentRoster": "data/all.json",
- "rosterArchive": "sessions/2025-2026/members.json"
+ "rosterArchive": "sessions/2025-2026/members.json",
+ "sessions": [
+  {
+   "id": "2025_26",
+   "name": "2025-2026 Regular Session",
+   "slug": "2025-2026",
+   "voteCount": 2223,
+   "files": {
+    "votes": "sessions/2025-2026/votes.json",
+    "votesCsv": "sessions/2025-2026/votes.csv",
+    "votesSchema": "sessions/2025-2026/votes.schema.json"
+   }
+  },
+  {
+   "id": "2026_ss",
+   "name": "2026 Special Session",
+   "slug": "2026-ss",
+   "voteCount": 280,
+   "files": {
+    "votes": "sessions/2026-ss/votes.json",
+    "votesCsv": "sessions/2026-ss/votes.csv",
+    "votesSchema": "sessions/2026-ss/votes.schema.json"
+   }
+  }
+ ]
 }
