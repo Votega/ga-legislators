@@ -4,12 +4,21 @@ Current data for all members of Georgia's General Assembly, maintained by [VoteG
 
 ## Data Files
 
-| File | Contents | Refresh |
-|---|---|---|
-| `data/all.json` | All members (House + Senate combined) | Daily |
-| `data/house.json` | House of Representatives members only | Daily |
-| `data/senate.json` | Senate members only | Daily |
-| `data/votes.json` | Passage-vote roll calls and how each member voted | Weekly |
+Pick the format that fits how you work — the CSV and Markdown files are flattened views of the same data in the JSON.
+
+| File | Format | Contents | Refresh |
+|---|---|---|---|
+| `data/all.json` | JSON | All members (House + Senate combined) | Daily |
+| `data/house.json` | JSON | House of Representatives members only | Daily |
+| `data/senate.json` | JSON | Senate members only | Daily |
+| `data/members.csv` | CSV | **Spreadsheets** — one row per legislator (executives excluded) | Daily |
+| `data/members.schema.json` | JSON Schema | Validating / typing the member data | Daily |
+| [`ROSTER.md`](ROSTER.md) | Markdown | **Reading** — the current Senate & House roster | Daily |
+| `data/votes.json` | JSON | Passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) | Weekly |
+| `data/votes.csv` | CSV | Spreadsheets — one row per roll-call vote | Weekly |
+| `data/votes.schema.json` | JSON Schema | Validating / typing the vote data | Weekly |
+
+> **Note:** `all.json` also contains 4 statewide **executives** (`chamber: "executive"`) — filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only. `members.csv` and `ROSTER.md` already exclude them. There is no per-member-vote CSV here (235 members × ~2,200 votes is too large for a repo file); use `votes.json`'s `memberVotes`, joined to `members.csv`/`votes.csv`.
 
 ## Schema
 
