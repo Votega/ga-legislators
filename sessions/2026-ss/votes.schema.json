@@ -1,0 +1,99 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/votes.schema.json",
+ "title": "Georgia General Assembly — Roll-call Votes",
+ "description": "Passage votes from the Georgia General Assembly (Open States), keyed by OCD vote id. memberVotes is keyed by OCD person id (the `id` in members data).",
+ "type": "object",
+ "required": [
+  "votes",
+  "memberVotes"
+ ],
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "votes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "bill": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "billUrl": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "session": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Session id, e.g. '2025_26' or '2026_ss'."
+     },
+     "motionText": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "yea": {
+      "type": "integer"
+     },
+     "nay": {
+      "type": "integer"
+     },
+     "result": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "memberVotes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "voteId": {
+       "type": "string"
+      },
+      "vote": {
+       "type": "string",
+       "enum": [
+        "Yea",
+        "Nay",
+        "Not Voting",
+        "Present",
+        "Absent",
+        "Excused",
+        "Other"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}
