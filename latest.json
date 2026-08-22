@@ -1,0 +1,13 @@
+{
+ "currentSession": "2025-2026",
+ "sessionName": "2025-2026 Regular Session",
+ "generatedAt": "2026-08-19T09:45:47.885088",
+ "voteCount": 2223,
+ "files": {
+  "votes": "sessions/2025-2026/votes.json",
+  "votesCsv": "sessions/2025-2026/votes.csv",
+  "votesSchema": "sessions/2025-2026/votes.schema.json"
+ },
+ "currentRoster": "data/all.json",
+ "rosterArchive": "sessions/2025-2026/members.json"
+}

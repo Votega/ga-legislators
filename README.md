@@ -1,10 +1,10 @@
 # ga-legislators
 
-Current data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). Member rosters refresh daily; voting records refresh weekly.
+Data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). The **current roster** refreshes daily; **voting records** refresh weekly. Because Georgia runs two-year sessions and the upstream data is replaced wholesale at each biennium, this repo also keeps a permanent **per-session archive** so prior General Assemblies are never lost.
 
-## Data Files
+## Current data
 
-Pick the format that fits how you work — the CSV and Markdown files are flattened views of the same data in the JSON.
+The live roster — always the members serving right now.
 
 | File | Format | Contents | Refresh |
 |---|---|---|---|
@@ -14,11 +14,26 @@ Pick the format that fits how you work — the CSV and Markdown files are flatte
 | `data/members.csv` | CSV | **Spreadsheets** — one row per legislator (executives excluded) | Daily |
 | `data/members.schema.json` | JSON Schema | Validating / typing the member data | Daily |
 | [`ROSTER.md`](ROSTER.md) | Markdown | **Reading** — the current Senate & House roster | Daily |
-| `data/votes.json` | JSON | Passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) | Weekly |
-| `data/votes.csv` | CSV | Spreadsheets — one row per roll-call vote | Weekly |
-| `data/votes.schema.json` | JSON Schema | Validating / typing the vote data | Weekly |
 
-> **Note:** `all.json` also contains 4 statewide **executives** (`chamber: "executive"`) — filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only. `members.csv` and `ROSTER.md` already exclude them. There is no per-member-vote CSV here (235 members × ~2,200 votes is too large for a repo file); use `votes.json`'s `memberVotes`, joined to `members.csv`/`votes.csv`.
+> **Note:** `all.json` also contains 4 statewide **executives** (`chamber: "executive"`) — filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only. `members.csv` and `ROSTER.md` already exclude them.
+
+## Per-session archive
+
+Georgia's General Assembly sits for two-year sessions (e.g. `2025-2026`). Bills, votes, and — once a session ends — its final roster are archived under `sessions/<YYYY-YYYY>/` and **never overwritten** when a new session begins.
+
+| File | Format | Contents |
+|---|---|---|
+| [`latest.json`](latest.json) | JSON | **Start here** — pointer to the current session and its file paths |
+| `sessions/<slug>/votes.json` | JSON | Passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) |
+| `sessions/<slug>/votes.csv` | CSV | Spreadsheets — one row per roll-call vote |
+| `sessions/<slug>/votes.schema.json` | JSON Schema | Validating / typing the vote data |
+| `sessions/<slug>/members.json` | JSON | The roster as it stood at end of that session (frozen at sine die) |
+| `sessions/<slug>/members.csv` | CSV | Spreadsheet view of the frozen roster |
+| `sessions/<slug>/ROSTER.md` | Markdown | Readable snapshot of who served that session |
+
+To find the current session programmatically, read `latest.json` and follow `files.votes` — don't hard-code a slug. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use `votes.json`'s `memberVotes`, joined to `members.csv` / `votes.csv`.
+
+> A session's `members.*` files appear only after that session is frozen (done deliberately at the end of the biennium); the *current* session's roster lives at `data/all.json` until then.
 
 ## Schema
 
@@ -69,9 +84,9 @@ Members who left office mid-term include additional fields:
 | `statusDate` | string | Effective date of departure (ISO date) |
 | `statusNote` | string \| null | Context or source link (may contain markdown) |
 
-## Voting Records (`data/votes.json`)
+## Voting Records (`sessions/<slug>/votes.json`)
 
-Passage votes — final up-or-down floor votes on a bill — for the current General Assembly session, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included.
+Passage votes — final up-or-down floor votes on a bill — for a General Assembly session, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included. Resolve the current session's file via [`latest.json`](latest.json).
 
 Members are joined to their votes by `id` — the same Open States person ID (`ocd-person/…`) used throughout `data/all.json`, `house.json`, and `senate.json`.
 
@@ -125,7 +140,7 @@ An array of `{ "voteId": string, "vote": string }` — one entry per roll call t
 
 Member data originates from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org supplements this with a manual override layer to fill in term start dates, leadership roles, departure status, and other Georgia-specific details that Open States doesn't reliably capture.
 
-`data/all.json`, `house.json`, and `senate.json` are updated automatically each time VoteGA.org's daily member-data workflow runs. `data/votes.json` is updated automatically each time VoteGA.org's weekly vote-data workflow runs — if that workflow fails (e.g. an upstream API outage), the file simply isn't touched that week rather than being overwritten with incomplete data, so it may occasionally be a few days staler than the weekly cadence implies.
+`data/all.json`, `house.json`, and `senate.json` are updated automatically each time VoteGA.org's daily member-data workflow runs. The current session's `sessions/<slug>/votes.*` files (and `latest.json`) are updated each time VoteGA.org's weekly vote-data workflow runs — if that workflow fails (e.g. an upstream API outage), the files simply aren't touched that week rather than being overwritten with incomplete data, so they may occasionally be a few days staler than the weekly cadence implies. When a new two-year session begins, the previous session's directory is left in place untouched, and a new `sessions/<slug>/` is created for the incoming session.
 
 ## Reporting Corrections
 

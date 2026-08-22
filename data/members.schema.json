@@ -1,0 +1,109 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/data/members.schema.json",
+ "title": "Georgia General Assembly — Members",
+ "description": "Georgia state legislators from Open States. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
+ "type": "object",
+ "required": [
+  "members"
+ ],
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "members": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "chamber"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "description": "OCD person id (join key into votes.json's memberVotes)."
+     },
+     "name": {
+      "type": "string"
+     },
+     "firstName": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "lastName": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "party": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": "string",
+      "enum": [
+       "Senate",
+       "House of Representatives",
+       "executive"
+      ]
+     },
+     "district": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "status": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "null = sitting; else Vacant/Suspended/Resigned/Removed/Deceased."
+     },
+     "phone": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "email": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "officialWebsiteUrl": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "committees": {
+      "type": "array"
+     },
+     "legisGaGovId": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}
