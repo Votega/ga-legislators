@@ -35,6 +35,13 @@
        "null"
       ]
      },
+     "session": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Session id, e.g. '2025_26' or '2026_ss'."
+     },
      "motionText": {
       "type": [
        "string",
