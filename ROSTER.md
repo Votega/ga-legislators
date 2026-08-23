@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-08-23T07:33:37.203309 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-08-23T13:02:45.624636 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions).
 
@@ -15,12 +15,12 @@ _Last updated 2026-08-23T07:33:37.203309 · 56 Senators, 180 Representatives (cu
 | 4 | Billy Hickman | Republican | 404-463-1371 | [site](https://www.legis.ga.gov/members/senate/4972) |
 | 5 | Sheikh Rahman | Democratic | 404-656-7871 | [site](https://www.legis.ga.gov/members/senate/4924) |
 | 6 | Matt Brass | Republican | 404-656-0057 | [site](https://www.legis.ga.gov/members/senate/4907) |
-| 7 | Vacant _(Vacant)_ |  |  |  |
+| 7 | Adrienne White Carden | Democratic | 404-463-5263 | [site](https://www.legis.ga.gov/members/senate/5097) |
 | 8 | Russ Goodman | Republican | 404-463-1318 | [site](https://www.legis.ga.gov/members/senate/4977) |
 | 9 | Nikki Merritt | Democratic | 404-463-1310 | [site](https://www.legis.ga.gov/members/senate/4978) |
 | 10 | Emanuel Jones | Democratic | 404-656-0502 | [site](https://www.legis.ga.gov/members/senate/28) |
 | 11 | Sam Watson | Republican | 404-656-0065 | [site](https://www.legis.ga.gov/members/senate/837) |
-| 12 | Vacant _(Vacant)_ |  |  |  |
+| 12 | Freddie Powell Sims | Democratic | 404-463-5259 | [site](https://www.legis.ga.gov/members/senate/209) |
 | 13 | Carden Summers | Republican | 404-656-9224 | [site](https://www.legis.ga.gov/members/senate/4971) |
 | 14 | Josh McLaurin | Democratic | 404-463-4228 | [site](https://www.legis.ga.gov/members/senate/4942) |
 | 15 | Ed Harbison | Democratic | 404-656-0074 | [site](https://www.legis.ga.gov/members/senate/17) |
