@@ -1,0 +1,97 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/scorecard.schema.json",
+ "title": "Georgia General Assembly — Voting Scorecard (derived)",
+ "description": "Party-unity and participation scores per legislator, DERIVED from votes.json + members.json in this repo. Party unity = share of party-line roll calls (own-party majority opposite the other party's majority) on which the member voted with their own caucus. Participation = share of the member's own-chamber passage roll calls on which they cast a Yea or Nay.",
+ "type": "object",
+ "required": [
+  "members"
+ ],
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "members": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "chamber"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "description": "OCD person id (join key into votes.json / members data)."
+     },
+     "name": {
+      "type": "string"
+     },
+     "party": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": "string",
+      "enum": [
+       "Senate",
+       "House of Representatives"
+      ]
+     },
+     "district": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "partyUnity": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "null when undefined (independent, or no party-line votes)."
+     },
+     "independenceRate": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "1 - partyUnity."
+     },
+     "votedWithParty": {
+      "type": "integer"
+     },
+     "partyLineVotes": {
+      "type": "integer",
+      "description": "Denominator for partyUnity."
+     },
+     "participationRate": {
+      "type": "number"
+     },
+     "missedRate": {
+      "type": "number",
+      "description": "1 - participationRate."
+     },
+     "cast": {
+      "type": "integer"
+     },
+     "missed": {
+      "type": "integer"
+     },
+     "totalRollCalls": {
+      "type": "integer"
+     },
+     "presidingOfficer": {
+      "type": "boolean",
+      "description": "Votes only to break ties by custom; partyUnity is typically null."
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}
