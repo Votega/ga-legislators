@@ -35,6 +35,15 @@ Sessions in the current biennium: **2025-2026** (regular) and **2026-ss** (2026 
 
 > The **roster** is frozen once per General Assembly, at `sessions/<biennium>/members.*` — the membership is the same across a biennium's regular and special sessions. It appears only after the deliberate end-of-biennium freeze; until then the current roster lives at `data/all.json`. `latest.json`'s `rosterArchive` names its path.
 
+### Voting scorecard (derived)
+
+`sessions/2025-2026/scorecard.csv` · `scorecard.json` — party-unity and
+participation scores for every sitting member, computed from `votes.json`
+joined with the roster. Party unity = share of party-line roll calls (own-party
+majority opposite the other party's majority) voted with your own caucus;
+participation = share of your chamber's passage roll calls on which you cast a
+Yea or Nay. See `scorecard.schema.json`; root pointer at `scorecard-latest.json`.
+
 ## Schema
 
 Each member record includes the following fields:
