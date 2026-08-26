@@ -1,0 +1,228 @@
+name,party,chamber,district,partyUnity,independenceRate,votedWithParty,partyLineVotes,participationRate,missedRate,cast,missed,totalRollCalls,presidingOfficer,id
+Mike Cameron,Republican,House of Representatives,1,1.0,0.0,344,344,0.9936,0.0064,1241,8,1249,false,ocd-person/f4f9be12-5d7c-4fae-8b7b-9e9d19d2282f
+Steve Tarvin,Republican,House of Representatives,2,0.9942,0.0058,341,343,0.9872,0.0128,1233,16,1249,false,ocd-person/80f4bbdf-02f3-4233-8456-e550e7e745af
+Mitchell Horner,Republican,House of Representatives,3,0.9822,0.0178,331,337,0.9544,0.0456,1192,57,1249,false,ocd-person/c4c6c741-0cb4-4179-b46d-9983421b8fdd
+Kasey Carpenter,Republican,House of Representatives,4,1.0,0.0,335,335,0.9456,0.0544,1181,68,1249,false,ocd-person/97a40ea4-674f-4b84-8fd3-8bc2f3b4a35d
+Matt Barton,Republican,House of Representatives,5,1.0,0.0,344,344,0.9984,0.0016,1247,2,1249,false,ocd-person/9103b29e-964b-4637-9304-0e73216d7796
+Jason Ridley,Republican,House of Representatives,6,0.997,0.003,327,328,0.9962,0.0038,1049,4,1053,false,ocd-person/594aa971-500b-42a4-9d7a-1ceb4c029220
+Johnny Chastain,Republican,House of Representatives,7,1.0,0.0,344,344,0.9936,0.0064,1241,8,1249,false,ocd-person/8106e2d8-e1e3-42a8-b550-fbd2627fa474
+Stan Gunter,Republican,House of Representatives,8,1.0,0.0,344,344,0.968,0.032,1209,40,1249,false,ocd-person/432ef767-d4c8-4736-b2ac-96397205fb3d
+Will Wade,Republican,House of Representatives,9,0.9964,0.0036,273,274,0.9143,0.0857,1142,107,1249,false,ocd-person/97a002db-6151-4fdf-9bce-013a6344764f
+Victor Anderson,Republican,House of Representatives,10,0.9971,0.0029,341,342,0.992,0.008,1239,10,1249,false,ocd-person/546d682f-b256-4060-8fd3-084d7f118d43
+Rick Jasperse,Republican,House of Representatives,11,0.9942,0.0058,342,344,0.9584,0.0416,1197,52,1249,false,ocd-person/4d1f5379-01e9-4f58-9868-42acc07ec7a8
+Eddie Lumsden,Republican,House of Representatives,12,1.0,0.0,344,344,0.9992,0.0008,1248,1,1249,false,ocd-person/f33d979c-554c-433e-ad0f-837eef1da589
+Katie Dempsey,Republican,House of Representatives,13,1.0,0.0,344,344,0.9704,0.0296,1212,37,1249,false,ocd-person/bf68b3dc-ca81-49f9-8e33-fe27317183d3
+Mitchell Scoggins,Republican,House of Representatives,14,1.0,0.0,343,343,0.9848,0.0152,1230,19,1249,false,ocd-person/7ac30a66-1649-4a8c-a72f-a4b9a7ab1534
+Matthew Gambill,Republican,House of Representatives,15,0.9971,0.0029,342,343,0.9832,0.0168,1228,21,1249,false,ocd-person/909e9026-e549-494b-be99-e8562a389e0c
+Trey Kelley,Republican,House of Representatives,16,0.9942,0.0058,340,342,0.9808,0.0192,1225,24,1249,false,ocd-person/6ac8933e-8dde-4902-8eec-61cc5a91c844
+Martin Momtahan,Republican,House of Representatives,17,0.997,0.003,336,337,0.9672,0.0328,1208,41,1249,false,ocd-person/6552dd8d-1020-4bbb-abfc-88975573ebd4
+Tyler Smith,Republican,House of Representatives,18,1.0,0.0,11,11,1.0,0.0,621,0,621,false,ocd-person/4b162447-89a7-4ffc-acbf-617e1ad87e2a
+Joseph Gullett,Republican,House of Representatives,19,0.9971,0.0029,339,340,0.9856,0.0144,1231,18,1249,false,ocd-person/f36d2507-b19a-4ee5-b4f9-5c06df761edf
+Charlice Byrd,Republican,House of Representatives,20,0.9294,0.0706,316,340,0.9504,0.0496,1187,62,1249,false,ocd-person/0d75f0d9-0242-4f72-b4f3-1cd085eb26b6
+Brad Thomas,Republican,House of Representatives,21,0.9971,0.0029,341,342,0.9784,0.0216,1222,27,1249,false,ocd-person/933a841a-19d6-42c2-a046-991ff9903a23
+Jordan Ridley,Republican,House of Representatives,22,0.997,0.003,327,328,0.9962,0.0038,1049,4,1053,false,ocd-person/56f28f8a-9296-4e69-9bd4-d0101a42b359
+Bill Fincher,Republican,House of Representatives,23,0.9967,0.0033,303,304,0.991,0.009,768,7,775,false,ocd-person/f2444048-8c14-45b2-b700-37f7899fa5bb
+Carter Barrett,Republican,House of Representatives,24,0.9942,0.0058,340,342,0.98,0.02,1224,25,1249,false,ocd-person/72370a62-92f4-46f1-ab7b-193a643085b8
+Todd Jones,Republican,House of Representatives,25,1.0,0.0,2,2,1.0,0.0,581,0,581,false,ocd-person/45567c87-3ba6-49ec-9ea2-5ebb880aa94c
+Lauren McDonald,Republican,House of Representatives,26,1.0,0.0,344,344,0.9936,0.0064,1241,8,1249,false,ocd-person/7767ee85-7961-45ba-adc2-c3606b1c39b8
+Lee Hawkins,Republican,House of Representatives,27,1.0,0.0,344,344,1.0,0.0,1249,0,1249,false,ocd-person/69493144-3e3e-49a8-9e1f-f9a948fd0ff3
+Brent Cox,Republican,House of Representatives,28,0.9942,0.0058,342,344,0.9888,0.0112,1235,14,1249,false,ocd-person/c0b205e2-1542-4802-896d-fa7b2b6fc4d9
+Matt Dubnik,Republican,House of Representatives,29,0.9797,0.0203,337,344,0.9888,0.0112,1235,14,1249,false,ocd-person/99f0a2a7-8817-4756-a40e-575e259890e7
+Derrick McCollum,Republican,House of Representatives,30,0.9971,0.0029,342,343,0.972,0.028,1214,35,1249,false,ocd-person/3a323603-753e-4380-993c-9bb2a7fc55f3
+Emory Dunahoo,Republican,House of Representatives,31,0.9735,0.0265,331,340,0.9392,0.0608,1173,76,1249,false,ocd-person/3b2b9f31-6859-4582-8d82-581597c0c178
+Chris Erwin,Republican,House of Representatives,32,1.0,0.0,344,344,0.9976,0.0024,1246,3,1249,false,ocd-person/d79c3e9b-b73d-416b-9bfd-8a0338d8256c
+Alan Powell,Republican,House of Representatives,33,0.9942,0.0058,342,344,0.992,0.008,1239,10,1249,false,ocd-person/bb48e87c-29db-4a4d-a278-fa299be2020e
+Devan Seabaugh,Republican,House of Representatives,34,1.0,0.0,344,344,0.9928,0.0072,1240,9,1249,false,ocd-person/8f76af22-98dc-4e1e-ba99-75b87c1129d6
+Lisa Campbell,Democratic,House of Representatives,35,0.0,1.0,0,1,1.0,0.0,781,0,781,false,ocd-person/3a23acfd-5ce6-4e47-b641-1efdab05bdca
+Ginny Ehrhart,Republican,House of Representatives,36,1.0,0.0,343,343,0.9488,0.0512,1185,64,1249,false,ocd-person/be05ace3-ea73-4f3f-85ae-c5ed313d4cbe
+Mary Frances Williams,Democratic,House of Representatives,37,0.9968,0.0032,313,314,0.9497,0.0503,887,47,934,false,ocd-person/4aec761f-5117-4f43-a487-9d77418f0bfa
+David Wilkerson,Democratic,House of Representatives,38,0.9734,0.0266,329,338,0.9135,0.0865,1141,108,1249,false,ocd-person/83a7bbf2-d69c-4813-bbeb-52820e6b9af4
+Terry Cummings,Democratic,House of Representatives,39,0.9731,0.0269,325,334,0.9207,0.0793,1150,99,1249,false,ocd-person/aa7405f9-5c37-4ce8-a7eb-ac5949a6e776
+Kimberly New,Republican,House of Representatives,40,1.0,0.0,343,343,0.988,0.012,1234,15,1249,false,ocd-person/fc1a5e1f-6ce4-47ab-987b-095afa166359
+Michael Smith,Democratic,House of Representatives,41,0.0,1.0,0,11,1.0,0.0,621,0,621,false,ocd-person/68185f1d-fa54-4571-b305-fcd6c7dc024e
+Gabriel Sanchez,Democratic,House of Representatives,42,0.9942,0.0058,340,342,0.9416,0.0584,1176,73,1249,false,ocd-person/bd990496-ea34-4b79-8d6f-68cfed424c15
+Solomon Adesanya,Democratic,House of Representatives,43,0.973,0.027,324,333,0.9255,0.0745,1156,93,1249,false,ocd-person/5474fbe2-6cdb-4ad2-9831-cdffaca442af
+Don Parsons,Republican,House of Representatives,44,0.994,0.006,333,335,0.98,0.02,1224,25,1249,false,ocd-person/81dde544-49e9-4fb0-9313-32eacaf6194b
+Sharon Cooper,Republican,House of Representatives,45,1.0,0.0,338,338,0.9432,0.0568,1178,71,1249,false,ocd-person/15db25fc-273b-467f-b8f9-897337f40b65
+John Carson,Republican,House of Representatives,46,0.9971,0.0029,343,344,0.8735,0.1265,1091,158,1249,false,ocd-person/713cac52-0a57-4baa-8273-6eeca5b491df
+Jan Jones,Republican,House of Representatives,47,1.0,0.0,2,2,1.0,0.0,581,0,581,false,ocd-person/85740034-23b0-4001-9190-8948bd9f3b37
+Scott Hilton,Republican,House of Representatives,48,0.9971,0.0029,343,344,0.9648,0.0352,1205,44,1249,false,ocd-person/91abe321-5ea4-4f17-b8d8-573d7cb913e6
+Chuck Martin,Republican,House of Representatives,49,1.0,0.0,264,264,0.9095,0.0905,1136,113,1249,false,ocd-person/42517dd7-eccb-4d22-a795-cbd010b69ee6
+Michelle Au,Democratic,House of Representatives,50,0.9464,0.0536,318,336,0.9055,0.0945,1131,118,1249,false,ocd-person/48b46caf-d38e-46ab-96ff-c268e23a7d76
+Esther Panitch,Democratic,House of Representatives,51,0.9265,0.0735,315,340,0.9752,0.0248,1218,31,1249,false,ocd-person/bdc621be-7296-4383-8c45-b4533d1c106c
+Shea Roberts,Democratic,House of Representatives,52,0.9677,0.0323,330,341,0.9648,0.0352,1205,44,1249,false,ocd-person/9007dcd9-3246-4cf3-9185-7478b3a9ad7a
+Deborah Silcox,Republican,House of Representatives,53,0.9877,0.0123,161,163,0.799,0.201,998,251,1249,false,ocd-person/b824f8fd-7343-449d-8027-fcd0afaf1949
+Betsy Holland,Democratic,House of Representatives,54,0.9763,0.0237,329,337,0.9087,0.0913,1135,114,1249,false,ocd-person/c2c81ffc-f4b1-40f4-96b0-6309f89902ee
+Inga Willis,Democratic,House of Representatives,55,1.0,0.0,291,291,0.8639,0.1361,1079,170,1249,false,ocd-person/f02d369f-2d48-4d8d-853d-77ce5a8810fc
+Bryce Berry,Democratic,House of Representatives,56,1.0,0.0,342,342,0.9488,0.0512,1185,64,1249,false,ocd-person/b1187e7a-8cea-4e91-9c9f-7c7c61df3c85
+Stacey Evans,Democratic,House of Representatives,57,0.9738,0.0262,334,343,0.9816,0.0184,1226,23,1249,false,ocd-person/fa5d8d09-a0b9-4ba4-93da-a24902530416
+Park Cannon,Democratic,House of Representatives,58,0.25,0.75,1,4,0.9915,0.0085,580,5,585,false,ocd-person/5c5ab5cb-54f6-4218-8d1d-a99d36bca436
+Phil Olaleye,Democratic,House of Representatives,59,0.9883,0.0117,339,343,0.9744,0.0256,1217,32,1249,false,ocd-person/80928bd9-c963-4b21-954c-c62ee9373064
+Sheila Jones,Democratic,House of Representatives,60,0.0,1.0,0,2,1.0,0.0,581,0,581,false,ocd-person/b278b399-5ca3-4cd7-bc19-4053166577a2
+Mekyah McQueen,Democratic,House of Representatives,61,1.0,0.0,332,332,0.8559,0.1441,1069,180,1249,false,ocd-person/f0af2586-d535-4e44-bcaa-65239f9390b1
+Tanya Miller,Democratic,House of Representatives,62,0.988,0.012,329,333,0.8527,0.1473,1065,184,1249,false,ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d
+Kim Schofield,Democratic,House of Representatives,63,1.0,0.0,344,344,0.988,0.012,1234,15,1249,false,ocd-person/eff357d0-3187-4a7b-93fe-2d54d010b093
+Robert Dawson,Democratic,House of Representatives,65,0.9086,0.0914,308,339,0.984,0.016,1229,20,1249,false,ocd-person/5d77204f-89e7-43df-bccb-a08b9956132d
+Kimberly Alexander,Democratic,House of Representatives,66,0.9942,0.0058,342,344,0.9904,0.0096,1237,12,1249,false,ocd-person/275b772e-6407-4aaa-8bd6-ceddad1da7fa
+Lydia Glaize,Democratic,House of Representatives,67,0.9526,0.0474,241,253,0.8903,0.1097,1112,137,1249,false,ocd-person/ee575d7a-b5a1-419c-949d-4aa9290a67a1
+Derrick Jackson,Democratic,House of Representatives,68,1.0,0.0,23,23,0.9846,0.0154,447,7,454,false,ocd-person/9046fcb2-f3eb-4233-bd92-32c94e60f9df
+Debra Bazemore,Democratic,House of Representatives,69,1.0,0.0,337,337,0.9151,0.0849,1143,106,1249,false,ocd-person/1bb8d14b-9d5d-4edd-8c93-37e95991a8e4
+Lynn Smith,Republican,House of Representatives,70,1.0,0.0,11,11,1.0,0.0,621,0,621,false,ocd-person/945875f7-f3c5-4c75-acd6-a195a0f76b12
+Jutt Howard,Republican,House of Representatives,71,1.0,0.0,2,2,0.9756,0.0244,761,19,780,false,ocd-person/8b62e64b-bf80-4967-832b-8fb92cd6c4b3
+David Huddleston,Republican,House of Representatives,72,1.0,0.0,344,344,0.9984,0.0016,1247,2,1249,false,ocd-person/9bcfa0eb-ee7d-4762-9555-7bc4a67d6417
+Josh Bonner,Republican,House of Representatives,73,0.9971,0.0029,342,343,0.9752,0.0248,1218,31,1249,false,ocd-person/0e45048c-c1a4-415f-9ee4-5d09ea857e2e
+Robert Flournoy,Democratic,House of Representatives,74,0.9474,0.0526,324,342,0.9856,0.0144,1231,18,1249,false,ocd-person/32c3fbdd-4034-47d0-b7ab-0411bd200737
+Eric Bell,Democratic,House of Representatives,75,0.9909,0.0091,328,331,0.8959,0.1041,1119,130,1249,false,ocd-person/fe4b934e-8976-4c62-bcb0-ed8ae9782560
+Sandra Scott,Democratic,House of Representatives,76,1.0,0.0,341,341,0.9295,0.0705,1161,88,1249,false,ocd-person/21c6cae1-bcd2-4403-ad39-af04b64ce55c
+Rhonda Burnough,Democratic,House of Representatives,77,1.0,0.0,343,343,0.9768,0.0232,1220,29,1249,false,ocd-person/e04bd985-5b75-4551-84a1-f9797ac495d2
+Demetrius Douglas,Democratic,House of Representatives,78,0.9819,0.0181,325,331,0.9159,0.0841,1144,105,1249,false,ocd-person/016fb7f0-2b08-4587-b7f2-8d18c1d9b8f5
+Yasmin Neal,Democratic,House of Representatives,79,0.9776,0.0224,306,313,0.8279,0.1721,1034,215,1249,false,ocd-person/6f986b42-14f6-4147-9466-c49294331db9
+Long Tran,Democratic,House of Representatives,80,0.9331,0.0669,321,344,0.98,0.02,1224,25,1249,false,ocd-person/7475f989-a4f9-4ac8-9188-26903a012d71
+Noelle Kahaian,Republican,House of Representatives,81,0.9672,0.0328,324,335,0.988,0.012,1234,15,1249,false,ocd-person/fdf78e39-985f-48c3-8ed3-ccf15946871f
+Karen Mathiak,Republican,House of Representatives,82,1.0,0.0,344,344,0.9912,0.0088,1238,11,1249,false,ocd-person/f8db50e0-08ab-406c-ac8b-39c7038ef5ca
+Karen Lupton,Democratic,House of Representatives,83,0.9826,0.0174,338,344,0.964,0.036,1204,45,1249,false,ocd-person/eb28f991-35c9-4d84-a907-5be56aed1aff
+Mary Margaret Oliver,Democratic,House of Representatives,84,0.955,0.045,318,333,0.8199,0.1801,1024,225,1249,false,ocd-person/e6ca1b23-0972-4df6-ab04-6186cf9da814
+Karla Drenner,Democratic,House of Representatives,85,0.9707,0.0293,331,341,0.9656,0.0344,1206,43,1249,false,ocd-person/27365f19-a138-4a9e-9f6e-11352932e5d5
+Imani Barnes,Democratic,House of Representatives,86,0.9643,0.0357,324,336,0.9359,0.0641,1169,80,1249,false,ocd-person/2a68d594-e7d5-49cd-b615-6efb872430c3
+Viola Davis,Democratic,House of Representatives,87,0.9825,0.0175,337,343,0.996,0.004,1244,5,1249,false,ocd-person/e3b1be9c-b244-4466-9192-adc365a31cfb
+Billy Mitchell,Democratic,House of Representatives,88,0.965,0.035,331,343,0.9432,0.0568,1178,71,1249,false,ocd-person/96307d79-07d4-4f59-9dd3-b7f994d566d5
+Omari Crawford,Democratic,House of Representatives,89,0.9388,0.0612,184,196,0.8215,0.1785,1026,223,1249,false,ocd-person/dbb81f07-2181-48dd-b383-19870e08d4fd
+Saira Draper,Democratic,House of Representatives,90,0.9574,0.0426,315,329,0.8903,0.1097,1112,137,1249,false,ocd-person/2a66b922-b812-4c45-9786-478187cd5e33
+Angela Moore,Democratic,House of Representatives,91,0.9817,0.0183,321,327,0.8279,0.1721,1034,215,1249,false,ocd-person/b001a55f-61fa-4e62-85fd-ac6c282f2711
+Rhonda Taylor,Democratic,House of Representatives,92,0.0,1.0,0,4,0.9987,0.0013,777,1,778,false,ocd-person/bc40f904-9c20-41d0-80d5-e5645d3e6935
+Doreen Carter,Democratic,House of Representatives,93,0.9967,0.0033,306,307,0.8863,0.1137,1107,142,1249,false,ocd-person/818f1afb-2850-448e-99c1-be63a9acfe95
+Venola Mason,Democratic,House of Representatives,94,1.0,0.0,243,243,1.0,0.0,245,0,245,false,ocd-person/b9050158-4a6d-4332-8ad2-769472f52e3e
+Dar'shun Kendrick,Democratic,House of Representatives,95,0.944,0.056,320,339,0.9279,0.0721,1159,90,1249,false,ocd-person/1f94316e-fb58-401f-bbfc-5ada0a717b6b
+Arlene Beckles,Democratic,House of Representatives,96,0.9826,0.0174,338,344,0.9952,0.0048,1243,6,1249,false,ocd-person/3b3da57c-2f96-4a94-a7bc-eb6a814cc627
+Ruwa Romman,Democratic,House of Representatives,97,0.9971,0.0029,339,340,0.8847,0.1153,1105,144,1249,false,ocd-person/d291834f-70cd-48b5-b7db-b05d23d74a4c
+Marvin Lim,Democratic,House of Representatives,98,0.9942,0.0058,340,342,0.9872,0.0128,1233,16,1249,false,ocd-person/9531d502-440c-48db-83c4-70dfbe9a9ea1
+Matt Reeves,Republican,House of Representatives,99,0.9971,0.0029,341,342,0.9856,0.0144,1231,18,1249,false,ocd-person/0f4f3c5a-1192-4ec1-9698-4aef005b4875
+David Clark,Republican,House of Representatives,100,1.0,0.0,1,1,0.9941,0.0059,670,4,674,false,ocd-person/ad18dba4-9247-4542-95b1-2ccef815dbc7
+Scott Holcomb,Democratic,House of Representatives,101,0.938,0.062,257,274,0.9239,0.0761,1154,95,1249,false,ocd-person/99ef9b20-6b1f-4831-8e58-a523de606cda
+Gabe Okoye,Democratic,House of Representatives,102,0.9618,0.0382,327,340,0.9696,0.0304,1211,38,1249,false,ocd-person/dc99efc3-076b-4d00-b4b0-66a0507a4057
+Soo Hong,Republican,House of Representatives,103,0.9971,0.0029,343,344,0.9944,0.0056,1242,7,1249,false,ocd-person/64721c9b-451c-4bc9-9040-4ca232ffd746
+Chuck Efstration,Republican,House of Representatives,104,1.0,0.0,344,344,0.9984,0.0016,1247,2,1249,false,ocd-person/3ff894cb-f2e4-47d0-9f67-b125245a10c3
+Sandy Donatucci,Republican,House of Representatives,105,1.0,0.0,344,344,0.9808,0.0192,1225,24,1249,false,ocd-person/4ab15127-5b7a-40bc-8807-26e8e8a73397
+Akbar Ali,Democratic,House of Representatives,106,1.0,0.0,303,303,0.9961,0.0039,772,3,775,false,ocd-person/938f2479-c51f-446a-87f0-76d4f07c61e5
+Sam Park,Democratic,House of Representatives,107,0.9971,0.0029,341,342,0.9552,0.0448,1193,56,1249,false,ocd-person/2ba0916f-40b1-4255-9496-94b12ccabd1e
+Jasmine Clark,Democratic,House of Representatives,108,0.0,1.0,0,1,0.9941,0.0059,670,4,674,false,ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a
+Dewey McClain,Democratic,House of Representatives,109,0.997,0.003,335,336,0.956,0.044,1194,55,1249,false,ocd-person/8afda706-7afa-462c-89f2-0d6d5da010ff
+Segun Adeyina,Democratic,House of Representatives,110,0.9854,0.0146,338,343,0.9776,0.0224,1221,28,1249,false,ocd-person/702658f4-8382-479a-9416-79928239d5e7
+Rey Martinez,Republican,House of Representatives,111,0.9971,0.0029,343,344,0.9816,0.0184,1226,23,1249,false,ocd-person/08ee45fd-d3f4-4129-9e7c-27cf52533ed2
+Bruce Williamson,Republican,House of Representatives,112,1.0,0.0,339,339,0.9728,0.0272,1215,34,1249,false,ocd-person/13b7af1b-5b56-481b-a81a-2001846188a6
+Tim Fleming,Republican,House of Representatives,114,1.0,0.0,344,344,0.9968,0.0032,1245,4,1249,false,ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe
+Regina Lewis-Ward,Democratic,House of Representatives,115,0.9666,0.0334,318,329,0.9263,0.0737,1157,92,1249,false,ocd-person/21651856-bba6-49fd-b3f8-8ed1b723e804
+El-Mahdi Holly,Democratic,House of Representatives,116,0.9626,0.0374,283,294,0.8511,0.1489,1063,186,1249,false,ocd-person/4615e308-db74-408f-89df-02be56b5013b
+Mary Ann Santos,Democratic,House of Representatives,117,0.985,0.015,328,333,0.9103,0.0897,1137,112,1249,false,ocd-person/7deae3f1-5548-4afe-9018-e8112945fd8d
+Clint Crowe,Republican,House of Representatives,118,1.0,0.0,343,343,0.9824,0.0176,1227,22,1249,false,ocd-person/e1a9102d-f845-47f5-882e-e344eef060ec
+Holt Persinger,Republican,House of Representatives,119,1.0,0.0,344,344,0.992,0.008,1239,10,1249,false,ocd-person/b39e2164-d570-45f2-b271-5e2fbe99c8d6
+Houston Gaines,Republican,House of Representatives,120,1.0,0.0,344,344,0.9768,0.0232,1220,29,1249,false,ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607
+Eric Gisler,Democratic,House of Representatives,121,0.9704,0.0296,295,304,1.0,0.0,775,0,775,false,ocd-person/abece831-30a8-4cf8-94ff-d41f7f48197f
+Spencer Frye,Democratic,House of Representatives,122,0.9912,0.0088,339,342,0.9183,0.0817,1147,102,1249,false,ocd-person/e6ae8d30-4b1b-4b06-8918-2be6fa7f8108
+Rob Leverett,Republican,House of Representatives,123,1.0,0.0,344,344,0.9928,0.0072,1240,9,1249,false,ocd-person/29210f3f-ec97-47c8-9492-b81154275109
+Trey Rhodes,Republican,House of Representatives,124,1.0,0.0,344,344,0.9864,0.0136,1232,17,1249,false,ocd-person/9dfc8ec3-0935-4d1d-877d-e05cf7a5dca5
+Gary Richardson,Republican,House of Representatives,125,0.9942,0.0058,341,343,0.9712,0.0288,1213,36,1249,false,ocd-person/47fd36f3-f5d4-4ef6-a429-1ffc7681e233
+L.C. Myles,Democratic,House of Representatives,126,0.974,0.026,262,269,0.8855,0.1145,1106,143,1249,false,ocd-person/1d9bb111-bf4f-4e4f-aa63-a2f6a94b566c
+Mark Newton,Republican,House of Representatives,127,1.0,0.0,343,343,0.9544,0.0456,1192,57,1249,false,ocd-person/5e12fb82-1f69-46df-9ac5-a09ce51dd95b
+Mack Jackson,Democratic,House of Representatives,128,1.0,0.0,23,23,0.9846,0.0154,447,7,454,false,ocd-person/8e209d95-2333-4aa2-a628-1bdcec0674f5
+Karlton Howard,Democratic,House of Representatives,129,0.0,1.0,0,2,0.9756,0.0244,761,19,780,false,ocd-person/4b3fdb35-d3fb-40aa-843e-d3900df37ce4
+Sheila Nelson,Democratic,House of Representatives,130,1.0,0.0,204,204,0.8408,0.1592,206,39,245,false,ocd-person/059c0e54-cc7b-4605-aee6-58388026a2fb
+Rob Clifton,Republican,House of Representatives,131,0.9971,0.0029,339,340,0.9271,0.0729,1158,91,1249,false,ocd-person/84eb7371-a332-4534-b3b3-542500c798f8
+Brian Prince,Democratic,House of Representatives,132,0.9213,0.0787,246,267,0.8967,0.1033,1120,129,1249,false,ocd-person/a53e6bbd-a5b8-436b-94ae-bebf957c5b61
+Danny Mathis,Republican,House of Representatives,133,0.9971,0.0029,342,343,0.9704,0.0296,1212,37,1249,false,ocd-person/1a9598cc-056f-4725-a3fb-64c3f0fd26ed
+Robert Dickey,Republican,House of Representatives,134,0.9942,0.0058,341,343,0.9704,0.0296,1212,37,1249,false,ocd-person/f863b50d-c865-463a-830a-e5648837d9f7
+Beth Camp,Republican,House of Representatives,135,1.0,0.0,343,343,0.9904,0.0096,1237,12,1249,false,ocd-person/e4e40f68-0970-4392-b739-3c68f749bcdc
+David Jenkins,Republican,House of Representatives,136,0.997,0.003,335,336,0.9007,0.0993,1125,124,1249,false,ocd-person/0f288c5b-484a-4b70-8209-0a23f922edd1
+Debbie Buckner,Democratic,House of Representatives,137,0.9495,0.0505,263,277,0.9239,0.0761,1154,95,1249,false,ocd-person/5061bc6b-83af-46d0-a78d-30ebe10a63db
+Vance Smith,Republican,House of Representatives,138,1.0,0.0,11,11,1.0,0.0,621,0,621,false,ocd-person/9deeb60b-4d1e-42b8-8052-d2808a30ea9a
+Carmen Rice,Republican,House of Representatives,139,1.0,0.0,343,343,0.9848,0.0152,1230,19,1249,false,ocd-person/3646e872-85a6-4383-97c5-36ff96ca7113
+Teddy Reese,Democratic,House of Representatives,140,0.9782,0.0218,314,321,0.8623,0.1377,1077,172,1249,false,ocd-person/9fe70ed7-31a0-4732-92b1-54d2a79a4654
+Carolyn Hugley,Democratic,House of Representatives,141,0.9853,0.0147,336,341,0.9656,0.0344,1206,43,1249,false,ocd-person/0f5a9273-2fc6-458f-af59-b75070a1dc76
+Miriam Paris,Democratic,House of Representatives,142,0.9704,0.0296,197,203,0.8359,0.1641,1044,205,1249,false,ocd-person/bad14891-c7bc-4ac4-b23a-fb5ae3878d67
+Nissa Jones,Democratic,House of Representatives,143,0.0,1.0,0,2,1.0,0.0,581,0,581,false,ocd-person/55074030-4d64-4da0-b68a-5e3945d00f25
+Dale Washburn,Republican,House of Representatives,144,0.9797,0.0203,289,295,0.7982,0.2018,997,252,1249,false,ocd-person/ec6cf250-ebcc-4dda-89a5-12da9ebbe51a
+Tangie Herring,Democratic,House of Representatives,145,0.393,0.607,134,341,0.9904,0.0096,1237,12,1249,false,ocd-person/c5766526-3a5a-4d33-b5ff-a0d1d358d7ae
+Shaw Blackmon,Republican,House of Representatives,146,0.997,0.003,334,335,0.9568,0.0432,1195,54,1249,false,ocd-person/ee145624-3295-4db4-b3ce-9d1583e4ef6e
+Bethany Ballard,Republican,House of Representatives,147,1.0,0.0,342,342,0.9952,0.0048,1243,6,1249,false,ocd-person/8b4b00cb-6f78-4b69-b788-796b19d94752
+Noel Williams,Republican,House of Representatives,148,1.0,0.0,344,344,0.9648,0.0352,1205,44,1249,false,ocd-person/3252da04-a17e-4298-b19d-9dd2fbf29ded
+Floyd Griffin,Democratic,House of Representatives,149,0.9851,0.0149,330,335,0.968,0.032,1209,40,1249,false,ocd-person/b261086c-7b16-4a8e-82a6-22df4445af84
+Patty Marie Stinson,Democratic,House of Representatives,150,0.1515,0.8485,35,231,0.6966,0.3034,870,379,1249,false,ocd-person/af51c2db-8871-45a4-803d-314fa2b9d18d
+Mike Cheokas,Republican,House of Representatives,151,0.9794,0.0206,332,339,0.9327,0.0673,1165,84,1249,false,ocd-person/1831cc73-e694-4cea-83a4-b55c3495f76a
+Bill Yearta,Republican,House of Representatives,152,1.0,0.0,277,277,0.9255,0.0745,1156,93,1249,false,ocd-person/23dfc274-73d1-45df-b381-67e597cf0b84
+David Sampson,Democratic,House of Representatives,153,0.9578,0.0422,318,332,0.9143,0.0857,1142,107,1249,false,ocd-person/9a8e7b0c-3c19-473f-b04a-d3a17037af0a
+Gerald Greene,Republican,House of Representatives,154,1.0,0.0,337,337,0.9888,0.0112,1235,14,1249,false,ocd-person/570a213a-a475-4fd3-ac36-23e1bd1190be
+Matt Hatchett,Republican,House of Representatives,155,1.0,0.0,338,338,0.9464,0.0536,1182,67,1249,false,ocd-person/c81779f3-65bf-4714-b295-79cac3b0da28
+Leesa Hagan,Republican,House of Representatives,156,0.9971,0.0029,341,342,0.9712,0.0288,1213,36,1249,false,ocd-person/df874c28-6403-42c1-9cbb-0855508cda85
+Bill Werkheiser,Republican,House of Representatives,157,0.9867,0.0133,296,300,0.9223,0.0777,1152,97,1249,false,ocd-person/adefd0ba-43cd-4aae-9321-12f67e57ac8a
+Butch Parrish,Republican,House of Representatives,158,1.0,0.0,344,344,0.9976,0.0024,1246,3,1249,false,ocd-person/842218b5-88ae-4ba8-8395-756bf3340e16
+Jon Burns,Republican,House of Representatives,159,,,0,0,0.0008,0.9992,1,1248,1249,true,ocd-person/64012657-d026-411c-9525-3232524a5145
+Lehman Franklin,Republican,House of Representatives,160,0.9913,0.0087,341,344,0.9776,0.0224,1221,28,1249,false,ocd-person/6971bb34-9ea4-4bdc-971e-c1a2c5de344c
+Bill Hitchens,Republican,House of Representatives,161,0.9941,0.0059,336,338,0.9424,0.0576,1177,72,1249,false,ocd-person/4a9ef816-9130-4510-a19e-3124e3f2aeed
+Carl Gilliard,Democratic,House of Representatives,162,0.9494,0.0506,225,237,0.743,0.257,928,321,1249,false,ocd-person/562e162f-2a60-441c-956b-11db12eef266
+Anne Westbrook,Democratic,House of Representatives,163,0.9963,0.0037,266,267,0.8567,0.1433,1070,179,1249,false,ocd-person/e16d6516-badc-4682-9e3a-84f30a44b060
+Ron Stephens,Republican,House of Representatives,164,1.0,0.0,343,343,0.98,0.02,1224,25,1249,false,ocd-person/aeaeb854-ff9c-47cb-8069-395b60ba05b2
+Edna Jackson,Democratic,House of Representatives,165,1.0,0.0,23,23,0.9846,0.0154,447,7,454,false,ocd-person/18427775-e3e7-4730-bb6f-722616e6aebe
+Jesse Petrea,Republican,House of Representatives,166,0.9971,0.0029,339,340,0.8695,0.1305,1086,163,1249,false,ocd-person/38c596a4-df69-4a56-9329-be73f26bc7d5
+Buddy DeLoach,Republican,House of Representatives,167,0.9926,0.0074,270,272,0.8663,0.1337,1082,167,1249,false,ocd-person/d40576ac-fbc0-4b42-98ee-f6362063784d
+Al Williams,Democratic,House of Representatives,168,0.9968,0.0032,313,314,0.9497,0.0503,887,47,934,false,ocd-person/a5a0998b-3837-4c4e-a66b-a567dc2f9d77
+Angie O'Steen,Republican,House of Representatives,169,1.0,0.0,273,273,0.8623,0.1377,1077,172,1249,false,ocd-person/1d0deded-daaa-425b-b6aa-3612492dca5b
+Jaclyn Ford,Republican,House of Representatives,170,0.9971,0.0029,343,344,0.9952,0.0048,1243,6,1249,false,ocd-person/37602f7b-947e-4067-8f2e-b2fec620643e
+Joe Campbell,Republican,House of Representatives,171,1.0,0.0,1,1,1.0,0.0,781,0,781,false,ocd-person/c862c17f-ed00-41d7-97e5-1138f451a96c
+Chas Cannon,Republican,House of Representatives,172,0.75,0.25,3,4,0.9915,0.0085,580,5,585,false,ocd-person/cba2f06c-773c-49d3-949c-b1a2db377c21
+Darlene Taylor,Republican,House of Representatives,173,1.0,0.0,4,4,0.9987,0.0013,777,1,778,false,ocd-person/d00eb950-0fb6-41ab-ae22-8e9ce84d7cf0
+John Corbett,Republican,House of Representatives,174,0.9942,0.0058,340,342,0.98,0.02,1224,25,1249,false,ocd-person/a34c9a5a-f307-4c07-b766-3b3b1148d7b1
+John LaHood,Republican,House of Representatives,175,1.0,0.0,332,332,0.968,0.032,1209,40,1249,false,ocd-person/9249be26-54d2-467a-88ec-2588b886148d
+James Burchett,Republican,House of Representatives,176,1.0,0.0,344,344,0.9968,0.0032,1245,4,1249,false,ocd-person/dbce462d-74e3-42d3-bd6c-3b9f8eeb69fe
+Steven Meeks,Republican,House of Representatives,178,0.9942,0.0058,340,342,0.9384,0.0616,1172,77,1249,false,ocd-person/3194a8e0-aaf8-4686-b2c9-a22521f85fff
+Rick Townsend,Republican,House of Representatives,179,0.9942,0.0058,342,344,0.9984,0.0016,1247,2,1249,false,ocd-person/1da20ad9-1a05-42ab-addb-7fbf295a0e5d
+Steven Sainz,Republican,House of Representatives,180,0.9824,0.0176,334,340,0.9376,0.0624,1171,78,1249,false,ocd-person/99082062-acd6-4c6b-bb45-2cfa071f19fc
+Ben Watson,Republican,Senate,1,0.9895,0.0105,284,287,0.9991,0.0009,1097,1,1098,false,ocd-person/fd2717f1-6294-4601-a027-8fc41195372c
+Derek Mallow,Democratic,Senate,2,0.9414,0.0586,225,239,0.8278,0.1722,1038,216,1254,false,ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b
+Mike Hodges,Republican,Senate,3,0.9688,0.0312,311,321,0.9601,0.0399,1204,50,1254,false,ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576
+Billy Hickman,Republican,Senate,4,0.9777,0.0223,307,314,0.941,0.059,1180,74,1254,false,ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3
+Sheikh Rahman,Democratic,Senate,5,0.9699,0.0301,290,299,0.8868,0.1132,1112,142,1254,false,ocd-person/5b6e0e37-802b-4103-b401-551532aba2e7
+Matt Brass,Republican,Senate,6,0.8922,0.1078,273,306,0.9378,0.0622,1176,78,1254,false,ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51
+Russ Goodman,Republican,Senate,8,0.9748,0.0252,310,318,0.9737,0.0263,1221,33,1254,false,ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41
+Nikki Merritt,Democratic,Senate,9,0.9505,0.0495,288,303,0.9147,0.0853,1147,107,1254,false,ocd-person/57ad1f65-9969-4be2-b262-684bf53123fb
+Emanuel Jones,Democratic,Senate,10,0.8735,0.1265,214,245,0.8274,0.1726,1007,210,1217,false,ocd-person/acc7c167-6251-4ce8-8021-511acfa291ef
+Sam Watson,Republican,Senate,11,0.9895,0.0105,284,287,0.9991,0.0009,1097,1,1098,false,ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf
+Freddie Powell Sims,Democratic,Senate,12,0.8902,0.1098,146,164,0.5603,0.4397,683,536,1219,false,ocd-person/a0bfdc0d-4110-4cd2-b83c-834bba4300f5
+Carden Summers,Republican,Senate,13,0.8836,0.1164,281,318,0.988,0.012,1239,15,1254,false,ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4
+Josh McLaurin,Democratic,Senate,14,0.9545,0.0455,294,308,0.949,0.051,1190,64,1254,false,ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1
+Ed Harbison,Democratic,Senate,15,0.9146,0.0854,257,281,0.9099,0.0901,1141,113,1254,false,ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916
+Marty Harbin,Republican,Senate,16,0.9904,0.0096,309,312,0.937,0.063,1175,79,1254,false,ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e
+Gail Davenport,Democratic,Senate,17,0.9933,0.0067,297,299,0.9442,0.0558,1184,70,1254,false,ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc
+Steven McNeel,Republican,Senate,18,0.9829,0.0171,172,175,0.9924,0.0076,656,5,661,false,ocd-person/516cb969-9467-490f-9a05-02c3e7decae3
+Blake Tillery,Republican,Senate,19,0.9721,0.0279,279,287,0.8876,0.1124,1113,141,1254,false,ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7
+Larry Walker,Republican,Senate,20,0.985,0.015,262,266,0.7552,0.2448,947,307,1254,false,ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994
+Jason Dickerson,Republican,Senate,21,0.959,0.041,187,195,0.9822,0.0178,717,13,730,false,ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c
+Harold Jones,Democratic,Senate,22,0.9565,0.0435,286,299,0.8246,0.1754,1034,220,1254,false,ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3
+Rick Williams,Republican,Senate,25,0.914,0.086,287,314,0.9819,0.0181,1195,22,1217,false,ocd-person/c7860bae-9d9c-449c-9903-20230eec50ac
+David Lucas,Democratic,Senate,26,0.8851,0.1149,231,261,0.8126,0.1874,1019,235,1254,false,ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244
+Greg Dolezal,Republican,Senate,27,0.9808,0.0192,307,313,0.9689,0.0311,1215,39,1254,false,ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c
+Donzella James,Democratic,Senate,28,0.9756,0.0244,280,287,0.8397,0.1603,1053,201,1254,false,ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a
+Randy Robertson,Republican,Senate,29,0.9843,0.0157,314,319,0.9633,0.0367,1208,46,1254,false,ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac
+Tim Bearden,Republican,Senate,30,0.9006,0.0994,281,312,0.9314,0.0686,1168,86,1254,false,ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d
+Jason Anavitarte,Republican,Senate,31,0.9591,0.0409,305,318,0.9705,0.0295,1217,37,1254,false,ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207
+Kay Kirkpatrick,Republican,Senate,32,0.9169,0.0831,287,313,0.9641,0.0359,1209,45,1254,false,ocd-person/fc31ab02-026c-4173-86db-570c0b297c64
+Doc Rhett,Democratic,Senate,33,0.9734,0.0266,293,301,0.9458,0.0542,1186,68,1254,false,ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe
+Kenya Wicks,Democratic,Senate,34,0.9745,0.0255,267,274,0.8517,0.1483,1068,186,1254,false,ocd-person/0a816fbf-e5ec-4056-8b3e-08184400e71b
+Jaha Howard,Democratic,Senate,35,0.9735,0.0265,184,189,0.9395,0.0605,683,44,727,false,ocd-person/fcd57129-480c-4fba-a0d1-7fb369706611
+Nan Orrock,Democratic,Senate,36,0.9759,0.0241,283,290,0.9099,0.0901,1141,113,1254,false,ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99
+Ed Setzler,Republican,Senate,37,0.9635,0.0365,290,301,0.8907,0.1093,1117,137,1254,false,ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5
+RaShaun Kemp,Democratic,Senate,38,0.9666,0.0334,289,299,0.9609,0.0391,1205,49,1254,false,ocd-person/069fb4fa-766b-40e4-90b7-ce96b4fa2ace
+Sonya Halpern,Democratic,Senate,39,0.9256,0.0744,286,309,0.8987,0.1013,1127,127,1254,false,ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c
+Sally Harrell,Democratic,Senate,40,0.9582,0.0418,275,287,0.9123,0.0877,1144,110,1254,false,ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c
+Kim Jackson,Democratic,Senate,41,0.9799,0.0201,293,299,0.8981,0.1019,1093,124,1217,false,ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe
+Brian Strickland,Republican,Senate,42,0.9664,0.0336,288,298,0.9537,0.0463,1196,58,1254,false,ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9
+Elena Parent,Democratic,Senate,44,0.9517,0.0483,256,269,0.8732,0.1268,1095,159,1254,false,ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685
+Clint Dixon,Republican,Senate,45,0.9621,0.0379,305,317,0.9785,0.0215,1227,27,1254,false,ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744
+Bill Cowsert,Republican,Senate,46,0.9656,0.0344,309,320,0.949,0.051,1190,64,1254,false,ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882
+Frank Ginn,Republican,Senate,47,0.981,0.019,309,315,0.9801,0.0199,1229,25,1254,false,ocd-person/9e417b67-da09-4516-b858-6b2458f53633
+Shawn Still,Republican,Senate,48,0.9904,0.0096,310,313,0.9673,0.0327,1213,41,1254,false,ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690
+Drew Echols,Republican,Senate,49,0.9936,0.0064,312,314,0.9474,0.0526,1188,66,1254,false,ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3
+Steve Gooch,Republican,Senate,51,0.971,0.029,301,310,0.9705,0.0295,1217,37,1254,false,ocd-person/e2c141e9-9e04-4e2b-8e5b-57db594c7abc
+Chuck Hufstetler,Republican,Senate,52,0.9671,0.0329,294,304,0.8971,0.1029,1125,129,1254,false,ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2
+Chuck Payne,Republican,Senate,54,0.9968,0.0032,310,311,0.992,0.008,1244,10,1254,false,ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134
+Randal Mangham,Democratic,Senate,55,0.9787,0.0213,276,282,0.8931,0.1069,1120,134,1254,false,ocd-person/8798a822-fee8-4546-bcdd-455f788bef44
+John Albers,Republican,Senate,56,0.981,0.019,309,315,0.9681,0.0319,1214,40,1254,false,ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b
