@@ -1,0 +1,15 @@
+{
+ "biennium": "2025-2026",
+ "generatedAt": "2026-08-26T09:37:04.807316+00:00",
+ "count": 227,
+ "scoredForUnity": 226,
+ "files": {
+  "scorecard": "sessions/2025-2026/scorecard.json",
+  "scorecardCsv": "sessions/2025-2026/scorecard.csv",
+  "scorecardSchema": "sessions/2025-2026/scorecard.schema.json"
+ },
+ "derivedFrom": [
+  "sessions/2025-2026/votes.json",
+  "data/all.json"
+ ]
+}
