@@ -9,12 +9,25 @@ on:
 
 permissions:
   contents: write
-  
+
+# The publisher (votega.org: publish_ga_legislators.py members) writes all.json,
+# members.csv, members.schema.json and ROSTER.md as FOUR separate Contents-API
+# commits in quick succession. The push trigger fires on the first (all.json), so
+# a second split run can be queued by a later publish. Serialize them rather than
+# letting two runs race each other's push.
+concurrency:
+  group: split-all-json
+  cancel-in-progress: false
+
 jobs:
   split:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so `git pull --rebase` below always has a base to rebase
+          # onto (a shallow checkout can make the rebase fail).
+          fetch-depth: 0
 
       - name: Split all.json by chamber
         run: |
@@ -45,8 +58,25 @@ jobs:
 
       - name: Commit split files
         run: |
+          set -e
           git config user.name  "votega-bot"
           git config user.email "actions@github.com"
           git add data/house.json data/senate.json
-          git diff --cached --quiet || git commit -m "Split all.json → house.json + senate.json"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Split all.json → house.json + senate.json"
+            # The publisher pushes up to four commits right after all.json, so the
+            # ref moves under us between checkout and push. Rebase onto the latest
+            # main and retry instead of failing the run on a non-fast-forward.
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then pushed=1; break; fi
+              echo "Push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+            if [ "$pushed" -ne 1 ]; then
+              echo "::error::Push failed after 5 attempts - house/senate split was NOT committed"
+              exit 1
+            fi
+          fi
