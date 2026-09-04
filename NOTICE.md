@@ -1,14 +1,15 @@
 # Reuse and attribution
 
 The data in this repository is published by [VoteGA.org](https://votega.org) under the
-[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (`CC-BY-4.0`). The full legalcode is in [LICENSE](LICENSE).
+[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (`CC-BY-SA-4.0`). The full legalcode is in [LICENSE](LICENSE).
 
 You are free to share and adapt this data, including commercially, provided you give
-appropriate credit.
+appropriate credit and license any adaptations you distribute under the same terms
+(CC BY-SA 4.0).
 
 ## How to credit
 
-> Data from [VoteGA.org](https://votega.org), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+> Data from [VoteGA.org](https://votega.org), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 > Original source: the Open States API (Plural Policy).
 
 ## Two things the license does not cover
