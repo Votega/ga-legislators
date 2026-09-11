@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-11T12:03:30.560802",
+    "generatedAt": "2026-09-11T18:46:08.808429",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 60,
@@ -1721,7 +1721,7 @@
       "statusNote": null
     },
     {
-      "id": "ga-senate-7-carden",
+      "id": "ocd-person/3cfc8d4f-68d4-44b2-81f4-a162465e1aed",
       "name": "Adrienne White Carden",
       "firstName": "Adrienne",
       "lastName": "White Carden",
