@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-09-11T12:03:30.560802 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-09-11T18:46:08.808429 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions). Derived voting scorecard (party unity + participation): [`scorecard-latest.json`](scorecard-latest.json).
 
@@ -246,7 +246,7 @@ _Last updated 2026-09-11T12:03:30.560802 · 56 Senators, 180 Representatives (cu
 | 174 | John Corbett | Republican | 404-656-5105 | [site](https://www.legis.ga.gov/members/house/859) |
 | 175 | John LaHood | Republican | 404-656-5105 | [site](https://www.legis.ga.gov/members/house/4923) |
 | 176 | James Burchett | Republican | 404-656-5024 | [site](https://www.legis.ga.gov/members/house/4967) |
-| 177 | Vacant _(Vacant)_ |  |  |  |
+| 177 | Alvin Payton | Democratic |  |  |
 | 178 | Steven Meeks | Republican | 404-463-2246 | [site](https://www.legis.ga.gov/members/house/4961) |
 | 179 | Rick Townsend | Republican | 404-656-0178 | [site](https://www.legis.ga.gov/members/house/5055) |
 | 180 | Steven Sainz | Republican | 404-657-1803 | [site](https://www.legis.ga.gov/members/house/4962) |
