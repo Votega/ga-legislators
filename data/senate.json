@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-03T12:17:07.346191",
+    "generatedAt": "2026-10-03T14:11:12.880339",
     "source": "Open States API",
     "jurisdiction": "Georgia",
-    "count": 60,
+    "count": 61,
     "committeesAvailable": true
   },
   "members": [
@@ -505,7 +505,7 @@
         "Retirement",
         "Science and Technology"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5067,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -792,7 +792,7 @@
         "Higher Education",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5090,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -860,7 +860,7 @@
         "Transportation",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5088,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -984,7 +984,7 @@
         "Urban Affairs",
         "Veterans, Military and Homeland Security"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5065,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -1334,7 +1334,7 @@
         "State Institutions and Property",
         "Urban Affairs"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5066,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -1365,7 +1365,7 @@
         "Retirement",
         "State and Local Governmental Operations"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 161,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -1690,7 +1690,7 @@
         "State and Local Governmental Operations",
         "Transportation"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 5093,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -1721,7 +1721,7 @@
         "Public Safety",
         "Reapportionment and Redistricting"
       ],
-      "legisGaGovId": null,
+      "legisGaGovId": 62,
       "status": null,
       "statusDate": null,
       "statusNote": null
@@ -1803,7 +1803,7 @@
       "termStart": null,
       "termStartYear": null,
       "committees": [],
-      "legisGaGovId": null
+      "legisGaGovId": 5015
     },
     {
       "id": "ocd-person/e6dcaefd-8ecd-4f08-990f-e4443ae53ee8",
@@ -1827,7 +1827,7 @@
       "termStart": null,
       "termStartYear": null,
       "committees": [],
-      "legisGaGovId": null
+      "legisGaGovId": 5014
     },
     {
       "id": "ocd-person/ffa17688-2ca9-40ba-9eb3-3991f930bf53",
@@ -1851,7 +1851,7 @@
       "termStart": null,
       "termStartYear": null,
       "committees": [],
-      "legisGaGovId": null
+      "legisGaGovId": 852
     },
     {
       "id": "ocd-person/8d6562cb-cdd0-405f-a165-8463cde26594",
@@ -1875,7 +1875,31 @@
       "termStart": null,
       "termStartYear": null,
       "committees": [],
-      "legisGaGovId": null
+      "legisGaGovId": 840
+    },
+    {
+      "id": "ocd-person/6ebda9ee-2203-4b66-9bb3-64d2307157a0",
+      "name": "Colton Moore",
+      "firstName": "Colton",
+      "lastName": "Moore",
+      "party": "Republican",
+      "chamber": "Senate",
+      "district": 53,
+      "title": "Senator",
+      "status": "Resigned",
+      "statusDate": "2026-01-13",
+      "statusNote": "Resigned effective January 13, 2026 (per legis.ga.gov member page). Retained under this OCD id so votes recorded earlier in the 2025-2026 session still attribute correctly; successor Lanny Thomas now holds Senate District 53.",
+      "imageUrl": null,
+      "phone": null,
+      "address": null,
+      "email": null,
+      "officialWebsiteUrl": null,
+      "birthDate": null,
+      "birthYear": null,
+      "termStart": null,
+      "termStartYear": null,
+      "committees": [],
+      "legisGaGovId": 4933
     }
   ]
 }
