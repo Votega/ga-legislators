@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-10-03T12:17:07.346191 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions). Derived voting scorecard (party unity + participation): [`scorecard-latest.json`](scorecard-latest.json).
 
@@ -15,7 +15,7 @@ _Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (cu
 | 4 | Billy Hickman | Republican | 404-463-1371 | [site](https://www.legis.ga.gov/members/senate/4972) |
 | 5 | Sheikh Rahman | Democratic | 404-656-7871 | [site](https://www.legis.ga.gov/members/senate/4924) |
 | 6 | Matt Brass | Republican | 404-656-0057 | [site](https://www.legis.ga.gov/members/senate/4907) |
-| 7 | Adrienne White Carden | Democratic | 404-463-5263 | [site](https://www.legis.ga.gov/members/senate/5097) |
+| 7 | Adrienne White Carden | Democratic |  | [site](https://www.legis.ga.gov/members/senate/5097) |
 | 8 | Russ Goodman | Republican | 404-463-1318 | [site](https://www.legis.ga.gov/members/senate/4977) |
 | 9 | Nikki Merritt | Democratic | 404-463-1310 | [site](https://www.legis.ga.gov/members/senate/4978) |
 | 10 | Emanuel Jones | Democratic | 404-656-0502 | [site](https://www.legis.ga.gov/members/senate/28) |
@@ -40,7 +40,7 @@ _Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (cu
 | 29 | Randy Robertson | Republican | 404-656-0045 | [site](https://www.legis.ga.gov/members/senate/4926) |
 | 30 | Tim Bearden | Republican | 404-656-7872 | [site](https://www.legis.ga.gov/members/senate/62) |
 | 31 | Jason Anavitarte | Republican | 404-656-0085 | [site](https://www.legis.ga.gov/members/senate/4980) |
-| 32 | Kay Kirkpatrick | Republican | 404-656-0508 | [site](https://www.legis.ga.gov/members/senate/4910) |
+| 32 | Kay Kirkpatrick | Republican | 404-463-2518 | [site](https://www.legis.ga.gov/members/senate/4910) |
 | 33 | Doc Rhett | Democratic | 404-656-0054 | [site](https://www.legis.ga.gov/members/senate/855) |
 | 34 | Kenya Wicks | Democratic | 404-463-1562 | [site](https://www.legis.ga.gov/members/senate/5065) |
 | 35 | Jaha Howard | Democratic | 404-657-2099 | [site](https://www.legis.ga.gov/members/senate/5090) |
@@ -188,7 +188,7 @@ _Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (cu
 | 116 | El-Mahdi Holly | Democratic | 404-656-0287 | [site](https://www.legis.ga.gov/members/house/4954) |
 | 117 | Mary Ann Santos | Democratic | 404-656-0202 | [site](https://www.legis.ga.gov/members/house/5078) |
 | 118 | Clint Crowe | Republican | 404-656-0325 | [site](https://www.legis.ga.gov/members/house/5002) |
-| 119 | Holt Persinger | Republican | 404-656-6731 | [site](https://www.legis.ga.gov/members/house/5060) |
+| 119 | Holt Persinger | Republican | 404-656-0213 | [site](https://www.legis.ga.gov/members/house/5060) |
 | 120 | Houston Gaines | Republican | 404-656-0152 | [site](https://www.legis.ga.gov/members/house/4955) |
 | 121 | Eric Gisler | Democratic | 404-656-0287 | [site](https://www.legis.ga.gov/members/house/5091) |
 | 122 | Spencer Frye | Democratic | 404-656-0265 | [site](https://www.legis.ga.gov/members/house/819) |
@@ -221,7 +221,7 @@ _Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (cu
 | 149 | Floyd Griffin | Democratic | 404-656-7859 | [site](https://www.legis.ga.gov/members/house/5083) |
 | 150 | Patty Marie Stinson | Democratic | 404-656-0213 | [site](https://www.legis.ga.gov/members/house/811) |
 | 151 | Mike Cheokas | Republican | 404-463-7853 | [site](https://www.legis.ga.gov/members/house/81) |
-| 152 | Bill Yearta | Republican | 404-656-0254 | [site](https://www.legis.ga.gov/members/house/4969) |
+| 152 | Bill Yearta | Republican | 404-463-2248 | [site](https://www.legis.ga.gov/members/house/4969) |
 | 153 | David Sampson | Democratic | 404-656-0109 | [site](https://www.legis.ga.gov/members/house/5052) |
 | 154 | Gerald Greene | Republican | 404-656-9210 | [site](https://www.legis.ga.gov/members/house/115) |
 | 155 | Matt Hatchett | Republican | 404-463-2247 | [site](https://www.legis.ga.gov/members/house/781) |
@@ -246,7 +246,7 @@ _Last updated 2026-10-02T13:38:49.050614 · 56 Senators, 180 Representatives (cu
 | 174 | John Corbett | Republican | 404-656-5105 | [site](https://www.legis.ga.gov/members/house/859) |
 | 175 | John LaHood | Republican | 404-656-5105 | [site](https://www.legis.ga.gov/members/house/4923) |
 | 176 | James Burchett | Republican | 404-656-5024 | [site](https://www.legis.ga.gov/members/house/4967) |
-| 177 | Alvin Payton | Democratic |  |  |
+| 177 | Alvin Payton | Democratic | 404-656-7859 | [site](https://www.legis.ga.gov/members/house/5096) |
 | 178 | Steven Meeks | Republican | 404-463-2246 | [site](https://www.legis.ga.gov/members/house/4961) |
 | 179 | Rick Townsend | Republican | 404-656-0178 | [site](https://www.legis.ga.gov/members/house/5055) |
 | 180 | Steven Sainz | Republican | 404-657-1803 | [site](https://www.legis.ga.gov/members/house/4962) |
