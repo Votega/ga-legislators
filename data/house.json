@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-04T13:04:51.896654",
+    "generatedAt": "2026-10-04T23:16:32.112765",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 186,
@@ -119,7 +119,7 @@
       "termStart": null,
       "termStartYear": null,
       "committees": [],
-      "legisGaGovId": null,
+      "legisGaGovId": 5096,
       "status": null,
       "statusDate": null,
       "statusNote": null
