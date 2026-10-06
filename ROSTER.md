@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-10-05T15:37:18.473732 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-10-06T13:59:16.228164 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions). Derived voting scorecard (party unity + participation): [`scorecard-latest.json`](scorecard-latest.json).
 
