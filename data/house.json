@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-06T13:59:16.228164",
+    "generatedAt": "2026-10-07T14:16:43.483886",
     "source": "Open States API",
     "jurisdiction": "Georgia",
     "count": 186,
@@ -59,7 +59,6 @@
         "Economic Development and Tourism",
         "Game, Fish and Parks",
         "Regulated Industries",
-        "Rules",
         "Rural Development"
       ],
       "legisGaGovId": 230,
@@ -91,7 +90,6 @@
         "Motor Vehicles",
         "Public Safety and Homeland Security",
         "Regulated Industries",
-        "Rules",
         "Transportation"
       ],
       "legisGaGovId": 187,
@@ -376,7 +374,6 @@
         "Economic Development and Tourism",
         "Governmental Affairs",
         "Public Safety and Homeland Security",
-        "Rules",
         "Transportation"
       ],
       "legisGaGovId": 823,
@@ -597,7 +594,6 @@
         "Ethics",
         "Insurance",
         "Regulated Industries",
-        "Rules",
         "Transportation",
         "Ways and Means"
       ],
@@ -694,8 +690,7 @@
         "Health",
         "Healthcare Special",
         "Human Relations and Aging",
-        "Public and Community Health",
-        "Rules"
+        "Public and Community Health"
       ],
       "legisGaGovId": 183,
       "status": null,
@@ -785,7 +780,6 @@
         "Banks and Banking",
         "Ethics",
         "Insurance",
-        "Rules",
         "Urban Affairs"
       ],
       "legisGaGovId": 133,
@@ -912,7 +906,6 @@
         "Insurance",
         "Intragovernmental Coordination",
         "Retirement",
-        "Rules",
         "State Planning and Community Affairs"
       ],
       "legisGaGovId": 4965,
@@ -947,7 +940,6 @@
         "Judiciary Juvenile",
         "Judiciary: Non-Civil",
         "Reapportionment and Redistricting",
-        "Rules",
         "Ways and Means"
       ],
       "legisGaGovId": 846,
@@ -981,7 +973,6 @@
         "Higher Education",
         "Regulated Industries",
         "Retirement",
-        "Rules",
         "Ways and Means"
       ],
       "legisGaGovId": 164,
@@ -1140,7 +1131,6 @@
         "Insurance",
         "Public and Community Health",
         "Reapportionment and Redistricting",
-        "Rules",
         "Transportation"
       ],
       "legisGaGovId": 786,
@@ -1629,8 +1619,7 @@
         "Governmental Affairs",
         "Human Relations and Aging",
         "Insurance",
-        "Public Safety and Homeland Security",
-        "Rules"
+        "Public Safety and Homeland Security"
       ],
       "legisGaGovId": 826,
       "status": null,
@@ -1947,7 +1936,6 @@
         "Economic Development and Tourism",
         "Public Safety and Homeland Security",
         "Retirement",
-        "Rules",
         "Rural Development",
         "State Properties"
       ],
@@ -2155,7 +2143,6 @@
         "Ethics",
         "Judiciary: Non-Civil",
         "Public and Community Health",
-        "Rules",
         "Rural Development",
         "State Properties",
         "Transportation"
@@ -2190,7 +2177,6 @@
         "Ethics",
         "Reapportionment and Redistricting",
         "Regulated Industries",
-        "Rules",
         "Technology and Infrastructure Innovation"
       ],
       "legisGaGovId": 142,
@@ -2349,7 +2335,6 @@
         "Energy, Utilities and Telecommunications",
         "Insurance",
         "Retirement",
-        "Rules",
         "Transportation",
         "Ways and Means"
       ],
@@ -2682,7 +2667,6 @@
         "Natural Resources and Environment",
         "Public and Community Health",
         "Resource Management Special",
-        "Rules",
         "Small Business Development",
         "Urban Affairs"
       ],
@@ -2776,7 +2760,6 @@
         "Healthcare Special",
         "Higher Education",
         "Public and Community Health",
-        "Rules",
         "Transportation"
       ],
       "legisGaGovId": 92,
@@ -2961,8 +2944,7 @@
         "Human Relations and Aging",
         "Insurance",
         "Public and Community Health",
-        "Regulated Industries",
-        "Rules"
+        "Regulated Industries"
       ],
       "legisGaGovId": 19,
       "status": null,
@@ -3139,7 +3121,6 @@
         "Natural Resources and Environment",
         "Reapportionment and Redistricting",
         "Resource Management Special",
-        "Rules",
         "Small Business Development"
       ],
       "legisGaGovId": 212,
@@ -3170,7 +3151,6 @@
         "Health",
         "Public Safety and Homeland Security",
         "Reapportionment and Redistricting",
-        "Rules",
         "Rural Development",
         "Transportation"
       ],
@@ -3201,7 +3181,6 @@
         "Appropriations",
         "Defense and Veterans Affairs",
         "Health",
-        "Rules",
         "Small Business Development",
         "Transportation",
         "Urban Affairs",
@@ -3455,7 +3434,6 @@
         "Health",
         "Investigating Licensing Issues Special",
         "Resource Management Special",
-        "Rules",
         "Rural Development",
         "Ways and Means"
       ],
@@ -4117,7 +4095,6 @@
         "Health",
         "Public Safety and Homeland Security",
         "Regulated Industries",
-        "Rules",
         "Transportation"
       ],
       "legisGaGovId": 755,
@@ -4206,8 +4183,7 @@
         "Governmental Affairs",
         "Judiciary",
         "Judiciary: Non-Civil",
-        "Reapportionment and Redistricting",
-        "Rules"
+        "Reapportionment and Redistricting"
       ],
       "legisGaGovId": 4993,
       "status": null,
@@ -4328,7 +4304,6 @@
         "Creative Arts and Entertainment",
         "Economic Development and Tourism",
         "Resource Management Special",
-        "Rules",
         "Urban Affairs",
         "Ways and Means"
       ],
@@ -4419,7 +4394,6 @@
         "Higher Education",
         "Industry and Labor",
         "Intragovernmental Coordination",
-        "Rules",
         "Technology and Infrastructure Innovation"
       ],
       "legisGaGovId": 4901,
@@ -4542,7 +4516,6 @@
         "Higher Education",
         "Judiciary",
         "Public Safety and Homeland Security",
-        "Rules",
         "Technology and Infrastructure Innovation",
         "Ways and Means"
       ],
@@ -4604,8 +4577,7 @@
         "Intragovernmental Coordination",
         "Judiciary: Non-Civil",
         "Public and Community Health",
-        "Regulated Industries",
-        "Rules"
+        "Regulated Industries"
       ],
       "legisGaGovId": 86,
       "status": null,
@@ -4661,7 +4633,6 @@
         "Insurance",
         "Metropolitan Atlanta Rapid Transit Overview",
         "Resource Management Special",
-        "Rules",
         "Rural Development",
         "Technology and Infrastructure Innovation",
         "Ways and Means"
@@ -4868,7 +4839,6 @@
         "Appropriations",
         "Judiciary",
         "Retirement",
-        "Rules",
         "Technology and Infrastructure Innovation"
       ],
       "legisGaGovId": 762,
@@ -4901,8 +4871,7 @@
         "Ethics",
         "Health",
         "Judiciary",
-        "Judiciary: Non-Civil",
-        "Rules"
+        "Judiciary: Non-Civil"
       ],
       "legisGaGovId": 4987,
       "status": null,
@@ -5083,8 +5052,7 @@
       "committees": [
         "Code Revision",
         "Ethics",
-        "Information and Audits",
-        "Rules"
+        "Information and Audits"
       ],
       "legisGaGovId": 5029,
       "status": null,
@@ -5235,7 +5203,6 @@
         "Health",
         "Higher Education",
         "Judiciary",
-        "Rules",
         "Ways and Means"
       ],
       "legisGaGovId": 825,
