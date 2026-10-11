@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-10-10T13:20:06.264052 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-10-11T13:49:33.880728+00:00 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions). Derived voting scorecard (party unity + participation): [`scorecard-latest.json`](scorecard-latest.json).
 
@@ -15,7 +15,7 @@ _Last updated 2026-10-10T13:20:06.264052 · 56 Senators, 180 Representatives (cu
 | 4 | Billy Hickman | Republican | 404-463-1371 | [site](https://www.legis.ga.gov/members/senate/4972) |
 | 5 | Sheikh Rahman | Democratic | 404-656-7871 | [site](https://www.legis.ga.gov/members/senate/4924) |
 | 6 | Matt Brass | Republican | 404-656-0057 | [site](https://www.legis.ga.gov/members/senate/4907) |
-| 7 | Adrienne White Carden | Democratic |  | [site](https://www.legis.ga.gov/members/senate/5097) |
+| 7 | Adrienne White Carden | Democratic | 404-463-5263 | [site](https://www.legis.ga.gov/members/senate/5097) |
 | 8 | Russ Goodman | Republican | 404-463-1318 | [site](https://www.legis.ga.gov/members/senate/4977) |
 | 9 | Nikki Merritt | Democratic | 404-463-1310 | [site](https://www.legis.ga.gov/members/senate/4978) |
 | 10 | Emanuel Jones | Democratic | 404-656-0502 | [site](https://www.legis.ga.gov/members/senate/28) |
