@@ -1363,7 +1363,7 @@ voteId,date,bill,title,motionText,yea,nay,result,billUrl
 25961-72845,2026-03-03,HB 1196,Crimes; offense of criminal trespass involving a wild animal; provide,PASSAGE,167,0,Pass,https://www.legis.ga.gov/legislation/72845
 25962-72877,2026-03-03,HB 1201,Fire protection; compliance with safety standards for smoke detectors; provide,PASSAGE,166,1,Pass,https://www.legis.ga.gov/legislation/72877
 25963-72885,2026-03-03,HB 1209,Sales and use tax; purchases of tangible property and construction materials used for or in the construction and furnishing of certain buildings; provide exemption,PASSAGE,160,8,Pass,https://www.legis.ga.gov/legislation/72885
-25964-72527,2026-03-03,HR 1114,Homeowner's Incentive Adjustment clause; remove cap on benefits - CA,ADOPT,99,73,Pass,https://www.legis.ga.gov/legislation/72527
+25964-72527,2026-03-03,HR 1114,Homeowner's Incentive Adjustment clause; remove cap on benefits - CA,ADOPT,99,73,Fail,https://www.legis.ga.gov/legislation/72527
 25965-73061,2026-03-03,HB 1268,"Official Code of Georgia Annotated; revise, modernize and correct errors or omissions",PASSAGE,168,0,Pass,https://www.legis.ga.gov/legislation/73061
 25966-73198,2026-03-03,HB 1310,State symbols; cotton as official state fabric; designate,PASSAGE,158,0,Pass,https://www.legis.ga.gov/legislation/73198
 25967-72951,2026-03-03,HB 1230,Aviation; prohibit operation of unmanned aircraft systems over a place of incarceration,PASSAGE,166,2,Pass,https://www.legis.ga.gov/legislation/72951
@@ -1518,7 +1518,7 @@ voteId,date,bill,title,motionText,yea,nay,result,billUrl
 26115-72392,2026-03-06,SB 423,"Government Transparency; campaign committees, independent committees, political action committees, and leadership committees from accepting contributions or donations from non-Georgia persons that exceed 50 percent of all contributions received; prohibit ",PASSAGE BY SUBSTITUTE,33,21,Pass,https://www.legis.ga.gov/legislation/72392
 26116-73568,2026-03-06,SB 572,Criminal Prosecutions; an additional justification for use of force in defense of self or others; provide,PASSAGE,30,23,Pass,https://www.legis.ga.gov/legislation/73568
 26117-72634,2026-03-06,SB 439,"""Fair Business Practices Act of 1975""; regulation of referral agencies for assisted living communities and personal care homes; provide",PASSAGE BY SUBSTITUTE,53,0,Pass,https://www.legis.ga.gov/legislation/72634
-26118-73520,2026-03-06,SR 838,"""State Assurance of Voter Eligibility (SAVE) Amendment"" -CA",ADOPTION OF CONSTITUTIONAL AMENDMENT,32,23,Pass,https://www.legis.ga.gov/legislation/73520
+26118-73520,2026-03-06,SR 838,"""State Assurance of Voter Eligibility (SAVE) Amendment"" -CA",ADOPTION OF CONSTITUTIONAL AMENDMENT,32,23,Fail,https://www.legis.ga.gov/legislation/73520
 26119-73517,2026-03-06,SB 551,"Standard, Labeling, and Adulteration of Food; eggs; repeal provisions",PASSAGE,45,0,Pass,https://www.legis.ga.gov/legislation/73517
 26120-73571,2026-03-06,SB 573,Primaries and Elections; the nonpartisan election for county officers and district attorneys in certain counties; provide,PASSAGE,24,29,Fail,https://www.legis.ga.gov/legislation/73571
 26121-73645,2026-03-06,SB 587,Offenses Against Public Health and Morals; the establishment of an animal cruelty database; provide,PASSAGE AS AMENDED,54,0,Pass,https://www.legis.ga.gov/legislation/73645
@@ -1543,9 +1543,9 @@ voteId,date,bill,title,motionText,yea,nay,result,billUrl
 26140-71181,2026-03-06,SB 324,Life Insurance; certain protections for life insurance policyholders and beneficiaries; provide,PASSAGE BY SUBSTITUTE,50,0,Pass,https://www.legis.ga.gov/legislation/71181
 26141-72324,2026-03-06,SB 418,Torts; cause of action against the knowing and unauthorized use of an individual's photograph or image together with representations of nudity or sexually explicit conduct; provide,PASSAGE BY SUBSTITUTE,40,8,Pass,https://www.legis.ga.gov/legislation/72324
 26142-73657,2026-03-06,SB 593,Development Impact Fees; disclosure of impact fees upon transfer of ownership; provide,PASSAGE BY SUBSTITUTE,50,0,Pass,https://www.legis.ga.gov/legislation/73657
-26144-72667,2026-03-06,SR 668,"General Assembly; the assessment of property taxes on property; electronic equipment primarily used to process, store, or transmit digital information and data; authorize",ADOPTION BY SUBSTITUTE,29,21,Pass,https://www.legis.ga.gov/legislation/72667
+26144-72667,2026-03-06,SR 668,"General Assembly; the assessment of property taxes on property; electronic equipment primarily used to process, store, or transmit digital information and data; authorize",ADOPTION BY SUBSTITUTE,29,21,Fail,https://www.legis.ga.gov/legislation/72667
 26145-72830,2026-03-06,SB 458,"""Home Inspector Licensing Act of Georgia""; enact",PASSAGE BY SUBSTITUTE,46,2,Pass,https://www.legis.ga.gov/legislation/72830
-26147-73712,2026-03-06,SR 875,"State-Wide Grand Juries; jurisdiction, powers, and duties; provide -CA",ADOPTION OF CONSTITUTIONAL AMENDMENT,28,21,Pass,https://www.legis.ga.gov/legislation/73712
+26147-73712,2026-03-06,SR 875,"State-Wide Grand Juries; jurisdiction, powers, and duties; provide -CA",ADOPTION OF CONSTITUTIONAL AMENDMENT,28,21,Fail,https://www.legis.ga.gov/legislation/73712
 26148-72464,2026-03-06,SB 424,"""Transactional Gold and Silver Act""; enact",PASSAGE,29,21,Pass,https://www.legis.ga.gov/legislation/72464
 26149-71840,2026-03-06,SB 367,"Certificate of Need; health care facilities, services, and equipment dedicated exclusively to the treatment of cancer; provide for exemption",PASSAGE BY SUBSTITUTE,32,17,Pass,https://www.legis.ga.gov/legislation/71840
 26150-72969,2026-03-06,SB 475,Charter School Funding; local boards of education to treat local charter schools no less favorably than other local schools; expenditure of the proceeds of a special purpose local option sales tax; require,PASSAGE BY SUBSTITUTE,43,6,Pass,https://www.legis.ga.gov/legislation/72969
@@ -1678,8 +1678,8 @@ voteId,date,bill,title,motionText,yea,nay,result,billUrl
 26253-74057,2026-03-19,SB 620,State Court of Barrow County; a full-time solicitor-general; provide,LOCAL CONSENT CALENDAR,49,0,Pass,https://www.legis.ga.gov/legislation/74057
 26255-73170,2026-03-19,HB 1293,Education; updated eligibility requirements for the Dual Achievement Program; provide,PASSAGE,53,0,Pass,https://www.legis.ga.gov/legislation/73170
 26256-73429,2026-03-19,HB 1391,Specialty license plates; honor public safety officers; establish,PASSAGE,52,0,Pass,https://www.legis.ga.gov/legislation/73429
-26257-70279,2026-03-19,HR 251,Local government; probate judges shall be elected in nonpartisan elections; provide - CA,ADOPTION OF CONSTITUTIONAL AMENDMENT,31,18,Pass,https://www.legis.ga.gov/legislation/70279
-26258-72891,2026-03-19,HR 1243,Georgia Next Generation 9-1-1 Fund; authorize creation - CA,ADOPTION OF CONSTITUTIONAL AMENDMENT,31,14,Pass,https://www.legis.ga.gov/legislation/72891
+26257-70279,2026-03-19,HR 251,Local government; probate judges shall be elected in nonpartisan elections; provide - CA,ADOPTION OF CONSTITUTIONAL AMENDMENT,31,18,Fail,https://www.legis.ga.gov/legislation/70279
+26258-72891,2026-03-19,HR 1243,Georgia Next Generation 9-1-1 Fund; authorize creation - CA,ADOPTION OF CONSTITUTIONAL AMENDMENT,31,14,Fail,https://www.legis.ga.gov/legislation/72891
 26259-69642,2026-03-19,HB 165,Income tax credit; business enterprises for leased motor vehicles; repeal and reserve,PASSAGE BY SUBSTITUTE,46,0,Pass,https://www.legis.ga.gov/legislation/69642
 26260-72246,2026-03-19,HB 986,Motor vehicles; personal delivery devices; revise operation procedures and restrictions,PASSAGE,44,2,Pass,https://www.legis.ga.gov/legislation/72246
 26261-72677,2026-03-19,HB 1123,Quality Basic Education Act; require certain schools that offer after-school programs to make such programs available to pre-kindergarten students ,PASSAGE,46,0,Pass,https://www.legis.ga.gov/legislation/72677
