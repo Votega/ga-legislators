@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/votes.schema.json",
  "title": "Georgia General Assembly — Roll-call Votes",
- "description": "Passage votes from the Georgia General Assembly (Open States), keyed by OCD vote id. memberVotes is keyed by OCD person id (the `id` in members data).",
+ "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by OCD person id (the `id` in members data).",
  "type": "object",
  "required": [
   "votes",
@@ -45,6 +45,44 @@
      "motionText": {
       "type": [
        "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "Senate",
+       "House of Representatives",
+       null
+      ],
+      "description": "The chamber that held this roll call, as recorded by the source. Do NOT infer this from motionText: an 'Agree to Senate Substitute' is a House vote. Absent on records predating this field."
+     },
+     "rollNumber": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "The chamber's own roll-call number for the session, counting ALL roll calls (procedural ones included), so it is dense in the source but gapped here. Orders roll calls authoritatively; absent on records predating the field."
+     },
+     "time": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Clock time the roll call was taken, e.g. \"2:39 PM\"."
+     },
+     "excused": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "notVoting": {
+      "type": [
+       "integer",
        "null"
       ]
      },
