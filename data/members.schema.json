@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/data/members.schema.json",
  "title": "Georgia General Assembly — Members",
- "description": "Georgia state legislators from Open States. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
+ "description": "Georgia state legislators, sourced from the General Assembly's own web service at legis.ga.gov. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
  "type": "object",
  "required": [
   "members"
@@ -23,10 +23,11 @@
     "properties": {
      "id": {
       "type": "string",
-      "description": "OCD person id (join key into votes.json's memberVotes)."
+      "description": "Join key into votes.json's memberVotes. Normally an Open States OCD person id, carried as a cross-reference; a member Open States has not catalogued is keyed 'legis-<legisGaGovId>' instead. A member's id is assigned once and never changes. Prefer legisGaGovId as the STABLE identifier: it is the General Assembly's own id for the member."
      },
      "name": {
-      "type": "string"
+      "type": "string",
+      "description": "The name as commonly used, which can differ from the formal name legis.ga.gov returns ('Tim Bearden' vs 'Timothy Bearden')."
      },
      "firstName": {
       "type": [
@@ -92,13 +93,35 @@
       ]
      },
      "committees": {
-      "type": "array"
+      "type": "array",
+      "description": "Committee names exactly as legis.ga.gov publishes them."
      },
      "legisGaGovId": {
       "type": [
        "integer",
        "null"
+      ],
+      "description": "The General Assembly's own member id, and the stable join key. Null only for the statewide executives, who are not members of the legislature."
+     },
+     "leadershipRole": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Chamber or committee leadership title, e.g. 'Speaker of the House', 'Chairman, House Committee on Appropriations'. Null for a rank-and-file member."
+     },
+     "occupation": {
+      "type": [
+       "string",
+       "null"
       ]
+     },
+     "residence": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "The city the member gives as home — not an address."
      }
     },
     "additionalProperties": true
