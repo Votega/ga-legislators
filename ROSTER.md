@@ -1,7 +1,7 @@
 # Georgia General Assembly
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-10-13T14:51:00.436097+00:00 · 56 Senators, 180 Representatives (current, live roster)._
+_Last updated 2026-10-14T12:43:01.929853+00:00 · 56 Senators, 180 Representatives (current, live roster)._
 
 > Machine-readable: [`data/all.json`](data/all.json) / [`data/members.csv`](data/members.csv). Current session's votes and past sessions: see [`latest.json`](latest.json) and [`sessions/`](sessions). Derived voting scorecard (party unity + participation): [`scorecard-latest.json`](scorecard-latest.json).
 
@@ -56,7 +56,7 @@ _Last updated 2026-10-13T14:51:00.436097+00:00 · 56 Senators, 180 Representativ
 | 45 | Clint Dixon | Republican | 404-463-2518 | [site](https://www.legis.ga.gov/members/senate/4982) |
 | 46 | Bill Cowsert | Republican | 404-463-1366 | [site](https://www.legis.ga.gov/members/senate/9) |
 | 47 | Frank Ginn | Republican | 404-656-9224 | [site](https://www.legis.ga.gov/members/senate/751) |
-| 48 | Shawn Still | Republican | 404-656-7127 | [site](https://www.legis.ga.gov/members/senate/5016) |
+| 48 | Shawn Still | Republican | 404-463-3932 | [site](https://www.legis.ga.gov/members/senate/5016) |
 | 49 | Drew Echols | Republican | 404-463-3931 | [site](https://www.legis.ga.gov/members/senate/5067) |
 | 50 | Bo Hatchett | Republican | 404-656-7454 | [site](https://www.legis.ga.gov/members/senate/4984) |
 | 51 | Steve Gooch | Republican | 404-656-9221 | [site](https://www.legis.ga.gov/members/senate/752) |
