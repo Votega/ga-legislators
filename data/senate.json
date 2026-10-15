@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-15T12:31:54.145668+00:00",
+    "generatedAt": "2026-10-15T23:23:25.003218+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -438,7 +438,7 @@
       "legisGaGovId": 840,
       "status": "Resigned",
       "statusDate": "2025-05-05",
-      "statusNote": "Left office effective 2025-05-05 (last day of service per the legis.ga.gov Senate roster, verified 2026-08-23); succeeded by Jason Dickerson. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Last day of service per the official Georgia Senate roster.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -834,7 +834,7 @@
       "legisGaGovId": 4933,
       "status": "Resigned",
       "statusDate": "2026-01-13",
-      "statusNote": "Resigned effective January 13, 2026 (per legis.ga.gov member page). Retained under this OCD id so votes recorded earlier in the 2025-2026 session still attribute correctly; successor Lanny Thomas now holds Senate District 53.",
+      "statusNote": "Resignation date per his official legis.ga.gov member page.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -2027,7 +2027,7 @@
       "legisGaGovId": 5014,
       "status": "Resigned",
       "statusDate": "2025-09-10",
-      "statusNote": "Left office effective 2025-09-10 (last day of service per the legis.ga.gov Senate roster, verified 2026-08-23); succeeded by Jaha Howard. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Last day of service per the official Georgia Senate roster.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -2161,7 +2161,7 @@
       "legisGaGovId": 852,
       "status": "Resigned",
       "statusDate": "2025-12-09",
-      "statusNote": "Left office effective 2025-12-09 (last day of service per the legis.ga.gov Senate roster, verified 2026-08-23); succeeded by Steven McNeel. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Last day of service per the official Georgia Senate roster.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -2983,7 +2983,7 @@
       "legisGaGovId": 5015,
       "status": "Resigned",
       "statusDate": "2026-03-13",
-      "statusNote": "Resigned effective March 13, 2026. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly; her successor Adrienne White Carden (ga-senate-7-carden) now holds the seat.",
+      "statusNote": "Resignation date per her official legis.ga.gov member page.",
       "leadershipRole": null,
       "committeeRoles": [
         {

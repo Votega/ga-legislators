@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-15T12:31:54.145668+00:00",
+    "generatedAt": "2026-10-15T23:23:25.003218+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -3130,7 +3130,7 @@
       "legisGaGovId": 831,
       "status": "Resigned",
       "statusDate": "2026-03-09",
-      "statusNote": "Resigned effective March 9, 2026. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly; see the ga-house-177-vacant entry for current seat status.",
+      "statusNote": "Resignation date per his official legis.ga.gov member page.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -5262,7 +5262,7 @@
       "legisGaGovId": 810,
       "status": "Resigned",
       "statusDate": "2026-01-01",
-      "statusNote": "Seat vacated 2026-01-01 per the Georgia General Assembly’s official record. Successor Venola Mason was sworn in on 2026-04-18. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Seat vacated per the Georgia General Assembly’s official record.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -6347,7 +6347,7 @@
       "legisGaGovId": 5048,
       "status": "Resigned",
       "statusDate": "2026-01-05",
-      "statusNote": "Seat vacated 2026-01-05 per the Georgia General Assembly’s official record. Successor Sheila Nelson was sworn in on 2026-03-15. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Seat vacated per the Georgia General Assembly’s official record.",
       "leadershipRole": null,
       "committeeRoles": [
         {
@@ -6543,7 +6543,7 @@
       "legisGaGovId": 808,
       "status": "Resigned",
       "statusDate": "2025-10-12",
-      "statusNote": "Seat vacated 2025-10-12 per the Georgia General Assembly’s official record. Successor Bill Fincher was sworn in on 2026-01-10. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Seat vacated per the Georgia General Assembly’s official record.",
       "leadershipRole": "Chairman, House Committee on Judiciary Juvenile",
       "committeeRoles": [
         {
@@ -6612,7 +6612,7 @@
       "legisGaGovId": 4956,
       "status": "Resigned",
       "statusDate": "2025-10-28",
-      "statusNote": "Seat vacated 2025-10-28 per the Georgia General Assembly’s official record. Successor Eric Gisler was sworn in on 2026-01-08. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Seat vacated per the Georgia General Assembly’s official record.",
       "leadershipRole": "Chairman, House Appropriations General Government Subcommittee",
       "committeeRoles": [
         {
@@ -9815,7 +9815,7 @@
       "legisGaGovId": 4952,
       "status": "Resigned",
       "statusDate": "2025-09-05",
-      "statusNote": "Seat vacated 2025-09-05 per the Georgia General Assembly’s official record. Successor Akbar Ali (legisGaGovId 5089) now holds House District 106. Retained under this OCD id so votes recorded earlier in the 2025–2026 session still attribute correctly.",
+      "statusNote": "Seat vacated per the Georgia General Assembly’s official record.",
       "leadershipRole": null,
       "committeeRoles": [
         {
