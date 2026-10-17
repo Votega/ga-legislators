@@ -158,4 +158,4 @@ Please do not edit data files directly. Open an issue using the **Data Correctio
 
 ## License
 
-GPL-3.0
+[CC-BY-SA 4.0](https://github.com/Votega/ga-legislators?tab=CC-BY-SA-4.0-1-ov-file)
