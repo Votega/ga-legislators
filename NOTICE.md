@@ -9,6 +9,7 @@ appropriate credit and license any adaptations you distribute under the same ter
 
 ## How to credit
 
+> Source: VoteGA.org (https://www.votega.org), CC BY-SA 4.0.
 > Data from [VoteGA.org](https://votega.org), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 > Original source: the Georgia General Assembly (legis.ga.gov).
 
