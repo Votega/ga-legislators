@@ -2,6 +2,8 @@
 
 Data for all members of Georgia's General Assembly, maintained by [VoteGA.org](https://votega.org). The **current roster** refreshes daily; **voting records** refresh weekly. A General Assembly is a two-year *biennium* — a regular session plus any special sessions the Governor convenes — and the upstream data is replaced wholesale over time, so this repo keeps a permanent **per-session archive**: each session's votes (and the frozen end-of-biennium roster) live in their own folder and are never lost.
 
+> **Looking for Georgia's U.S. Senators and Representatives?** They are in the companion repo [`ga-federal-legislators`](https://github.com/Votega/ga-federal-legislators). It is separate because it comes from a different source (Congress.gov and the House Clerk / Senate roll-call XML) and identifies members by Bioguide ID rather than the OCD person ID used here, so the two do not join.
+
 ## Current data
 
 The live roster — always the members serving right now.
