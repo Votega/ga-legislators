@@ -46,113 +46,40 @@ majority opposite the other party's majority) voted with your own caucus;
 participation = share of your chamber's passage roll calls on which you cast a
 Yea or Nay. See `scorecard.schema.json`; root pointer at `scorecard-latest.json`.
 
-## Schema
+## Member records
 
-Each member record includes the following fields:
+Field definitions live in `data/members.schema.json` (and the same file under each `sessions/<biennium>/`); this section covers what a schema can't say.
 
-### Identity & Position
-| Field | Type | Description |
-|---|---|---|
-| `id` | string | Open States person ID (`ocd-person/…`) |
-| `legisGaGovId` | integer \| null | Numeric ID on legis.ga.gov — used to link to voting history and official member pages |
-| `name` | string | Full display name |
-| `firstName` | string | Given name |
-| `lastName` | string | Family name |
-| `party` | string | `"Republican"`, `"Democratic"`, or `"Independent"` |
-| `chamber` | string | `"House of Representatives"` or `"Senate"` |
-| `district` | integer | District number |
-| `title` | string | `"Representative"` or `"Senator"` |
-| `leadershipRole` | string \| null | e.g. `"Speaker of the House"`, `"Majority Leader"` |
+- **`legisGaGovId` is the stable identifier.** It is the General Assembly's own id for the member, and it is what links to the member's page on legis.ga.gov.
+- **`id` is the join key into votes, but it is assigned once and never changes.** It is normally an Open States person id (`ocd-person/…`), carried as a cross-reference; a member Open States has not catalogued is keyed `legis-<legisGaGovId>`. Prefer `legisGaGovId` when you need an identity that cannot move.
+- **Not every record is a legislator.** `data/all.json` also holds the statewide executives (`chamber: "executive"`). Filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only; `members.csv` and `ROSTER.md` already exclude them.
+- **`status` is `null` for a sitting member.** Otherwise it is one of `"Resigned"`, `"Removed"`, `"Suspended"`, `"Deceased"` or `"Vacant"`, with `statusDate` and a `statusNote` (which may contain a markdown link to the source). These fields are editorial: the General Assembly's own service records who holds a seat, not who has left it, so VoteGA maintains them by hand.
+- **Optional fields are `null`, not empty strings,** when unknown.
+- Records carry more than the schema lists (for example committee roles, occupation and residence); the schema allows additional properties.
 
-### Contact
-| Field | Type | Description |
-|---|---|---|
-| `phone` | string | Capitol office phone |
-| `email` | string | Official email address |
-| `address` | string | Capitol office mailing address |
-| `officialWebsiteUrl` | string | Member page on legis.ga.gov |
-| `imageUrl` | string | Portrait image URL from legis.ga.gov; empty string if unavailable |
+## Voting records (`sessions/<slug>/votes.json`)
 
-### Biographical
-| Field | Type | Description |
-|---|---|---|
-| `birthDate` | string | ISO date (`YYYY-MM-DD`) |
-| `birthYear` | integer \| null | Birth year extracted from `birthDate` |
-| `termStart` | string | ISO date of current term start |
-| `termStartYear` | integer \| null | Year extracted from `termStart` |
-
-### Committees
-| Field | Type | Description |
-|---|---|---|
-| `committees` | string[] | Committee names the member currently serves on |
-
-### Departure (mid-term vacancies)
-Members who left office mid-term include additional fields:
-
-| Field | Type | Description |
-|---|---|---|
-| `status` | string | `"Resigned"`, `"Removed"`, `"Suspended"`, `"Deceased"`, or `"Vacant"` |
-| `statusDate` | string | Effective date of departure (ISO date) |
-| `statusNote` | string \| null | Context or source link (may contain markdown) |
-
-## Voting Records (`sessions/<slug>/votes.json`)
-
-Passage votes — final up-or-down floor votes on a bill — for one session of the General Assembly, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included. There is a `votes.json` per session; resolve their paths from [`latest.json`](latest.json)'s `sessions[]`.
-
-Members are joined to their votes by `id` — the same Open States person ID (`ocd-person/…`) used throughout `data/all.json`, `house.json`, and `senate.json`.
-
-### Structure
+Passage votes — final up-or-down floor votes on a bill — for one session of the General Assembly, with how every member voted on each one. Procedural motions, amendments, and committee votes are not included. There is a `votes.json` per session; resolve their paths from [`latest.json`](latest.json)'s `sessions[]`. The structure is described by that session's `votes.schema.json`.
 
 ```jsonc
 {
-  "metadata": { /* see below */ },
+  "metadata": { /* source, generatedAt, session, totalVotes */ },
   "votes":       { "<voteId>": { /* roll call details */ } },
   "memberVotes": { "<personId>": [ { "voteId": "...", "vote": "Yea" }, ... ] }
 }
 ```
 
-### `votes[voteId]`
+- **Join:** members are joined to their votes by `id` — the same `id` used in `data/all.json`, `house.json`, and `senate.json`. `voteId` looks up the roll call in `votes`.
+- **`vote`** is `"Yea"` or `"Nay"` when the member voted. Other values (for example `"Excused"` or `"Not Voting"`) mean they did not cast a vote.
+- **`chamber` and `rollNumber`** are recorded by the source for each roll call. Use `chamber` rather than inferring it from the motion text: an "Agree to Senate Substitute" is a House vote. `rollNumber` is the chamber's own roll-call number and counts roll calls this file leaves out, so it is not dense here.
+- **A bundled calendar vote appears once per bill,** with identical tallies, so counting rows overcounts floor votes.
+- `metadata` records the source, when the file was generated, and the session it covers.
 
-| Field | Type | Description |
-|---|---|---|
-| `bill` | string | Bill identifier (e.g. `"SB 29"`) |
-| `billUrl` | string | Link to the bill on legis.ga.gov |
-| `title` | string | Bill title |
-| `session` | string | Session id this roll call belongs to (`"2025_26"` regular, `"2026_ss"` special). All roll calls in one `sessions/<slug>/votes.json` share it. |
-| `motionText` | string | Roll call description (e.g. `"Senate Vote #133 - 2025-2026 Regular Session"`) |
-| `date` | string | ISO date the vote was taken |
-| `yea` / `nay` | integer | Chamber-wide yea/nay counts |
-| `result` | string | `"Pass"` or `"Fail"` |
+## Data sources & updates
 
-### `memberVotes[personId]`
+All of the data comes from the Georgia General Assembly's own web service (legis.ga.gov). VoteGA.org adds a small editorial layer on top for the things that service doesn't record, mainly departures and vacancies, and keeps the cross-reference to Open States person ids described above.
 
-An array of `{ "voteId": string, "vote": string }` — one entry per roll call that member participated in. `voteId` looks up the roll call in `votes` above.
-
-`vote` is one of:
-
-| Value | Meaning |
-|---|---|
-| `"Yea"` | Voted in favor |
-| `"Nay"` | Voted against |
-| `"Other"` | Absent, excused, not voting, or present — Open States collapses these into a single category for Georgia |
-
-### `metadata`
-
-| Field | Description |
-|---|---|
-| `generatedAt` | ISO timestamp of this file's generation |
-| `session` / `sessionName` | Legislative session covered |
-| `totalVotes` | Number of roll calls in `votes` |
-| `totalBillsSeen` | Number of bills the generator paginated through |
-| `paginationComplete` | `false` if a refresh didn't finish fetching every bill before stopping |
-| `duplicateVotesDropped` | Roll-call entries removed because a member appeared twice for the same vote (an upstream data artifact) |
-| `crossChamberDropped` | Entries removed because a member was erroneously attributed a vote from the chamber they don't belong to |
-
-## Data Sources & Updates
-
-Member data originates from the [Open States API](https://openstates.org/) (Plural Policy), a nonpartisan nonprofit that standardizes legislative data across all 50 states. VoteGA.org supplements this with a manual override layer to fill in term start dates, leadership roles, departure status, and other Georgia-specific details that Open States doesn't reliably capture.
-
-`data/all.json`, `house.json`, and `senate.json` are updated automatically each time VoteGA.org's daily member-data workflow runs. The current session's `sessions/<slug>/votes.*` files (and `latest.json`) are updated each time VoteGA.org's weekly vote-data workflow runs — if that workflow fails (e.g. an upstream API outage), the files simply aren't touched that week rather than being overwritten with incomplete data, so they may occasionally be a few days staler than the weekly cadence implies. When a new two-year session begins, the previous session's directory is left in place untouched, and a new `sessions/<slug>/` is created for the incoming session.
+The roster files (`data/*`) are refreshed daily, and the vote files and scorecard weekly. If an update fails, the files are left as they were rather than overwritten with incomplete data, so they may occasionally be a few days older than the schedule implies. When a new two-year session begins, the previous session's directory is left untouched and a new `sessions/<slug>/` is created.
 
 ## Reporting Corrections
 
