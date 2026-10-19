@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/votes.schema.json",
  "title": "Georgia General Assembly — Roll-call Votes",
- "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by OCD person id (the `id` in members data).",
+ "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by the `id` in members data — normally an Open States OCD person id, or 'legis-<legisGaGovId>' for a member Open States has not catalogued. See members.schema.json; legisGaGovId is the stable identifier.",
  "type": "object",
  "required": [
   "votes",
