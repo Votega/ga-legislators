@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-19T17:36:33.654175+00:00",
+    "generatedAt": "2026-10-19T19:19:22.570278+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -68,7 +68,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/3cfc8d4f-68d4-44b2-81f4-a162465e1aed",
-      "wikidataId": null,
       "ballotpediaId": "Adrienne_White_(Georgia)",
       "idProvenance": {
         "ocdPersonId": {
@@ -77,10 +76,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -159,7 +154,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/ben-watson ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/fd2717f1-6294-4601-a027-8fc41195372c",
-      "wikidataId": null,
       "ballotpediaId": "Ben_Watson",
       "idProvenance": {
         "ocdPersonId": {
@@ -168,10 +162,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -250,7 +240,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/bill-cowsert",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
-      "wikidataId": null,
       "ballotpediaId": "Bill_Cowsert",
       "idProvenance": {
         "ocdPersonId": {
@@ -259,10 +248,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -331,7 +316,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/billy-hickman ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
-      "wikidataId": null,
       "ballotpediaId": "Billy_Hickman_(Georgia)",
       "idProvenance": {
         "ocdPersonId": {
@@ -340,10 +324,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -417,7 +397,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/blake-tillery ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
-      "wikidataId": null,
       "ballotpediaId": "Blake_Tillery",
       "idProvenance": {
         "ocdPersonId": {
@@ -426,10 +405,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -517,7 +492,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
-      "wikidataId": null,
       "ballotpediaId": "Bo_Hatchett",
       "idProvenance": {
         "ocdPersonId": {
@@ -526,10 +500,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -613,7 +583,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/brandon-beach",
       "dateVacated": "2025-05-05T00:00:00",
       "ocdPersonId": "ocd-person/8d6562cb-cdd0-405f-a165-8463cde26594",
-      "wikidataId": null,
       "ballotpediaId": "Brandon_Beach",
       "idProvenance": {
         "ocdPersonId": {
@@ -622,10 +591,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -704,7 +669,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/brian-strickland ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
-      "wikidataId": null,
       "ballotpediaId": "Brian_Strickland",
       "idProvenance": {
         "ocdPersonId": {
@@ -713,10 +677,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -785,7 +745,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/carden-summers ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
-      "wikidataId": null,
       "ballotpediaId": "Carden_Summers",
       "idProvenance": {
         "ocdPersonId": {
@@ -794,10 +753,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -871,7 +826,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/chuck-hufstetler",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
-      "wikidataId": null,
       "ballotpediaId": "Chuck_Hufstetler",
       "idProvenance": {
         "ocdPersonId": {
@@ -880,10 +834,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -957,7 +907,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/chuck-payne ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
-      "wikidataId": null,
       "ballotpediaId": "Chuck_Payne",
       "idProvenance": {
         "ocdPersonId": {
@@ -966,10 +915,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1048,7 +993,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
-      "wikidataId": null,
       "ballotpediaId": "Clint_Dixon",
       "idProvenance": {
         "ocdPersonId": {
@@ -1057,10 +1001,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1129,7 +1069,6 @@
       "pressUrl": null,
       "dateVacated": "2026-01-13T00:00:00",
       "ocdPersonId": "ocd-person/6ebda9ee-2203-4b66-9bb3-64d2307157a0",
-      "wikidataId": null,
       "ballotpediaId": "Colton_Moore",
       "idProvenance": {
         "ocdPersonId": {
@@ -1138,10 +1077,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1215,7 +1150,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/david-lucas ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
-      "wikidataId": null,
       "ballotpediaId": "David_Lucas_Sr.",
       "idProvenance": {
         "ocdPersonId": {
@@ -1224,10 +1158,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1296,7 +1226,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
-      "wikidataId": null,
       "ballotpediaId": "Derek_Mallow",
       "idProvenance": {
         "ocdPersonId": {
@@ -1305,10 +1234,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1377,7 +1302,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/michael-rhett ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
-      "wikidataId": null,
       "ballotpediaId": "Michael_A._Rhett",
       "idProvenance": {
         "ocdPersonId": {
@@ -1386,10 +1310,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1458,7 +1378,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/donzella-james",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
-      "wikidataId": null,
       "ballotpediaId": "Donzella_James",
       "idProvenance": {
         "ocdPersonId": {
@@ -1467,10 +1386,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1548,7 +1463,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
-      "wikidataId": null,
       "ballotpediaId": "Drew_Echols",
       "idProvenance": {
         "ocdPersonId": {
@@ -1557,10 +1471,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1639,7 +1549,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/ed-harbison",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
-      "wikidataId": null,
       "ballotpediaId": "Ed_Harbison",
       "idProvenance": {
         "ocdPersonId": {
@@ -1648,10 +1557,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1729,7 +1634,6 @@
       "pressUrl": "https://house-press.com/representative/Ed-Setzler",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
-      "wikidataId": null,
       "ballotpediaId": "Ed_Setzler",
       "idProvenance": {
         "ocdPersonId": {
@@ -1738,10 +1642,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1805,7 +1705,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/elena-parent ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
-      "wikidataId": null,
       "ballotpediaId": "Elena_Parent",
       "idProvenance": {
         "ocdPersonId": {
@@ -1814,10 +1713,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1891,7 +1786,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/emanuel-jones",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/acc7c167-6251-4ce8-8021-511acfa291ef",
-      "wikidataId": null,
       "ballotpediaId": "Emanuel_Jones",
       "idProvenance": {
         "ocdPersonId": {
@@ -1900,10 +1794,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -1987,7 +1877,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/frank-ginn",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
-      "wikidataId": null,
       "ballotpediaId": "Frank_Ginn",
       "idProvenance": {
         "ocdPersonId": {
@@ -1996,10 +1885,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2078,7 +1963,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/freddie-powell-sims ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/a0bfdc0d-4110-4cd2-b83c-834bba4300f5",
-      "wikidataId": null,
       "ballotpediaId": "Freddie_Sims",
       "idProvenance": {
         "ocdPersonId": {
@@ -2087,10 +1971,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2163,7 +2043,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/gail-davenport",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
-      "wikidataId": null,
       "ballotpediaId": "Gail_Davenport",
       "idProvenance": {
         "ocdPersonId": {
@@ -2172,10 +2051,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2264,7 +2139,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/greg-dolezal",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
-      "wikidataId": null,
       "ballotpediaId": "Greg_Dolezal",
       "idProvenance": {
         "ocdPersonId": {
@@ -2273,10 +2147,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2365,7 +2235,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/harold-jones",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
-      "wikidataId": null,
       "ballotpediaId": "Harold_V._Jones_II",
       "idProvenance": {
         "ocdPersonId": {
@@ -2374,10 +2243,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2441,7 +2306,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/fcd57129-480c-4fba-a0d1-7fb369706611",
-      "wikidataId": null,
       "ballotpediaId": "Jaha_Howard",
       "idProvenance": {
         "ocdPersonId": {
@@ -2450,10 +2314,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2551,7 +2411,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
-      "wikidataId": null,
       "ballotpediaId": "Jason_Anavitarte",
       "idProvenance": {
         "ocdPersonId": {
@@ -2560,10 +2419,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2637,7 +2492,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c",
-      "wikidataId": null,
       "ballotpediaId": "Jason_Dickerson_(Georgia)",
       "idProvenance": {
         "ocdPersonId": {
@@ -2646,10 +2500,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2718,7 +2568,6 @@
       "pressUrl": null,
       "dateVacated": "2025-09-10T00:00:00",
       "ocdPersonId": "ocd-person/e6dcaefd-8ecd-4f08-990f-e4443ae53ee8",
-      "wikidataId": null,
       "ballotpediaId": "Jason_Esteves",
       "idProvenance": {
         "ocdPersonId": {
@@ -2727,10 +2576,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2809,7 +2654,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/john-albers",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
-      "wikidataId": null,
       "ballotpediaId": "John_Albers",
       "idProvenance": {
         "ocdPersonId": {
@@ -2818,10 +2662,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2920,7 +2760,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/john-f-kennedy ",
       "dateVacated": "2025-12-09T00:00:00",
       "ocdPersonId": "ocd-person/ffa17688-2ca9-40ba-9eb3-3991f930bf53",
-      "wikidataId": null,
       "ballotpediaId": "John_F._Kennedy_(Georgia)",
       "idProvenance": {
         "ocdPersonId": {
@@ -2929,10 +2768,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -2996,7 +2831,6 @@
       "pressUrl": "https://house-press.com/representative/Josh-McLaurin",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
-      "wikidataId": null,
       "ballotpediaId": "Josh_McLaurin",
       "idProvenance": {
         "ocdPersonId": {
@@ -3005,10 +2839,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3087,7 +2917,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/kay-kirkpatrick ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
-      "wikidataId": null,
       "ballotpediaId": "Kay_Kirkpatrick",
       "idProvenance": {
         "ocdPersonId": {
@@ -3096,10 +2925,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3168,7 +2993,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/0a816fbf-e5ec-4056-8b3e-08184400e71b",
-      "wikidataId": null,
       "ballotpediaId": "Kenya_Wicks",
       "idProvenance": {
         "ocdPersonId": {
@@ -3177,10 +3001,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3254,7 +3074,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
-      "wikidataId": null,
       "ballotpediaId": "Kim_Jackson",
       "idProvenance": {
         "ocdPersonId": {
@@ -3263,10 +3082,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3340,7 +3155,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/ae6e08e3-6971-4cd2-982a-48d650a343d5",
-      "wikidataId": null,
       "ballotpediaId": "Lanny_Thomas",
       "idProvenance": {
         "ocdPersonId": {
@@ -3349,10 +3163,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3455,7 +3265,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/larry-walker ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994",
-      "wikidataId": null,
       "ballotpediaId": "Larry_Walker_(Georgia)",
       "idProvenance": {
         "ocdPersonId": {
@@ -3464,10 +3273,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3536,7 +3341,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/lee-anderson",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/e11cecf4-f2e5-49d9-ba9e-47681f779438",
-      "wikidataId": null,
       "ballotpediaId": "Lee_Anderson",
       "idProvenance": {
         "ocdPersonId": {
@@ -3545,10 +3349,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3635,7 +3435,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/marty-harbin",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
-      "wikidataId": null,
       "ballotpediaId": "Marty_Harbin",
       "idProvenance": {
         "ocdPersonId": {
@@ -3644,10 +3443,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3721,7 +3516,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/matt-brass",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
-      "wikidataId": null,
       "ballotpediaId": "Matt_Brass",
       "idProvenance": {
         "ocdPersonId": {
@@ -3730,10 +3524,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3816,7 +3606,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
-      "wikidataId": null,
       "ballotpediaId": "Max_Burns",
       "idProvenance": {
         "ocdPersonId": {
@@ -3825,10 +3614,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3902,7 +3687,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
-      "wikidataId": null,
       "ballotpediaId": "Mike_Hodges",
       "idProvenance": {
         "ocdPersonId": {
@@ -3911,10 +3695,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -3978,7 +3758,6 @@
       "pressUrl": null,
       "dateVacated": "2026-03-13T00:00:00",
       "ocdPersonId": "ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc",
-      "wikidataId": null,
       "ballotpediaId": null,
       "idProvenance": {
         "ocdPersonId": {
@@ -3987,10 +3766,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4067,7 +3842,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/nan-orrock ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
-      "wikidataId": null,
       "ballotpediaId": "Nan_Orrock",
       "idProvenance": {
         "ocdPersonId": {
@@ -4076,10 +3850,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4148,7 +3918,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/57ad1f65-9969-4be2-b262-684bf53123fb",
-      "wikidataId": null,
       "ballotpediaId": "Nikki_Merritt",
       "idProvenance": {
         "ocdPersonId": {
@@ -4157,10 +3926,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4229,7 +3994,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/069fb4fa-766b-40e4-90b7-ce96b4fa2ace",
-      "wikidataId": null,
       "ballotpediaId": "Rashaun_Kemp",
       "idProvenance": {
         "ocdPersonId": {
@@ -4238,10 +4002,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4315,7 +4075,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
-      "wikidataId": null,
       "ballotpediaId": "Randal_Mangham",
       "idProvenance": {
         "ocdPersonId": {
@@ -4324,10 +4083,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4416,7 +4171,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/randy-robertson ",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
-      "wikidataId": null,
       "ballotpediaId": "Randy_Robertson",
       "idProvenance": {
         "ocdPersonId": {
@@ -4425,10 +4179,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4511,7 +4261,6 @@
       "pressUrl": "https://house-press.com/representative/Rick-Williams",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/c7860bae-9d9c-449c-9903-20230eec50ac",
-      "wikidataId": null,
       "ballotpediaId": "Ricky_Williams",
       "idProvenance": {
         "ocdPersonId": {
@@ -4520,10 +4269,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4597,7 +4342,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
-      "wikidataId": null,
       "ballotpediaId": "Russ_Goodman",
       "idProvenance": {
         "ocdPersonId": {
@@ -4606,10 +4350,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4678,7 +4418,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/sally-harrell",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
-      "wikidataId": null,
       "ballotpediaId": "Sally_Harrell",
       "idProvenance": {
         "ocdPersonId": {
@@ -4687,10 +4426,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4764,7 +4499,6 @@
       "pressUrl": "https://house-press.com/representative/Sam-Watson",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
-      "wikidataId": null,
       "ballotpediaId": "Sam_Watson",
       "idProvenance": {
         "ocdPersonId": {
@@ -4773,10 +4507,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4865,7 +4595,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
-      "wikidataId": null,
       "ballotpediaId": "Shawn_Still",
       "idProvenance": {
         "ocdPersonId": {
@@ -4874,10 +4603,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -4946,7 +4671,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/sheikh-rahman",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/5b6e0e37-802b-4103-b401-551532aba2e7",
-      "wikidataId": null,
       "ballotpediaId": "Sheikh_Rahman",
       "idProvenance": {
         "ocdPersonId": {
@@ -4955,10 +4679,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -5042,7 +4762,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/sonya-halpern",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
-      "wikidataId": null,
       "ballotpediaId": "Sonya_Halpern",
       "idProvenance": {
         "ocdPersonId": {
@@ -5051,10 +4770,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -5158,7 +4873,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/steve-gooch",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/e2c141e9-9e04-4e2b-8e5b-57db594c7abc",
-      "wikidataId": null,
       "ballotpediaId": "Steve_Gooch",
       "idProvenance": {
         "ocdPersonId": {
@@ -5167,10 +4881,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -5244,7 +4954,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
-      "wikidataId": null,
       "ballotpediaId": "Steven_McNeel",
       "idProvenance": {
         "ocdPersonId": {
@@ -5253,10 +4962,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -5348,7 +5053,6 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
-      "wikidataId": null,
       "ballotpediaId": null,
       "idProvenance": {
         "ocdPersonId": {
@@ -5357,10 +5061,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
@@ -5437,7 +5137,6 @@
       "pressUrl": "https://senatepress.net/category/senate-press/tonya-anderson",
       "dateVacated": null,
       "ocdPersonId": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
-      "wikidataId": null,
       "ballotpediaId": "Tonya_Anderson",
       "idProvenance": {
         "ocdPersonId": {
@@ -5446,10 +5145,6 @@
           "confidence": "high",
           "key": "legisGaGovId",
           "note": "matched on the member's legisGaGovId appearing in the person file's legis.ga.gov profile link; openstates/people declares no such identifier"
-        },
-        "wikidataId": {
-          "method": "unresolved",
-          "note": "no lookup has populated wikidataId for this member yet"
         },
         "ballotpediaId": {
           "method": "authoritative",
