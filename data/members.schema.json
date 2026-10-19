@@ -23,7 +23,32 @@
     "properties": {
      "id": {
       "type": "string",
-      "description": "Join key into votes.json's memberVotes. Normally an Open States OCD person id, carried as a cross-reference; a member Open States has not catalogued is keyed 'legis-<legisGaGovId>' instead. A member's id is assigned once and never changes. Prefer legisGaGovId as the STABLE identifier: it is the General Assembly's own id for the member."
+      "description": "An OPAQUE HANDLE: the stable string this member was first assigned, which never changes. It is the join key into votes.json's memberVotes and nothing else -- do not parse or interpret it. Some values happen to be Open States OCD person ids and others are 'legis-<legisGaGovId>'; neither shape is a promise, so read ocdPersonId for an OCD id. The PRIMARY, authoritative identity is legisGaGovId."
+     },
+     "ocdPersonId": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Open States OCD person id, or null. A cross-reference that can arrive after a member is seated; never the key. See idProvenance for why a value is null."
+     },
+     "wikidataId": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Wikidata item (Q-number), or null. Cross-reference."
+     },
+     "ballotpediaId": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Ballotpedia page title, or null. Cross-reference."
+     },
+     "idProvenance": {
+      "type": "object",
+      "description": "Per-slot provenance: method, source, confidence. A null slot is distinguished as confidence 'no-match' (we looked, the source has no record), 'ambiguous' (more than one fit, none picked) or method 'unresolved' (no lookup has run yet)."
      },
      "name": {
       "type": "string",
