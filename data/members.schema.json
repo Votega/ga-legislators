@@ -1,6 +1,8 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/data/members.schema.json",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Stable field names and meanings. Described in 1.0.0: metadata.session, metadata.legisSessionId and metadata.generatedAt, plus a trailing `session` column on members.csv. metadata.session is present from the 2026-10 legis.ga.gov migration onward and ABSENT in snapshots taken before it, so it is documented but not `required` — every roster published since that migration carries it, and the publisher refuses to emit one that does not.",
  "title": "Georgia General Assembly — Members",
  "description": "Georgia state legislators, sourced from the General Assembly's own web service at legis.ga.gov. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
  "type": "object",
@@ -9,7 +11,26 @@
  ],
  "properties": {
   "metadata": {
-   "type": "object"
+   "type": "object",
+   "description": "Provenance for THIS file. This roster is the CURRENT biennium only and is overwritten in place when a new General Assembly is seated; prior bienniums are preserved under sessions/<slug>/ (see latest.json's rosterArchive).",
+   "properties": {
+    "session": {
+     "type": "string",
+     "description": "The General Assembly session this roster describes, e.g. '2025_26'. Changes at a biennium rollover; the same value is in the `session` column of members.csv."
+    },
+    "legisSessionId": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "legis.ga.gov's own numeric id for that session (Session/GetSessions), e.g. 1033."
+    },
+    "generatedAt": {
+     "type": "string",
+     "description": "ISO-8601 time this roster was last regenerated from legis.ga.gov. Freshness, not scope: it advances daily within one session."
+    }
+   },
+   "additionalProperties": true
   },
   "members": {
    "type": "array",
@@ -31,13 +52,6 @@
        "null"
       ],
       "description": "Open States OCD person id, or null. A cross-reference that can arrive after a member is seated; never the key. See idProvenance for why a value is null."
-     },
-     "wikidataId": {
-      "type": [
-       "string",
-       "null"
-      ],
-      "description": "Wikidata item (Q-number), or null. Cross-reference."
      },
      "ballotpediaId": {
       "type": [
