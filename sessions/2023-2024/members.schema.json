@@ -1,0 +1,54 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2023-2024/members.schema.json",
+ "title": "Georgia General Assembly roster (closed session, thin listing)",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Fields: id, legisGaGovId, name, party, chamber, district, dateVacated, plus a trailing `session` column in the CSV. `id` joins to votes.json memberVotes and equals the live roster id for members who still sit, else `legis-<legisGaGovId>`.",
+ "type": "object",
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "members": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "legisGaGovId": {
+      "type": "integer"
+     },
+     "name": {
+      "type": "string"
+     },
+     "party": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "district": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "dateVacated": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}
