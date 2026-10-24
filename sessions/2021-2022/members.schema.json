@@ -1,0 +1,91 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2021-2022/members.schema.json",
+ "title": "Georgia General Assembly roster (closed session, thin listing)",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Fields: id, legisGaGovId, name, party, chamber, district, dateVacated, plus a trailing `session` column in the CSV. `id` joins to votes.json memberVotes and equals the live roster id for members who still sit, else `legis-<legisGaGovId>`.",
+ "identifiers": {
+  "legisGaGovId": {
+   "acrossSessions": "Yes -- the only id that is",
+   "what": "The General Assembly's own member number.",
+   "source": "legis.ga.gov web services (Member.Id on every roll-call row and roster row). Stable back to 2001."
+  },
+  "id (roster id)": {
+   "acrossSessions": "No -- do not join sessions on it",
+   "what": "The join key between a session's votes.json memberVotes and its members.json. Do not read meaning into its shape.",
+   "source": "`ocd-person/<uuid>` is inherited from Open States for members it catalogued. Otherwise `legis-<legisGaGovId>`, which the site builds."
+  },
+  "ocdPersonId": {
+   "acrossSessions": "No",
+   "what": "Open States' person id.",
+   "source": "Open States (the site no longer uses it as its source of record)."
+  },
+  "vgId": {
+   "acrossSessions": "Yes where it exists, but not yet published per session",
+   "what": "The site's own person id. Append-only ledger: once minted it is never reassigned to another person.",
+   "source": "Minted by the site's crosswalk builder, keyed on legisGaGovId for state legislators."
+  },
+  "ballotpediaId": {
+   "acrossSessions": "No",
+   "what": "The person's Ballotpedia page name.",
+   "source": "Ballotpedia, matched by the site."
+  },
+  "legislationId": {
+   "acrossSessions": "Unique within the legislature's system",
+   "what": "The legislature's bill/resolution id.",
+   "source": "legis.ga.gov web services."
+  },
+  "voteId": {
+   "acrossSessions": "Unique within the legislature's system",
+   "what": "One roll call exploded to one record per bundled bill.",
+   "source": "legis.ga.gov web services, combined by the site."
+  }
+ },
+ "type": "object",
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "members": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "legisGaGovId": {
+      "type": "integer"
+     },
+     "name": {
+      "type": "string"
+     },
+     "party": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "district": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "dateVacated": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}
