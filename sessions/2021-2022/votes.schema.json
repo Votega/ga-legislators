@@ -1,0 +1,158 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2021-2022/votes.schema.json",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Stable field names and meanings. `bill` and `billUrl` are null on procedural roll calls that are attached to no measure; `chamber` is published because it cannot be re-derived from the motion text.",
+ "title": "Georgia General Assembly — Roll-call Votes",
+ "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by the `id` in members data -- an opaque handle (some are OCD-shaped, others 'legis-<legisGaGovId>'; never interpret it). See members.schema.json; legisGaGovId is the primary identity.",
+ "type": "object",
+ "required": [
+  "votes",
+  "memberVotes"
+ ],
+ "properties": {
+  "metadata": {
+   "type": "object",
+   "description": "Provenance for this file. `session` (e.g. '2025_26', '2026_ss') is the one session these roll calls belong to; `biennium` is the General Assembly that contains it.",
+   "properties": {
+    "session": {
+     "type": "string"
+    },
+    "sessionName": {
+     "type": "string"
+    },
+    "biennium": {
+     "type": "string"
+    },
+    "generatedAt": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": true
+  },
+  "votes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "bill": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "billUrl": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "session": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Session id, e.g. '2025_26' or '2026_ss'."
+     },
+     "motionText": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chamber": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "Senate",
+       "House of Representatives",
+       null
+      ],
+      "description": "The chamber that held this roll call, as recorded by the source. Do NOT infer this from motionText: an 'Agree to Senate Substitute' is a House vote. Absent on records predating this field."
+     },
+     "rollNumber": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "The chamber's own roll-call number for the session, counting ALL roll calls (procedural ones included), so it is dense in the source but gapped here. Orders roll calls authoritatively; absent on records predating the field."
+     },
+     "time": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Clock time the roll call was taken, e.g. \"2:39 PM\"."
+     },
+     "excused": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "notVoting": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "yea": {
+      "type": "integer"
+     },
+     "nay": {
+      "type": "integer"
+     },
+     "result": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "memberVotes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "voteId": {
+       "type": "string"
+      },
+      "vote": {
+       "type": "string",
+       "enum": [
+        "Yea",
+        "Nay",
+        "Not Voting",
+        "Present",
+        "Absent",
+        "Excused",
+        "Other"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}
