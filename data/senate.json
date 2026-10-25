@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-25T12:24:06.293439+00:00",
+    "generatedAt": "2026-10-25T18:05:24.326418+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -3758,7 +3758,7 @@
       "pressUrl": null,
       "dateVacated": "2026-03-13T00:00:00",
       "ocdPersonId": "ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc",
-      "ballotpediaId": null,
+      "ballotpediaId": "Nabilah_Islam_Parkes",
       "idProvenance": {
         "ocdPersonId": {
           "method": "authoritative",
@@ -3770,11 +3770,11 @@
         "ballotpediaId": {
           "method": "authoritative",
           "source": "openstates/people (CC0 1.0)",
-          "confidence": "ambiguous",
-          "candidates": [
-            "Nabilah_Islam",
-            "Nabilah_Islam_Parkes"
-          ]
+          "confidence": "medium",
+          "aliases": [
+            "Nabilah_Islam"
+          ],
+          "note": "the person file lists these Ballotpedia titles for one person; the (Georgia) or fuller title is kept and the rest are aliases"
         }
       }
     },
@@ -5053,7 +5053,7 @@
       "pressUrl": null,
       "dateVacated": null,
       "ocdPersonId": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
-      "ballotpediaId": null,
+      "ballotpediaId": "Timothy_Bearden",
       "idProvenance": {
         "ocdPersonId": {
           "method": "authoritative",
@@ -5065,11 +5065,11 @@
         "ballotpediaId": {
           "method": "authoritative",
           "source": "openstates/people (CC0 1.0)",
-          "confidence": "ambiguous",
-          "candidates": [
-            "Tim_Bearden",
-            "Timothy_Bearden"
-          ]
+          "confidence": "medium",
+          "aliases": [
+            "Tim_Bearden"
+          ],
+          "note": "the person file lists these Ballotpedia titles for one person; the (Georgia) or fuller title is kept and the rest are aliases"
         }
       }
     },
