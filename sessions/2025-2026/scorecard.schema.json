@@ -1,6 +1,8 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
- "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/scorecard.schema.json",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2025-2026/scorecard.schema.json",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Stable field names and meanings. partyUnity and independenceRate are null for a member with too few eligible votes to score.",
  "title": "Georgia General Assembly — Voting Scorecard (derived)",
  "description": "Party-unity and participation scores per legislator, DERIVED from votes.json + members.json in this repo. Party unity = share of party-line roll calls (own-party majority opposite the other party's majority) on which the member voted with their own caucus. Participation = share of the member's own-chamber passage roll calls on which they cast a Yea or Nay.",
  "type": "object",
@@ -9,7 +11,23 @@
  ],
  "properties": {
   "metadata": {
-   "type": "object"
+   "type": "object",
+   "description": "Provenance for this file. The scorecard is scoped to the whole biennium (regular + special sessions), named by `biennium`; the per-session breakdown is in `sessions`.",
+   "properties": {
+    "biennium": {
+     "type": "string"
+    },
+    "sessions": {
+     "type": "array"
+    },
+    "generatedAt": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": true
   },
   "members": {
    "type": "array",
@@ -23,7 +41,7 @@
     "properties": {
      "id": {
       "type": "string",
-      "description": "OCD person id (join key into votes.json / members data)."
+      "description": "Opaque member handle (join key into votes.json / members data); not necessarily an OCD id."
      },
      "name": {
       "type": "string"
