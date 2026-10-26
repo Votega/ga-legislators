@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-26T14:00:03.970142+00:00",
+    "generatedAt": "2026-10-26T23:24:47.775707+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -83,7 +83,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/adrienne-white-carden-senate-7/"
     },
     {
       "id": "ocd-person/fd2717f1-6294-4601-a027-8fc41195372c",
@@ -169,7 +170,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/ben-watson-senate-1/"
     },
     {
       "id": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
@@ -255,7 +257,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/bill-cowsert-senate-46/"
     },
     {
       "id": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
@@ -331,7 +334,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/billy-hickman-senate-4/"
     },
     {
       "id": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
@@ -412,7 +416,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/blake-tillery-senate-19/"
     },
     {
       "id": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
@@ -507,7 +512,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/bo-hatchett-senate-50/"
     },
     {
       "id": "ocd-person/8d6562cb-cdd0-405f-a165-8463cde26594",
@@ -598,7 +604,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": null
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -684,7 +691,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/brian-strickland-senate-42/"
     },
     {
       "id": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
@@ -760,7 +768,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/carden-summers-senate-13/"
     },
     {
       "id": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
@@ -841,7 +850,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/chuck-hufstetler-senate-52/"
     },
     {
       "id": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
@@ -922,7 +932,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/chuck-payne-senate-54/"
     },
     {
       "id": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
@@ -1008,7 +1019,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/clint-dixon-senate-45/"
     },
     {
       "id": "ocd-person/6ebda9ee-2203-4b66-9bb3-64d2307157a0",
@@ -1084,7 +1096,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": null
     },
     {
       "id": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
@@ -1165,7 +1178,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/david-lucas-senate-26/"
     },
     {
       "id": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
@@ -1241,7 +1255,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/derek-mallow-senate-2/"
     },
     {
       "id": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
@@ -1317,7 +1332,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/doc-rhett-senate-33/"
     },
     {
       "id": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
@@ -1393,7 +1409,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/donzella-james-senate-28/"
     },
     {
       "id": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
@@ -1478,7 +1495,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/drew-echols-senate-49/"
     },
     {
       "id": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
@@ -1564,7 +1582,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/ed-harbison-senate-15/"
     },
     {
       "id": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
@@ -1649,7 +1668,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/ed-setzler-senate-37/"
     },
     {
       "id": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
@@ -1720,7 +1740,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/elena-parent-senate-44/"
     },
     {
       "id": "ocd-person/acc7c167-6251-4ce8-8021-511acfa291ef",
@@ -1801,7 +1822,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/emanuel-jones-senate-10/"
     },
     {
       "id": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
@@ -1892,7 +1914,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/frank-ginn-senate-47/"
     },
     {
       "id": "ocd-person/a0bfdc0d-4110-4cd2-b83c-834bba4300f5",
@@ -1978,7 +2001,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/freddie-powell-sims-senate-12/"
     },
     {
       "id": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
@@ -2058,7 +2082,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/gail-davenport-senate-17/"
     },
     {
       "id": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -2154,7 +2179,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/greg-dolezal-senate-27/"
     },
     {
       "id": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
@@ -2250,7 +2276,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/harold-jones-senate-22/"
     },
     {
       "id": "ocd-person/fcd57129-480c-4fba-a0d1-7fb369706611",
@@ -2321,7 +2348,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/jaha-howard-senate-35/"
     },
     {
       "id": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
@@ -2426,7 +2454,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/jason-anavitarte-senate-31/"
     },
     {
       "id": "ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c",
@@ -2507,7 +2536,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/jason-dickerson-senate-21/"
     },
     {
       "id": "ocd-person/e6dcaefd-8ecd-4f08-990f-e4443ae53ee8",
@@ -2583,7 +2613,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": null
     },
     {
       "id": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
@@ -2669,7 +2700,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/john-albers-senate-56/"
     },
     {
       "id": "ocd-person/ffa17688-2ca9-40ba-9eb3-3991f930bf53",
@@ -2775,7 +2807,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": null
     },
     {
       "id": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -2846,7 +2879,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/josh-mclaurin-senate-14/"
     },
     {
       "id": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
@@ -2932,7 +2966,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/kay-kirkpatrick-senate-32/"
     },
     {
       "id": "ocd-person/0a816fbf-e5ec-4056-8b3e-08184400e71b",
@@ -3008,7 +3043,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/kenya-wicks-senate-34/"
     },
     {
       "id": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
@@ -3089,7 +3125,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/kim-jackson-senate-41/"
     },
     {
       "id": "ocd-person/ae6e08e3-6971-4cd2-982a-48d650a343d5",
@@ -3170,7 +3207,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/lanny-thomas-senate-53/"
     },
     {
       "id": "ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994",
@@ -3280,7 +3318,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/larry-walker-senate-20/"
     },
     {
       "id": "ocd-person/e11cecf4-f2e5-49d9-ba9e-47681f779438",
@@ -3356,7 +3395,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/lee-anderson-senate-24/"
     },
     {
       "id": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
@@ -3450,7 +3490,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/marty-harbin-senate-16/"
     },
     {
       "id": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
@@ -3531,7 +3572,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/matt-brass-senate-6/"
     },
     {
       "id": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
@@ -3621,7 +3663,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/max-burns-senate-23/"
     },
     {
       "id": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
@@ -3702,7 +3745,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/mike-hodges-senate-3/"
     },
     {
       "id": "ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc",
@@ -3776,7 +3820,8 @@
           ],
           "note": "the person file lists these Ballotpedia titles for one person; the (Georgia) or fuller title is kept and the rest are aliases"
         }
-      }
+      },
+      "votegaUrl": null
     },
     {
       "id": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
@@ -3857,7 +3902,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/nan-orrock-senate-36/"
     },
     {
       "id": "ocd-person/57ad1f65-9969-4be2-b262-684bf53123fb",
@@ -3933,7 +3979,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/nikki-merritt-senate-9/"
     },
     {
       "id": "ocd-person/069fb4fa-766b-40e4-90b7-ce96b4fa2ace",
@@ -4009,7 +4056,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/rashaun-kemp-senate-38/"
     },
     {
       "id": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
@@ -4090,7 +4138,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/randal-mangham-senate-55/"
     },
     {
       "id": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
@@ -4186,7 +4235,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/randy-robertson-senate-29/"
     },
     {
       "id": "ocd-person/c7860bae-9d9c-449c-9903-20230eec50ac",
@@ -4276,7 +4326,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/rick-williams-senate-25/"
     },
     {
       "id": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
@@ -4357,7 +4408,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/russ-goodman-senate-8/"
     },
     {
       "id": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
@@ -4433,7 +4485,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/sally-harrell-senate-40/"
     },
     {
       "id": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
@@ -4514,7 +4567,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/sam-watson-senate-11/"
     },
     {
       "id": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
@@ -4610,7 +4664,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/shawn-still-senate-48/"
     },
     {
       "id": "ocd-person/5b6e0e37-802b-4103-b401-551532aba2e7",
@@ -4686,7 +4741,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/sheikh-rahman-senate-5/"
     },
     {
       "id": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
@@ -4777,7 +4833,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/sonya-halpern-senate-39/"
     },
     {
       "id": "ocd-person/e2c141e9-9e04-4e2b-8e5b-57db594c7abc",
@@ -4888,7 +4945,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/steve-gooch-senate-51/"
     },
     {
       "id": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
@@ -4969,7 +5027,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/steven-mcneel-senate-18/"
     },
     {
       "id": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
@@ -5071,7 +5130,8 @@
           ],
           "note": "the person file lists these Ballotpedia titles for one person; the (Georgia) or fuller title is kept and the rest are aliases"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/tim-bearden-senate-30/"
     },
     {
       "id": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
@@ -5152,7 +5212,8 @@
           "confidence": "high",
           "note": "the Ballotpedia page title from the person file's sources"
         }
-      }
+      },
+      "votegaUrl": "https://www.votega.org/ga-legislators/tonya-anderson-senate-43/"
     }
   ]
 }
