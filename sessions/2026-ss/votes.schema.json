@@ -1,8 +1,10 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
- "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/votes.schema.json",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2026-ss/votes.schema.json",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Stable field names and meanings. `bill` and `billUrl` are null on procedural roll calls that are attached to no measure; `chamber` is published because it cannot be re-derived from the motion text.",
  "title": "Georgia General Assembly — Roll-call Votes",
- "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by the `id` in members data — normally an Open States OCD person id, or 'legis-<legisGaGovId>' for a member Open States has not catalogued. See members.schema.json; legisGaGovId is the stable identifier.",
+ "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by the `id` in members data -- an opaque handle (some are OCD-shaped, others 'legis-<legisGaGovId>'; never interpret it). See members.schema.json; legisGaGovId is the primary identity.",
  "type": "object",
  "required": [
   "votes",
@@ -10,7 +12,26 @@
  ],
  "properties": {
   "metadata": {
-   "type": "object"
+   "type": "object",
+   "description": "Provenance for this file. `session` (e.g. '2025_26', '2026_ss') is the one session these roll calls belong to; `biennium` is the General Assembly that contains it.",
+   "properties": {
+    "session": {
+     "type": "string"
+    },
+    "sessionName": {
+     "type": "string"
+    },
+    "biennium": {
+     "type": "string"
+    },
+    "generatedAt": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": true
   },
   "votes": {
    "type": "object",
