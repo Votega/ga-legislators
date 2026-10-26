@@ -135,6 +135,13 @@
       "type": "array",
       "description": "Committee names exactly as legis.ga.gov publishes them."
      },
+     "votegaUrl": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Absolute URL of this member's page on votega.org, or null when the member has none (vacant placeholders, executives, Resigned/Removed/Deceased). Derived from name, chamber and district, so it moves if the member's displayed name changes; join on legisGaGovId, not on this."
+     },
      "legisGaGovId": {
       "type": [
        "integer",
