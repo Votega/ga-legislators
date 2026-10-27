@@ -4,7 +4,7 @@
  "schemaVersion": "1.0.0",
  "schemaStability": "Stable field names and meanings. Described in 1.0.0: metadata.session, metadata.legisSessionId and metadata.generatedAt, plus a trailing `session` column on members.csv. metadata.session is present from the 2026-10 legis.ga.gov migration onward and ABSENT in snapshots taken before it, so it is documented but not `required` — every roster published since that migration carries it, and the publisher refuses to emit one that does not.",
  "title": "Georgia General Assembly — Members",
- "description": "Georgia state legislators, sourced from the General Assembly's own web service at legis.ga.gov. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
+ "description": "Georgia state legislators, sourced from the General Assembly's own web service at legis.ga.gov. NOTE: snapshots taken before 2026-10-26 also include 4 statewide executives (chamber == 'executive'); the current roster does not, but filter to chamber in ['Senate', 'House of Representatives'] if you read older copies. The target repo splits this file into house.json / senate.json.",
  "type": "object",
  "required": [
   "members"
