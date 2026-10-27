@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-26T23:24:47.775707+00:00",
+    "generatedAt": "2026-10-27T01:02:48.103213+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -8,8 +8,8 @@
     "count": 186,
     "committeesAvailable": true,
     "carriedForward": 0,
-    "withoutOcdId": 3,
-    "preservedNotInMembersService": 4,
+    "withoutOcdId": 0,
+    "preservedNotInMembersService": 0,
     "overridesApplied": 245,
     "overridesInjected": 0
   },
