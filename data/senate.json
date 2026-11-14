@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-13T15:11:04.830113+00:00",
+    "generatedAt": "2026-11-14T14:00:54.866664+00:00",
     "source": "legis.ga.gov official web service (Members + Committees)",
     "jurisdiction": "Georgia",
     "session": "2025_26",
@@ -605,7 +605,7 @@
           "note": "the Ballotpedia page title from the person file's sources"
         }
       },
-      "votegaUrl": null
+      "votegaUrl": "https://www.votega.org/ga-legislators/brandon-beach-senate-21/"
     },
     {
       "id": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
@@ -1097,7 +1097,7 @@
           "note": "the Ballotpedia page title from the person file's sources"
         }
       },
-      "votegaUrl": null
+      "votegaUrl": "https://www.votega.org/ga-legislators/colton-moore-senate-53/"
     },
     {
       "id": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
@@ -2614,7 +2614,7 @@
           "note": "the Ballotpedia page title from the person file's sources"
         }
       },
-      "votegaUrl": null
+      "votegaUrl": "https://www.votega.org/ga-legislators/jason-esteves-senate-35/"
     },
     {
       "id": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
@@ -2808,7 +2808,7 @@
           "note": "the Ballotpedia page title from the person file's sources"
         }
       },
-      "votegaUrl": null
+      "votegaUrl": "https://www.votega.org/ga-legislators/john-kennedy-senate-18/"
     },
     {
       "id": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -3821,7 +3821,7 @@
           "note": "the person file lists these Ballotpedia titles for one person; the (Georgia) or fuller title is kept and the rest are aliases"
         }
       },
-      "votegaUrl": null
+      "votegaUrl": "https://www.votega.org/ga-legislators/nabilah-islam-parkes-senate-7/"
     },
     {
       "id": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
