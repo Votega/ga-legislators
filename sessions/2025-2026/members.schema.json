@@ -1,15 +1,36 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
- "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/data/members.schema.json",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2025-2026/members.schema.json",
+ "schemaVersion": "1.0.0",
+ "schemaStability": "Stable field names and meanings. Described in 1.0.0: metadata.session, metadata.legisSessionId and metadata.generatedAt, plus a trailing `session` column on members.csv. metadata.session is present from the 2026-10 legis.ga.gov migration onward and ABSENT in snapshots taken before it, so it is documented but not `required` — every roster published since that migration carries it, and the publisher refuses to emit one that does not.",
  "title": "Georgia General Assembly — Members",
- "description": "Georgia state legislators from Open States. NOTE: also includes 4 statewide executives (chamber == 'executive'); filter to chamber in ['Senate', 'House of Representatives'] for legislators only. The target repo splits this file into house.json / senate.json.",
+ "description": "Georgia state legislators, sourced from the General Assembly's own web service at legis.ga.gov. NOTE: snapshots taken before 2026-10-26 also include 4 statewide executives (chamber == 'executive'); the current roster does not, but filter to chamber in ['Senate', 'House of Representatives'] if you read older copies. The target repo splits this file into house.json / senate.json.",
  "type": "object",
  "required": [
   "members"
  ],
  "properties": {
   "metadata": {
-   "type": "object"
+   "type": "object",
+   "description": "Provenance for THIS file. This roster is the CURRENT biennium only and is overwritten in place when a new General Assembly is seated; prior bienniums are preserved under sessions/<slug>/ (see latest.json's rosterArchive).",
+   "properties": {
+    "session": {
+     "type": "string",
+     "description": "The General Assembly session this roster describes, e.g. '2025_26'. Changes at a biennium rollover; the same value is in the `session` column of members.csv."
+    },
+    "legisSessionId": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "legis.ga.gov's own numeric id for that session (Session/GetSessions), e.g. 1033."
+    },
+    "generatedAt": {
+     "type": "string",
+     "description": "ISO-8601 time this roster was last regenerated from legis.ga.gov. Freshness, not scope: it advances daily within one session."
+    }
+   },
+   "additionalProperties": true
   },
   "members": {
    "type": "array",
@@ -23,10 +44,29 @@
     "properties": {
      "id": {
       "type": "string",
-      "description": "OCD person id (join key into votes.json's memberVotes)."
+      "description": "An OPAQUE HANDLE: the stable string this member was first assigned, which never changes. It is the join key into votes.json's memberVotes and nothing else -- do not parse or interpret it. Some values happen to be Open States OCD person ids and others are 'legis-<legisGaGovId>'; neither shape is a promise, so read ocdPersonId for an OCD id. The PRIMARY, authoritative identity is legisGaGovId."
+     },
+     "ocdPersonId": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Open States OCD person id, or null. A cross-reference that can arrive after a member is seated; never the key. See idProvenance for why a value is null."
+     },
+     "ballotpediaId": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Ballotpedia page title, or null. Cross-reference."
+     },
+     "idProvenance": {
+      "type": "object",
+      "description": "Per-slot provenance: method, source, confidence. A null slot is distinguished as confidence 'no-match' (we looked, the source has no record), 'ambiguous' (more than one fit, none picked) or method 'unresolved' (no lookup has run yet)."
      },
      "name": {
-      "type": "string"
+      "type": "string",
+      "description": "The name as commonly used, which can differ from the formal name legis.ga.gov returns ('Tim Bearden' vs 'Timothy Bearden')."
      },
      "firstName": {
       "type": [
@@ -71,7 +111,7 @@
        "string",
        "null"
       ],
-      "description": "null = sitting; else Vacant/Suspended/Resigned/Removed/Deceased."
+      "description": "null = sitting; else Vacant/Suspended/Resigned/Removed/Deceased. Suspended: the member keeps the title and the seat but cannot act. Under the Georgia Constitution (Art. II, Sec. III, Suspension and Removal of Public Officials) no replacement is seated for a suspended General Assembly member unless the member is convicted of a felony, in which case a replacement is elected to serve only for the duration of the suspension. A suspension lasts until final disposition of the case or the end of the member's elected term, whichever comes first; a final conviction declares the seat vacant."
      },
      "phone": {
       "type": [
@@ -92,13 +132,42 @@
       ]
      },
      "committees": {
-      "type": "array"
+      "type": "array",
+      "description": "Committee names exactly as legis.ga.gov publishes them."
+     },
+     "votegaUrl": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Absolute URL of this member's page on votega.org, or null when the member has none (vacant placeholders, executives, Resigned/Removed/Deceased). Derived from name, chamber and district, so it moves if the member's displayed name changes; join on legisGaGovId, not on this."
      },
      "legisGaGovId": {
       "type": [
        "integer",
        "null"
+      ],
+      "description": "The General Assembly's own member id, and the stable join key. Null only for the statewide executives, who are not members of the legislature."
+     },
+     "leadershipRole": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Chamber or committee leadership title, e.g. 'Speaker of the House', 'Chairman, House Committee on Appropriations'. Null for a rank-and-file member."
+     },
+     "occupation": {
+      "type": [
+       "string",
+       "null"
       ]
+     },
+     "residence": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "The city the member gives as home — not an address."
      }
     },
     "additionalProperties": true
