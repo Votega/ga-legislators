@@ -28,5 +28,75 @@
     "votesSchema": "sessions/2026-ss/votes.schema.json"
    }
   }
+ ],
+ "earlierBienniums": [
+  {
+   "biennium": "2023-2024",
+   "roster": "sessions/2023-2024/members.json",
+   "sessions": [
+    {
+     "id": "2023_24",
+     "name": "2023-2024 Regular Session",
+     "slug": "2023-2024",
+     "voteCount": null,
+     "files": {
+      "votes": "sessions/2023-2024/votes.json",
+      "votesCsv": "sessions/2023-2024/votes.csv",
+      "votesSchema": "sessions/2023-2024/votes.schema.json"
+     }
+    }
+   ]
+  },
+  {
+   "biennium": "2021-2022",
+   "roster": "sessions/2021-2022/members.json",
+   "sessions": [
+    {
+     "id": "2021_22",
+     "name": "2021-2022 Regular Session",
+     "slug": "2021-2022",
+     "voteCount": null,
+     "files": {
+      "votes": "sessions/2021-2022/votes.json",
+      "votesCsv": "sessions/2021-2022/votes.csv",
+      "votesSchema": "sessions/2021-2022/votes.schema.json"
+     }
+    }
+   ]
+  },
+  {
+   "biennium": "2019-2020",
+   "roster": "sessions/2019-2020/members.json",
+   "sessions": [
+    {
+     "id": "2019_20",
+     "name": "2019-2020 Regular Session",
+     "slug": "2019-2020",
+     "voteCount": null,
+     "files": {
+      "votes": "sessions/2019-2020/votes.json",
+      "votesCsv": "sessions/2019-2020/votes.csv",
+      "votesSchema": "sessions/2019-2020/votes.schema.json"
+     }
+    }
+   ]
+  },
+  {
+   "biennium": "2017-2018",
+   "roster": "sessions/2017-2018/members.json",
+   "sessions": [
+    {
+     "id": "2017_18",
+     "name": "2017-2018 Regular Session",
+     "slug": "2017-2018",
+     "voteCount": null,
+     "files": {
+      "votes": "sessions/2017-2018/votes.json",
+      "votesCsv": "sessions/2017-2018/votes.csv",
+      "votesSchema": "sessions/2017-2018/votes.schema.json"
+     }
+    }
+   ]
+  }
  ]
 }
