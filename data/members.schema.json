@@ -12,7 +12,7 @@
  "properties": {
   "metadata": {
    "type": "object",
-   "description": "Provenance for THIS file. This roster is the CURRENT biennium only and is overwritten in place when a new General Assembly is seated; prior bienniums are preserved under sessions/<slug>/ (see latest.json's rosterArchive).",
+   "description": "Provenance for THIS file. This roster is the CURRENT biennium only and is overwritten in place when a new General Assembly is seated; prior bienniums are preserved under sessions/<slug>/ (see latest.json's earlierBienniums).",
    "properties": {
     "session": {
      "type": "string",
