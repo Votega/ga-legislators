@@ -35,7 +35,7 @@ Each session in the biennium gets its own folder under `sessions/<slug>/`, **nev
 
 To find the sessions, read `latest.json` and iterate its `sessions[]` (or follow `currentSession`) rather than hard-coding a slug. Earlier General Assemblies are under `earlierBienniums[]`, each with its sessions, roster and, where one exists, its final scorecard. The archive reaches back to 2017-2018; the backfilled 2017-2024 sessions hold regular-session votes and a roster only, without vote counts in the index. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use each session's `votes.json` `memberVotes`, joined to `members.csv` / `votes.csv`.
 
-> The **roster** is frozen once per General Assembly, at `sessions/<biennium>/members.*` — the membership is the same across a biennium's regular and special sessions. It appears only after the deliberate end-of-biennium freeze; until then the current roster lives at `data/all.json`. `latest.json`'s `rosterArchive` names its path.
+> The **roster** is frozen once per General Assembly, at `sessions/<biennium>/members.*` — the membership is the same across a biennium's regular and special sessions. It appears only after the deliberate end-of-biennium freeze; until then the current roster lives at `data/all.json`. `latest.json`'s `rosterArchive` names its path, and is `null` while the current General Assembly's roster has not been frozen yet (from the January rollover until sine die). Earlier General Assemblies' rosters are listed under `earlierBienniums[]`.
 
 ### Voting scorecard (derived)
 
@@ -54,7 +54,7 @@ Field definitions live in `data/members.schema.json` (and the same file under ea
 
 - **`legisGaGovId` is the stable identifier.** It is the General Assembly's own id for the member, and it is what links to the member's page on legis.ga.gov.
 - **`id` is the join key into votes, but it is assigned once and never changes.** It is normally an Open States person id (`ocd-person/…`), carried as a cross-reference; a member Open States has not catalogued is keyed `legis-<legisGaGovId>`. Prefer `legisGaGovId` when you need an identity that cannot move.
-- **Not every record is a legislator.** `data/all.json` also holds the statewide executives (`chamber: "executive"`). Filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only; `members.csv` and `ROSTER.md` already exclude them.
+- **Every record is a legislator.** `chamber` is `"Senate"` or `"House of Representatives"`. Older copies of `data/all.json` also held the statewide executives (`chamber: "executive"`); filter them out if you read one.
 - **`status` is `null` for a sitting member.** Otherwise it is one of `"Resigned"`, `"Removed"`, `"Suspended"`, `"Deceased"` or `"Vacant"`, with `statusDate` and a `statusNote` (which may contain a markdown link to the source). These fields are editorial: the General Assembly's own service records who holds a seat, not who has left it, so VoteGA maintains them by hand.
 - **Optional fields are `null`, not empty strings,** when unknown.
 - Records carry more than the schema lists (for example committee roles, occupation and residence); the schema allows additional properties.
@@ -86,6 +86,14 @@ The roster files (`data/*`) are refreshed daily, and the vote files and scorecar
 ## Reporting Corrections
 
 Please do not edit data files directly. Open an issue using the **Data Correction** template and describe the inaccuracy. Corrections are reviewed, applied upstream at VoteGA.org, and automatically reflected here on the next daily run.
+
+## Linking to this data
+
+- **A fixed General Assembly:** link `sessions/<biennium>/` or `sessions/<slug>/` (for example `sessions/2025-2026/votes.json`). Those folders are never moved or rewritten once the session is over.
+- **Whatever is current:** read `data/` or `latest.json`. Both change meaning when a new General Assembly is seated; the next time is **Monday, 11 January 2027**, when `data/` becomes the 2027-2028 roster and `latest.json` names 2027-2028.
+- **An exact copy:** link a commit (`https://raw.githubusercontent.com/Votega/ga-legislators/<commit>/...`).
+
+Changes that affect consumers are listed in [`CHANGES.md`](CHANGES.md).
 
 ## License
 
