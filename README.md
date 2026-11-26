@@ -17,7 +17,7 @@ The live roster — always the members serving right now.
 | `data/members.schema.json` | JSON Schema | Validating / typing the member data | Daily |
 | [`ROSTER.md`](ROSTER.md) | Markdown | **Reading** — the current Senate & House roster | Daily |
 
-> **Note:** `all.json` also contains 4 statewide **executives** (`chamber: "executive"`) — filter to `chamber` in `["Senate", "House of Representatives"]` for legislators only. `members.csv` and `ROSTER.md` already exclude them.
+> **Note:** `all.json` holds legislators only (`chamber` is `"Senate"` or `"House of Representatives"`). Older copies also held 4 statewide executives (`chamber: "executive"`); if you read one, filter them out.
 
 ## Per-session archive
 
@@ -25,7 +25,7 @@ Each session in the biennium gets its own folder under `sessions/<slug>/`, **nev
 
 | File | Format | Contents |
 |---|---|---|
-| [`latest.json`](latest.json) | JSON | **Start here** — the biennium, `currentSession`, and a `sessions[]` list with each session's file paths |
+| [`latest.json`](latest.json) | JSON | **Start here** — the biennium, `currentSession`, a `sessions[]` list with each session's file paths, and `earlierBienniums[]`: every earlier General Assembly held here, newest first |
 | `sessions/<slug>/votes.json` | JSON | That session's passage-vote roll calls + how each member voted (`memberVotes` keyed by member `id`) |
 | `sessions/<slug>/votes.csv` | CSV | Spreadsheets — one row per roll-call vote |
 | `sessions/<slug>/votes.schema.json` | JSON Schema | Validating / typing the vote data |
@@ -33,18 +33,20 @@ Each session in the biennium gets its own folder under `sessions/<slug>/`, **nev
 | `sessions/<biennium>/members.csv` | CSV | Spreadsheet view of the frozen roster |
 | `sessions/<biennium>/ROSTER.md` | Markdown | Readable snapshot of who served that General Assembly |
 
-Sessions in the current biennium: **2025-2026** (regular) and **2026-ss** (2026 special session). To resolve them programmatically, read `latest.json` and iterate its `sessions[]` (or follow `currentSession`) rather than hard-coding a slug. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use each session's `votes.json` `memberVotes`, joined to `members.csv` / `votes.csv`.
+To find the sessions, read `latest.json` and iterate its `sessions[]` (or follow `currentSession`) rather than hard-coding a slug. Earlier General Assemblies are under `earlierBienniums[]`, each with its sessions, roster and, where one exists, its final scorecard. The archive reaches back to 2017-2018; the backfilled 2017-2024 sessions hold regular-session votes and a roster only, without vote counts in the index. There is no per-member-vote CSV here (≈235 members × ~2,200 votes is too large for a repo file); use each session's `votes.json` `memberVotes`, joined to `members.csv` / `votes.csv`.
 
 > The **roster** is frozen once per General Assembly, at `sessions/<biennium>/members.*` — the membership is the same across a biennium's regular and special sessions. It appears only after the deliberate end-of-biennium freeze; until then the current roster lives at `data/all.json`. `latest.json`'s `rosterArchive` names its path.
 
 ### Voting scorecard (derived)
 
-`sessions/2025-2026/scorecard.csv` · `scorecard.json` — party-unity and
+`sessions/<biennium>/scorecard.csv` · `scorecard.json` — party-unity and
 participation scores for every sitting member, computed from `votes.json`
 joined with the roster. Party unity = share of party-line roll calls (own-party
 majority opposite the other party's majority) voted with your own caucus;
 participation = share of your chamber's passage roll calls on which you cast a
-Yea or Nay. See `scorecard.schema.json`; root pointer at `scorecard-latest.json`.
+Yea or Nay. See `scorecard.schema.json`; root pointer at `scorecard-latest.json`,
+which also lists earlier General Assemblies' final scorecards under `earlierBienniums`
+(the first is 2025-2026, from the January 2027 rollover).
 
 ## Member records
 
