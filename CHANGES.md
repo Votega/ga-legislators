@@ -9,6 +9,28 @@ Changes to this repo's files that a consumer may need to act on. Routine data re
 - `rosterArchive` becomes `null` until the 2027-2028 roster is frozen at sine die in 2028. The frozen 2025-2026 roster stays at `sessions/2025-2026/members.json` and is listed under `earlierBienniums[]`.
 - `scorecard-latest.json` points at the 2027-2028 scorecard, which will rank few members in its first weeks. The final 2025-2026 scorecard stays at `sessions/2025-2026/scorecard.*` and is listed under its `earlierBienniums[]`.
 
+## November 2026: final votes added; votes schema 1.1.0
+
+52 bill-votes from 9 roll calls were missing: their captions did not start with "Passage", "Agree to" or "Adopt", or legis.ga.gov linked the roll call to no bill. They are added to `votes.json` (with every member's vote in `memberVotes`) and `votes.csv`. No existing vote, `voteId` or member vote changed.
+
+| Bills | Chamber | Date | Roll call | Tally | `result` | File |
+|---|---|---|---|---|---|---|
+| HB 86 | Senate | 2025-03-28 | Recede from Senate Amendment | 46-2 | Pass | `sessions/2025-2026/` |
+| 18 Senate resolutions (SR 216 … SR 489) | Senate | 2025-04-02 | Consent Calendar for Senate Study Committees | 52-0 | Pass | `sessions/2025-2026/` |
+| 12 House resolutions (HR 40 … HR 887) | House | 2025-04-04 | Uncontested House Resolutions | 166-0 | Pass | `sessions/2025-2026/` |
+| SB 234, SB 235, SB 336 | House | 2025-04-04 | SBs 234, 235, & 336 Passage | 147-2 | Pass | `sessions/2025-2026/` |
+| SR 684, SR 744 | Senate | 2026-02-24 | Consent Calendar Expressing the Will of the Senate | 51-0 | Pass | `sessions/2025-2026/` |
+| HB 973 | House | 2026-02-25 | Adopt CCR (conference report) | 169-2 | Pass | `sessions/2025-2026/` |
+| SR 480, SR 567 | Senate | 2026-02-26 | Consent Calendar Expressing the Will of the Senate | 48-0 | Pass | `sessions/2025-2026/` |
+| 12 Senate resolutions (SR 432 … SR 978) | Senate | 2026-03-31 | Consent Calendar for Senate Study Committees | 48-0 | Pass | `sessions/2025-2026/` |
+| HB 1192 | House | 2026-06-22 | Veto Override | 94-77 | Fail | `sessions/2026-ss/` |
+
+- **SB 234, SB 235, SB 336:** the 112-59 `Fail` listed in the next entry stands; the House reconsidered and the 147-2 re-vote passed them.
+- **HB 1192** is a 2025-2026 bill, but the House took the override in the 2026 special session, so the vote is in `sessions/2026-ss/votes.json` and carries the new **`billSession: "2025_26"`**. An override needs two-thirds, 120 in the House.
+- The scorecard is recomputed from the new votes on its next run.
+
+Schemas: `schemaVersion` is now `1.1.0` on the members, votes and scorecard schemas. Only `votes.schema.json` changed: it describes `billSession` (optional, never `required`, so older copies still validate) and says `session` is the session that held the vote.
+
 ## November 2026: corrected vote results
 
 A roll call now passes only with a majority of the chamber's seats, 91 of 180 in the House and 29 of 56 in the Senate (Ga. Const. Art. III, Sec. V, Para. V). Two kinds of measure need two-thirds of the members elected, 120 / 38: a resolution proposing a constitutional amendment (Art. X, Sec. I, Para. II), and a local act granting or changing a property-tax (homestead) exemption (Art. VII, Sec. II, Para. II(a); legis.ga.gov records every such act below 120 / 38 as lost). Before, `result` was `Pass` whenever yeas outnumbered nays, and the two-thirds rule was applied only to 2025-2026 amendments. Each vote below was published as `Pass`. legis.ga.gov's status history records it as lost ("Third Reading Lost", "Senate Lost"), or the chamber took it again the same day and the re-vote passed. Only `result` changed: tallies, member votes and voteIds are as they were.

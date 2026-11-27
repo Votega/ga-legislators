@@ -75,6 +75,9 @@ Passage votes — final up-or-down floor votes on a bill — for one session of 
 - **`vote`** is `"Yea"` or `"Nay"` when the member voted. Other values (for example `"Excused"` or `"Not Voting"`) mean they did not cast a vote.
 - **`chamber` and `rollNumber`** are recorded by the source for each roll call. Use `chamber` rather than inferring it from the motion text: an "Agree to Senate Substitute" is a House vote. `rollNumber` is the chamber's own roll-call number and counts roll calls this file leaves out, so it is not dense here.
 - **A bundled calendar vote appears once per bill,** with identical tallies, so counting rows overcounts floor votes.
+- **`result`** follows Georgia's constitutional thresholds, never yeas over nays: a majority of the chamber's seats (91 of 180 in the House, 29 of 56 in the Senate), and two-thirds (120 / 38) for a constitutional amendment, a local property-tax exemption act or a veto override.
+- **`session`** is the session that held the roll call. A vote held in a later session on an earlier bill carries **`billSession`**, the bill's own session: the 2026 special session's veto override of the 2025-2026 HB 1192 is in `sessions/2026-ss/votes.json` with `billSession: "2025_26"`. Join to the bill on `billSession` when present.
+- **Procedural votes are left out even when they mention a calendar:** "Local Calendar as a Whole" decided only whether to vote on the local calendar in one block; the vote that decided the bills follows it as "Local Calendar".
 - `metadata` records the source, when the file was generated, and the session it covers.
 
 ## Data sources & updates
