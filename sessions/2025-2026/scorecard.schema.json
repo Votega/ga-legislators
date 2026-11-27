@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2025-2026/scorecard.schema.json",
- "schemaVersion": "1.0.0",
+ "schemaVersion": "1.1.0",
  "schemaStability": "Stable field names and meanings. partyUnity and independenceRate are null for a member with too few eligible votes to score.",
  "title": "Georgia General Assembly — Voting Scorecard (derived)",
  "description": "Party-unity and participation scores per legislator, DERIVED from votes.json + members.json in this repo. Party unity = share of party-line roll calls (own-party majority opposite the other party's majority) on which the member voted with their own caucus. Participation = share of the member's own-chamber passage roll calls on which they cast a Yea or Nay.",
