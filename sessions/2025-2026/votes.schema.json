@@ -1,8 +1,8 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-legislators/main/sessions/2025-2026/votes.schema.json",
- "schemaVersion": "1.0.0",
- "schemaStability": "Stable field names and meanings. `bill` and `billUrl` are null on procedural roll calls that are attached to no measure; `chamber` is published because it cannot be re-derived from the motion text.",
+ "schemaVersion": "1.1.0",
+ "schemaStability": "Stable field names and meanings. `bill` and `billUrl` are null on procedural roll calls that are attached to no measure; `chamber` is published because it cannot be re-derived from the motion text. 1.1.0 describes `billSession`, optional and present only on a roll call held in a later session than its bill's (2026 special session's veto override of the 2025-2026 HB 1192): the record sits in the session that held the vote, and `billSession` names the bill's.",
  "title": "Georgia General Assembly — Roll-call Votes",
  "description": "Passage votes from the Georgia General Assembly, sourced from its own web service at legis.ga.gov. Keyed by vote id in the form \"<rollCallId>-<legislationId>\" — one floor vote on a bundled calendar appears once per bill, with identical tallies. memberVotes is keyed by the `id` in members data -- an opaque handle (some are OCD-shaped, others 'legis-<legisGaGovId>'; never interpret it). See members.schema.json; legisGaGovId is the primary identity.",
  "type": "object",
@@ -61,7 +61,11 @@
        "string",
        "null"
       ],
-      "description": "Session id, e.g. '2025_26' or '2026_ss'."
+      "description": "Session id, e.g. '2025_26' or '2026_ss': the session that HELD the roll call."
+     },
+     "billSession": {
+      "type": "string",
+      "description": "The bill's own session, present only when it differs from `session` (a vote held in a later session on an earlier bill, e.g. a veto override in a special session). Join to the bill on this session and `bill`."
      },
      "motionText": {
       "type": [
